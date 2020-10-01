@@ -9,3 +9,7 @@ http://stratunits.gs.cloud.ga.gov.au/gsmlb/wfs?service=WFS&version=2.0.0&request
 HTML format
 
 http://stratunits.gs.cloud.ga.gov.au/gsmlb/wfs?service=WFS&version=2.0.0&request=GetFeature&typeName=gsmlb%3AGeologicUnit&featureid=asud.gsml.geologicunit.332&outputformat=text%2Fhtml
+
+
+Paging features:
+http://stratunits.gs.cloud.ga.gov.au/gsmlb/wfs?service=WFS&version=2.0.0&request=GetFeature&typeName=gsmlb%3AGeologicUnit&startIndex=4&count=5
