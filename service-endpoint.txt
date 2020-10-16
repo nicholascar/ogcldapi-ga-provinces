@@ -1,0 +1,21 @@
+
+# Provinces Complex WFS
+http://services.ga.gov.au/gis/services/Australian_Geological_Provinces/MapServer/WFSServer?SERVICE=WFS&REQUEST=GetFeature&VERSION=1.1.0&maxFeatures=5&typeName=Australian_Geological_Provinces:AllProvinces&featureid=AllProvinces.348
+
+http://services.ga.gov.au/gis/services/Australian_Geological_Provinces/MapServer/WFSServer?service=WFS&version=1.1.0&request=GetFeature&typeNames=agp:AllProvinces&featureid=asud.gsml.AllProvinces.3
+
+
+1.       Strat units Oracle DB schema UML diagram (attached)
+2.       Complex WFS representation
+
+Examples: XML format
+http://stratunits.gs.cloud.ga.gov.au/gsmlb/wfs?service=WFS&version=2.0.0&request=GetFeature&typeName=gsmlb%3AGeologicUnit&featureid=asud.gsml.geologicunit.332
+
+http://stratunits.gs.cloud.ga.gov.au/gsmlb/wfs?service=WFS&version=2.0.0&request=GetFeature&typeName=gsmlb%3AGeologicUnit&maxFeatures=3
+
+HTML format
+http://stratunits.gs.cloud.ga.gov.au/gsmlb/wfs?service=WFS&version=2.0.0&request=GetFeature&typeName=gsmlb%3AGeologicUnit&featureid=asud.gsml.geologicunit.332&outputformat=text%2Fhtml
+
+3.       Simon’s quick ontology
+
+a.       https://github.com/GeoscienceAustralia/strat-ontology-graph-API/blob/master/images/overview.png

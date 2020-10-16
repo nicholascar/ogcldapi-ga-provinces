@@ -1,0 +1,64 @@
+{% extends "page.html" %}
+{% block content %}
+  <div>
+    <h1>{{ feature.title }}</h1>
+  </div>
+  <div id="maincontent">
+    {% if feature.description is not none %}
+      <p>{{ feature.description|safe }}</p>
+    {% endif %}
+
+      <style>
+        table.lined {
+            border-collapse:collapse;
+            margin-bottom: 10px;
+        }
+        table.lined td {
+            border: solid 1px lightgrey;
+            border-collapse:collapse;
+            padding:5px;
+            vertical-align: top;
+        }
+      </style>
+      <table class="lined">
+        {% if feature.type is not none %}
+        <tr>
+          <td>Type</td><td><code>{{ feature.type }}</code></td>
+        </tr>
+        {% endif %}
+        {% if feature.rank is not none %}
+        <tr>
+          <td>Rank</td><td><a href="{{ feature.rank[0] }}">{{ feature.rank[1] }}</a></td>
+        </tr>
+        {% endif %}
+        {% if feature.older is not none %}
+        <tr>
+          <td>Older</td><td><a href="{{ feature.older[0] }}">{{ feature.older[1] }}</a></td>
+        </tr>
+        {% endif %}
+        {% if feature.younger is not none %}
+        <tr>
+          <td>Younger</td><td><a href="{{ feature.younger[0] }}">{{ feature.younger[1] }}</a></td>
+        </tr>
+        {% endif %}
+        {% if feature.source is not none %}
+        <tr>
+          <td>Source</td><td><code>{{ feature.source }}</code></td>
+        </tr>
+        {% endif %}
+        {% if feature.geometries is not none %}
+          {% for geometry in feature.geometries %}
+        <tr>
+          <td>{{ geometry[0] }}</td>
+          <td>
+            <code>{% if geometry[1]|length > 500 %}{{ geometry[1][:100] }} ... {{ geometry[1][-100:] }}{% else %}{{ geometry[1] }}{% endif %}
+            </code>
+          </td>
+        </tr>
+          {% endfor %}
+        {% endif %}
+      </table>
+
+  </div>
+  {% include 'page_altprofiles.html' %}
+{% endblock %}

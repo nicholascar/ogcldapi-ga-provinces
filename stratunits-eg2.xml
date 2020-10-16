@@ -1,0 +1,2808 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wfs:FeatureCollection xmlns:wfs="http://www.opengis.net/wfs/2.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:swe="http://www.opengis.net/swe/2.0" xmlns:gco="http://standards.iso.org/iso/19115/-3/gco/1.0" xmlns:gsmlb="http://www.opengis.net/gsml/4.1/GeoSciML-Basic" xmlns:mrl="http://standards.iso.org/iso/19115/-3/mrl/1.0" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:gmlsf="http://www.opengis.net/gmlsf" xmlns:gsmle="http://www.opengis.net/gsml/4.1/GeoSciML-Extension" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:cit="http://standards.iso.org/iso/19115/-3/cit/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" numberMatched="unknown" numberReturned="3" previous="http://stratunits.gs.cloud.ga.gov.au/gsmlb/wfs?TYPENAME=gsmlb%3AGeologicUnit&amp;REQUEST=GetFeature&amp;VERSION=2.0.0&amp;SERVICE=WFS&amp;COUNT=3&amp;STARTINDEX=2" timeStamp="2020-10-01T19:43:35.759Z" xsi:schemaLocation="http://standards.iso.org/iso/19115/-3/mrl/1.0 https://standards.iso.org/iso/19115/-3/mrl/1.0/mrl.xsd http://standards.iso.org/iso/19115/-3/cit/1.0 https://standards.iso.org/iso/19115/-3/cit/1.0/cit.xsd http://www.opengis.net/wfs/2.0 http://schemas.opengis.net/wfs/2.0/wfs.xsd http://www.opengis.net/gsml/4.1/GeoSciML-Extension http://schemas.opengis.net/gsml/4.1/geoSciMLExtension.xsd http://www.opengis.net/gsml/4.1/GeoSciML-Basic http://schemas.opengis.net/gsml/4.1/geoSciMLBasic.xsd http://www.opengis.net/gml/3.2 http://schemas.opengis.net/gml/3.2.1/gml.xsd">
+    <wfs:member>
+        <gsmlb:GeologicUnit gml:id="asud.gsml.geologicunit.10004">
+            <gml:metaDataProperty>
+            <gml:GenericMetaData>
+            <mrl:LI_Source>
+            <mrl:sourceCitation>
+            <cit:CI_Citation>
+            <cit:title>
+            <gco:CharacterString>Norseman, Western Australia, 1:250 000 geological series explanatory notes. Sheet SI/51-02.</gco:CharacterString>
+            </cit:title>
+            <cit:date>
+            <cit:CI_Date>
+            <cit:date>
+            <gco:DateTime>1973-12-31T00:00:00Z</gco:DateTime>
+            </cit:date>
+            <cit:dateType>
+            <cit:CI_DateTypeCode codeList="CI_DateTypeCode" codeListValue="publication">publication</cit:CI_DateTypeCode>
+            </cit:dateType>
+            </cit:CI_Date>
+            </cit:date>
+            <cit:citedResponsibleParty>
+            <cit:CI_Responsibility id="cit.ci_individual.51627">
+            <cit:role>
+            <cit:CI_RoleCode codeList="CI_RoleCode" codeListValue="author">author</cit:CI_RoleCode>
+            </cit:role>
+            <cit:party>
+            <cit:CI_Individual>
+            <cit:name>
+            <gco:CharacterString>Doepel, J.J.G.</gco:CharacterString>
+            </cit:name>
+            </cit:CI_Individual>
+            </cit:party>
+            </cit:CI_Responsibility>
+            </cit:citedResponsibleParty>
+            <cit:series>
+            <cit:CI_Series>
+            <cit:name>
+            <gco:CharacterString>Geological Survey of Western Australia</gco:CharacterString>
+            </cit:name>
+            <cit:issueIdentification>
+            <gco:CharacterString>1v</gco:CharacterString>
+            </cit:issueIdentification>
+            </cit:CI_Series>
+            </cit:series>
+            </cit:CI_Citation>
+            </mrl:sourceCitation>
+            </mrl:LI_Source>
+            </gml:GenericMetaData>
+            </gml:metaDataProperty>
+            <gml:metaDataProperty>
+            <gml:GenericMetaData>
+            <mrl:LI_Source>
+            <mrl:sourceCitation>
+            <cit:CI_Citation>
+            <cit:title>
+            <gco:CharacterString>IAVCEI Canberra 1993 - Excursion Guide - Eruptive Environment and Geochemistry of Archaean Ultramafic, Mafic and Felsic Volcanic Rocks of the Eastern Yilgarn Craton</gco:CharacterString>
+            </cit:title>
+            <cit:date>
+            <cit:CI_Date>
+            <cit:date>
+            <gco:DateTime>1993-12-31T00:00:00Z</gco:DateTime>
+            </cit:date>
+            <cit:dateType>
+            <cit:CI_DateTypeCode codeList="CI_DateTypeCode" codeListValue="publication">publication</cit:CI_DateTypeCode>
+            </cit:dateType>
+            </cit:CI_Date>
+            </cit:date>
+            <cit:citedResponsibleParty>
+            <cit:CI_Responsibility id="cit.ci_individual.72478">
+            <cit:role>
+            <cit:CI_RoleCode codeList="CI_RoleCode" codeListValue="author">author</cit:CI_RoleCode>
+            </cit:role>
+            <cit:party>
+            <cit:CI_Individual>
+            <cit:name>
+            <gco:CharacterString>Morris, P.A.</gco:CharacterString>
+            </cit:name>
+            </cit:CI_Individual>
+            </cit:party>
+            </cit:CI_Responsibility>
+            </cit:citedResponsibleParty>
+            <cit:citedResponsibleParty>
+            <cit:CI_Responsibility id="cit.ci_individual.72479">
+            <cit:role>
+            <cit:CI_RoleCode codeList="CI_RoleCode" codeListValue="author">author</cit:CI_RoleCode>
+            </cit:role>
+            <cit:party>
+            <cit:CI_Individual>
+            <cit:name>
+            <gco:CharacterString>Barnes, S.J.</gco:CharacterString>
+            </cit:name>
+            </cit:CI_Individual>
+            </cit:party>
+            </cit:CI_Responsibility>
+            </cit:citedResponsibleParty>
+            <cit:citedResponsibleParty>
+            <cit:CI_Responsibility id="cit.ci_individual.72480">
+            <cit:role>
+            <cit:CI_RoleCode codeList="CI_RoleCode" codeListValue="author">author</cit:CI_RoleCode>
+            </cit:role>
+            <cit:party>
+            <cit:CI_Individual>
+            <cit:name>
+            <gco:CharacterString>Hill, R.E.T.</gco:CharacterString>
+            </cit:name>
+            </cit:CI_Individual>
+            </cit:party>
+            </cit:CI_Responsibility>
+            </cit:citedResponsibleParty>
+            <cit:series>
+            <cit:CI_Series>
+            <cit:name>
+            <gco:CharacterString>Australian Geological Survey Organisation. Record</gco:CharacterString>
+            </cit:name>
+            <cit:issueIdentification>
+            <gco:CharacterString>1993/62</gco:CharacterString>
+            </cit:issueIdentification>
+            <cit:page>
+            <gco:CharacterString>43p</gco:CharacterString>
+            </cit:page>
+            </cit:CI_Series>
+            </cit:series>
+            </cit:CI_Citation>
+            </mrl:sourceCitation>
+            </mrl:LI_Source>
+            </gml:GenericMetaData>
+            </gml:metaDataProperty>
+            <gml:identifier codeSpace="urn:ietf:rfc:1738">http://pid.geoscience.gov.au/feature/asc/gsml/geologicalunit/10004</gml:identifier>
+            <gml:name>Lady Miller Jaspilite Member</gml:name>
+            <gsmlb:observationMethod xlink:href="http://resource.geosciml.org/classifier/cgi/featureobservationmethod/synthesis_from_multiple_sources" xlink:title="synthesis from multiple sources"/>
+            <gsmlb:purpose>typicalNorm</gsmlb:purpose>
+            <gsmlb:classifier xlink:href="http://asud.ga.gov.au/search-stratigraphic-units/results/10004" xlink:title="Lady Miller Jaspilite Member"/>
+            <gsmlb:geologicHistory>
+            <gsmlb:GeologicEvent gml:id="asud.gsml.geologicevent.10004">
+            <gsmlb:eventProcess xlink:href="http://resource.geosciml.org/classifier/cgi/eventprocess/deposition" xlink:title="deposition"/>
+            <gsmlb:numericAge>
+            <gsmlb:NumericAgeRange>
+            <gsmlb:olderBoundDate>
+            <swe:Quantity>
+            <swe:uom code="Ma" xlink:href="http://pid.geoscience.gov.au/def/voc/ga/uom/Ma" xlink:title="Million years"/>
+            <swe:value>4000.0</swe:value>
+            </swe:Quantity>
+            </gsmlb:olderBoundDate>
+            <gsmlb:youngerBoundDate>
+            <swe:Quantity>
+            <swe:uom code="Ma" xlink:href="http://pid.geoscience.gov.au/def/voc/ga/uom/Ma" xlink:title="Million years"/>
+            <swe:value>2500.0</swe:value>
+            </swe:Quantity>
+            </gsmlb:youngerBoundDate>
+            </gsmlb:NumericAgeRange>
+            </gsmlb:numericAge>
+            <gsmlb:olderNamedAge xlink:href="http://resource.geosciml.org/classifier/ics/ischart/Archean" xlink:title="Archean"/>
+            <gsmlb:youngerNamedAge xlink:href="http://resource.geosciml.org/classifier/ics/ischart/Archean" xlink:title="Archean"/>
+            </gsmlb:GeologicEvent>
+            </gsmlb:geologicHistory>
+            <gsmlb:geologicUnitType xlink:href="http://resource.geosciml.org/classifier/cgi/geologicunittype/lithostratigraphic_unit" xlink:title="lithostratigraphic unit"/>
+            <gsmlb:rank xlink:href="http://resource.geosciml.org/classifier/cgi/stratigraphicrank/member" xlink:title="member"/>
+            <gsmlb:hierarchyLink>
+        <gsmlb:GeologicUnitHierarchy>
+        <gsmlb:role xlink:href="http://pid.geoscience.gov.au/def/voc/stratigraphichierarchy/stratigraphic_parent" xlink:title="stratigraphic parent"/>
+        <gsmlb:targetUnit xlink:href="http://pid.geoscience.gov.au/feature/asc/gsml/geologicunit/14203" xlink:title="Noganyer Formation"/>
+        </gsmlb:GeologicUnitHierarchy>
+        </gsmlb:hierarchyLink>
+        </gsmlb:GeologicUnit>
+    </wfs:member>
+    <wfs:member>
+    <gsmlb:GeologicUnit gml:id="asud.gsml.geologicunit.1001">
+    <gml:metaDataProperty>
+    <gml:GenericMetaData>
+    <mrl:LI_Source>
+    <mrl:sourceCitation>
+    <cit:CI_Citation>
+    <cit:title>
+    <gco:CharacterString>Greta Coal Measures in the Muswellbrook Anticline area, New South Wales.</gco:CharacterString>
+    </cit:title>
+    <cit:date>
+    <cit:CI_Date>
+    <cit:date>
+    <gco:DateTime>2000-12-31T00:00:00Z</gco:DateTime>
+    </cit:date>
+    <cit:dateType>
+    <cit:CI_DateTypeCode codeList="CI_DateTypeCode" codeListValue="publication">publication</cit:CI_DateTypeCode>
+    </cit:dateType>
+    </cit:CI_Date>
+    </cit:date>
+    <cit:citedResponsibleParty>
+    <cit:CI_Responsibility id="cit.ci_individual.40249">
+    <cit:role>
+    <cit:CI_RoleCode codeList="CI_RoleCode" codeListValue="author">author</cit:CI_RoleCode>
+    </cit:role>
+    <cit:party>
+    <cit:CI_Individual>
+    <cit:name>
+    <gco:CharacterString>Boyd, R.</gco:CharacterString>
+    </cit:name>
+    </cit:CI_Individual>
+    </cit:party>
+    </cit:CI_Responsibility>
+    </cit:citedResponsibleParty>
+    <cit:citedResponsibleParty>
+    <cit:CI_Responsibility id="cit.ci_individual.40250">
+    <cit:role>
+    <cit:CI_RoleCode codeList="CI_RoleCode" codeListValue="author">author</cit:CI_RoleCode>
+    </cit:role>
+    <cit:party>
+    <cit:CI_Individual>
+    <cit:name>
+    <gco:CharacterString>Leckie, D.</gco:CharacterString>
+    </cit:name>
+    </cit:CI_Individual>
+    </cit:party>
+    </cit:CI_Responsibility>
+    </cit:citedResponsibleParty>
+    <cit:series>
+    <cit:CI_Series>
+    <cit:name>
+    <gco:CharacterString>Australian Journal of Earth Sciences</gco:CharacterString>
+    </cit:name>
+    <cit:issueIdentification>
+    <gco:CharacterString>47(2)</gco:CharacterString>
+    </cit:issueIdentification>
+    <cit:page>
+    <gco:CharacterString>p259-279</gco:CharacterString>
+    </cit:page>
+    </cit:CI_Series>
+    </cit:series>
+    </cit:CI_Citation>
+    </mrl:sourceCitation>
+    </mrl:LI_Source>
+    </gml:GenericMetaData>
+    </gml:metaDataProperty>
+    <gml:metaDataProperty>
+    <gml:GenericMetaData>
+    <mrl:LI_Source>
+    <mrl:sourceCitation>
+    <cit:CI_Citation>
+    <cit:title>
+    <gco:CharacterString>Early Permian sediments in the Maules Creek district, New South Wales.</gco:CharacterString>
+    </cit:title>
+    <cit:date>
+    <cit:CI_Date>
+    <cit:date>
+    <gco:DateTime>1980-12-31T00:00:00Z</gco:DateTime>
+    </cit:date>
+    <cit:dateType>
+    <cit:CI_DateTypeCode codeList="CI_DateTypeCode" codeListValue="publication">publication</cit:CI_DateTypeCode>
+    </cit:dateType>
+    </cit:CI_Date>
+    </cit:date>
+    <cit:citedResponsibleParty>
+    <cit:CI_Responsibility id="cit.ci_individual.61056">
+    <cit:role>
+    <cit:CI_RoleCode codeList="CI_RoleCode" codeListValue="author">author</cit:CI_RoleCode>
+    </cit:role>
+    <cit:party>
+    <cit:CI_Individual>
+    <cit:name>
+    <gco:CharacterString>Brownlow, J.</gco:CharacterString>
+    </cit:name>
+    </cit:CI_Individual>
+    </cit:party>
+    </cit:CI_Responsibility>
+    </cit:citedResponsibleParty>
+    <cit:series>
+    <cit:CI_Series>
+    <cit:name>
+    <gco:CharacterString>Geological Society of Australia. Coal Geology Group. Journal</gco:CharacterString>
+    </cit:name>
+    <cit:issueIdentification>
+    <gco:CharacterString>2(4)</gco:CharacterString>
+    </cit:issueIdentification>
+    <cit:page>
+    <gco:CharacterString>p125-160</gco:CharacterString>
+    </cit:page>
+    </cit:CI_Series>
+    </cit:series>
+    </cit:CI_Citation>
+    </mrl:sourceCitation>
+    </mrl:LI_Source>
+    </gml:GenericMetaData>
+    </gml:metaDataProperty>
+    <gml:metaDataProperty>
+    <gml:GenericMetaData>
+    <mrl:LI_Source>
+    <mrl:sourceCitation>
+    <cit:CI_Citation>
+    <cit:title>
+    <gco:CharacterString>The 1980 east Muswellbrook coal drilling programme.</gco:CharacterString>
+    </cit:title>
+    <cit:date>
+    <cit:CI_Date>
+    <cit:date>
+    <gco:DateTime>1982-12-31T00:00:00Z</gco:DateTime>
+    </cit:date>
+    <cit:dateType>
+    <cit:CI_DateTypeCode codeList="CI_DateTypeCode" codeListValue="publication">publication</cit:CI_DateTypeCode>
+    </cit:dateType>
+    </cit:CI_Date>
+    </cit:date>
+    <cit:citedResponsibleParty>
+    <cit:CI_Responsibility id="cit.ci_individual.62378">
+    <cit:role>
+    <cit:CI_RoleCode codeList="CI_RoleCode" codeListValue="author">author</cit:CI_RoleCode>
+    </cit:role>
+    <cit:party>
+    <cit:CI_Individual>
+    <cit:name>
+    <gco:CharacterString>Moffitt, R.S.</gco:CharacterString>
+    </cit:name>
+    </cit:CI_Individual>
+    </cit:party>
+    </cit:CI_Responsibility>
+    </cit:citedResponsibleParty>
+    <cit:series>
+    <cit:CI_Series>
+    <cit:name>
+    <gco:CharacterString>Geological Survey of New South Wales. Quarterly Notes</gco:CharacterString>
+    </cit:name>
+    <cit:issueIdentification>
+    <gco:CharacterString>47</gco:CharacterString>
+    </cit:issueIdentification>
+    <cit:page>
+    <gco:CharacterString>p17-26</gco:CharacterString>
+    </cit:page>
+    </cit:CI_Series>
+    </cit:series>
+    </cit:CI_Citation>
+    </mrl:sourceCitation>
+    </mrl:LI_Source>
+    </gml:GenericMetaData>
+    </gml:metaDataProperty>
+    <gml:metaDataProperty>
+    <gml:GenericMetaData>
+    <mrl:LI_Source>
+    <mrl:sourceCitation>
+    <cit:CI_Citation>
+    <cit:title>
+    <gco:CharacterString>Muswellbrook, New South Wales, 1:25 000 geological map. Sheet 9033-11-N, 1st edition.</gco:CharacterString>
+    </cit:title>
+    <cit:date>
+    <cit:CI_Date>
+    <cit:date>
+    <gco:DateTime>1983-12-31T00:00:00Z</gco:DateTime>
+    </cit:date>
+    <cit:dateType>
+    <cit:CI_DateTypeCode codeList="CI_DateTypeCode" codeListValue="publication">publication</cit:CI_DateTypeCode>
+    </cit:dateType>
+    </cit:CI_Date>
+    </cit:date>
+    <cit:citedResponsibleParty>
+    <cit:CI_Responsibility id="cit.ci_individual.65052">
+    <cit:role>
+    <cit:CI_RoleCode codeList="CI_RoleCode" codeListValue="author">author</cit:CI_RoleCode>
+    </cit:role>
+    <cit:party>
+    <cit:CI_Individual>
+    <cit:name>
+    <gco:CharacterString>Summerhayes, G.</gco:CharacterString>
+    </cit:name>
+    </cit:CI_Individual>
+    </cit:party>
+    </cit:CI_Responsibility>
+    </cit:citedResponsibleParty>
+    <cit:series>
+    <cit:CI_Series>
+    <cit:name>
+    <gco:CharacterString>Geological Survey of New South Wales</gco:CharacterString>
+    </cit:name>
+    <cit:issueIdentification>
+    <gco:CharacterString>1v</gco:CharacterString>
+    </cit:issueIdentification>
+    </cit:CI_Series>
+    </cit:series>
+    </cit:CI_Citation>
+    </mrl:sourceCitation>
+    </mrl:LI_Source>
+    </gml:GenericMetaData>
+    </gml:metaDataProperty>
+    <gml:metaDataProperty>
+    <gml:GenericMetaData>
+    <mrl:LI_Source>
+    <mrl:sourceCitation>
+    <cit:CI_Citation>
+    <cit:title>
+    <gco:CharacterString>Depositional systems and coal seam correlation in the Greta Coal Measures of the Muswellbrook region.</gco:CharacterString>
+    </cit:title>
+    <cit:date>
+    <cit:CI_Date>
+    <cit:date>
+    <gco:DateTime>1986-12-31T00:00:00Z</gco:DateTime>
+    </cit:date>
+    <cit:dateType>
+    <cit:CI_DateTypeCode codeList="CI_DateTypeCode" codeListValue="publication">publication</cit:CI_DateTypeCode>
+    </cit:dateType>
+    </cit:CI_Date>
+    </cit:date>
+    <cit:citedResponsibleParty>
+    <cit:CI_Responsibility id="cit.ci_individual.66898">
+    <cit:role>
+    <cit:CI_RoleCode codeList="CI_RoleCode" codeListValue="author">author</cit:CI_RoleCode>
+    </cit:role>
+    <cit:party>
+    <cit:CI_Individual>
+    <cit:name>
+    <gco:CharacterString>Hamilton, D.S.</gco:CharacterString>
+    </cit:name>
+    </cit:CI_Individual>
+    </cit:party>
+    </cit:CI_Responsibility>
+    </cit:citedResponsibleParty>
+    <cit:series>
+    <cit:CI_Series>
+    <cit:name>
+    <gco:CharacterString>Geological Society of Australia. Coal Geology Group. Journal</gco:CharacterString>
+    </cit:name>
+    <cit:issueIdentification>
+    <gco:CharacterString>6</gco:CharacterString>
+    </cit:issueIdentification>
+    <cit:page>
+    <gco:CharacterString>p1-18</gco:CharacterString>
+    </cit:page>
+    </cit:CI_Series>
+    </cit:series>
+    </cit:CI_Citation>
+    </mrl:sourceCitation>
+    </mrl:LI_Source>
+    </gml:GenericMetaData>
+    </gml:metaDataProperty>
+    <gml:metaDataProperty>
+    <gml:GenericMetaData>
+    <mrl:LI_Source>
+    <mrl:sourceCitation>
+    <cit:CI_Citation>
+    <cit:title>
+    <gco:CharacterString>Cisuralian coals of the Mullaley Sub-basin, northern New South Wales</gco:CharacterString>
+    </cit:title>
+    <cit:date>
+    <cit:CI_Date>
+    <cit:date>
+    <gco:DateTime>2016-12-31T00:00:00Z</gco:DateTime>
+    </cit:date>
+    <cit:dateType>
+    <cit:CI_DateTypeCode codeList="CI_DateTypeCode" codeListValue="publication">publication</cit:CI_DateTypeCode>
+    </cit:dateType>
+    </cit:CI_Date>
+    </cit:date>
+    <cit:citedResponsibleParty>
+    <cit:CI_Responsibility id="cit.ci_individual.107592">
+    <cit:role>
+    <cit:CI_RoleCode codeList="CI_RoleCode" codeListValue="author">author</cit:CI_RoleCode>
+    </cit:role>
+    <cit:party>
+    <cit:CI_Individual>
+    <cit:name>
+    <gco:CharacterString>Dawson, M. W.</gco:CharacterString>
+    </cit:name>
+    </cit:CI_Individual>
+    </cit:party>
+    </cit:CI_Responsibility>
+    </cit:citedResponsibleParty>
+    <cit:series>
+    <cit:CI_Series>
+    <cit:name>
+    <gco:CharacterString>Australian Journal of Earth Sciences</gco:CharacterString>
+    </cit:name>
+    <cit:issueIdentification>
+    <gco:CharacterString>63/3</gco:CharacterString>
+    </cit:issueIdentification>
+    <cit:page>
+    <gco:CharacterString>p275-294</gco:CharacterString>
+    </cit:page>
+    </cit:CI_Series>
+    </cit:series>
+    </cit:CI_Citation>
+    </mrl:sourceCitation>
+    </mrl:LI_Source>
+    </gml:GenericMetaData>
+    </gml:metaDataProperty>
+    <gml:description>Coal, with two splits (lower is the "Balmoral" split and the upper is the "Savoy" split),  intersplit sediments include sandstone, shale, and carbonaceous shale</gml:description>
+    <gml:identifier codeSpace="urn:ietf:rfc:1738">http://pid.geoscience.gov.au/feature/asc/gsml/geologicalunit/1001</gml:identifier>
+    <gml:name>Balmoral Coal Member</gml:name>
+    <gsmlb:observationMethod xlink:href="http://resource.geosciml.org/classifier/cgi/featureobservationmethod/synthesis_from_multiple_sources" xlink:title="synthesis from multiple sources"/>
+    <gsmlb:purpose>typicalNorm</gsmlb:purpose>
+    <gsmlb:classifier xlink:href="http://asud.ga.gov.au/search-stratigraphic-units/results/1001" xlink:title="Balmoral Coal Member"/>
+    <gsmlb:geologicHistory>
+    <gsmlb:GeologicEvent gml:id="asud.gsml.geologicevent.1001">
+    <gsmlb:eventProcess xlink:href="http://resource.geosciml.org/classifier/cgi/eventprocess/deposition" xlink:title="deposition"/>
+    <gsmlb:numericAge>
+    <gsmlb:NumericAgeRange>
+    <gsmlb:olderBoundDate>
+    <swe:Quantity>
+    <swe:uom code="Ma" xlink:href="http://pid.geoscience.gov.au/def/voc/ga/uom/Ma" xlink:title="Million years"/>
+    <swe:value>298.88</swe:value>
+    </swe:Quantity>
+    </gsmlb:olderBoundDate>
+    <gsmlb:youngerBoundDate>
+    <swe:Quantity>
+    <swe:uom code="Ma" xlink:href="http://pid.geoscience.gov.au/def/voc/ga/uom/Ma" xlink:title="Million years"/>
+    <swe:value>251.902</swe:value>
+    </swe:Quantity>
+    </gsmlb:youngerBoundDate>
+    </gsmlb:NumericAgeRange>
+    </gsmlb:numericAge>
+    <gsmlb:olderNamedAge xlink:href="http://resource.geosciml.org/classifier/ics/ischart/Permian" xlink:title="Permian"/>
+    <gsmlb:youngerNamedAge xlink:href="http://resource.geosciml.org/classifier/ics/ischart/Permian" xlink:title="Permian"/>
+    </gsmlb:GeologicEvent>
+    </gsmlb:geologicHistory>
+    <gsmlb:geologicUnitType xlink:href="http://resource.geosciml.org/classifier/cgi/geologicunittype/lithostratigraphic_unit" xlink:title="lithostratigraphic unit"/>
+    <gsmlb:rank xlink:href="http://resource.geosciml.org/classifier/cgi/stratigraphicrank/member" xlink:title="member"/>
+    <gsmlb:hierarchyLink>
+    <gsmlb:GeologicUnitHierarchy>
+    <gsmlb:role xlink:href="http://pid.geoscience.gov.au/def/voc/stratigraphichierarchy/stratigraphic_parent" xlink:title="stratigraphic parent"/>
+    <gsmlb:targetUnit xlink:href="http://pid.geoscience.gov.au/feature/asc/gsml/geologicunit/16963" xlink:title="Skeletar Formation"/>
+    </gsmlb:GeologicUnitHierarchy>
+    </gsmlb:hierarchyLink>
+    </gsmlb:GeologicUnit>
+    </wfs:member>
+    <wfs:member>
+<gsmlb:GeologicUnit gml:id="asud.gsml.geologicunit.10010">
+<gml:metaDataProperty>
+<gml:GenericMetaData>
+<mrl:LI_Source>
+<mrl:sourceCitation>
+<cit:CI_Citation>
+<cit:title>
+<gco:CharacterString>Red Dome and Mungana gold-silver-copper-lead-zinc deposits IN Berkman, D.A. &amp; Mackenzie, D.H. (eds) 'Geology of Australian and Papua New Guinean mineral deposits'</gco:CharacterString>
+</cit:title>
+<cit:date>
+<cit:CI_Date>
+<cit:date>
+<gco:DateTime>1998-12-31T00:00:00Z</gco:DateTime>
+</cit:date>
+<cit:dateType>
+<cit:CI_DateTypeCode codeList="CI_DateTypeCode" codeListValue="publication">publication</cit:CI_DateTypeCode>
+</cit:dateType>
+</cit:CI_Date>
+</cit:date>
+<cit:citedResponsibleParty>
+<cit:CI_Responsibility id="cit.ci_individual.39611">
+<cit:role>
+<cit:CI_RoleCode codeList="CI_RoleCode" codeListValue="author">author</cit:CI_RoleCode>
+</cit:role>
+<cit:party>
+<cit:CI_Individual>
+<cit:name>
+<gco:CharacterString>Nethery, J.E.</gco:CharacterString>
+</cit:name>
+</cit:CI_Individual>
+</cit:party>
+</cit:CI_Responsibility>
+</cit:citedResponsibleParty>
+<cit:citedResponsibleParty>
+<cit:CI_Responsibility id="cit.ci_individual.39612">
+<cit:role>
+<cit:CI_RoleCode codeList="CI_RoleCode" codeListValue="author">author</cit:CI_RoleCode>
+</cit:role>
+<cit:party>
+<cit:CI_Individual>
+<cit:name>
+<gco:CharacterString>Barr, M.J.</gco:CharacterString>
+</cit:name>
+</cit:CI_Individual>
+</cit:party>
+</cit:CI_Responsibility>
+</cit:citedResponsibleParty>
+<cit:series>
+<cit:CI_Series>
+<cit:name>
+<gco:CharacterString>AusIMM. Monograph Series</gco:CharacterString>
+</cit:name>
+<cit:issueIdentification>
+<gco:CharacterString>22</gco:CharacterString>
+</cit:issueIdentification>
+<cit:page>
+<gco:CharacterString>p723-728</gco:CharacterString>
+</cit:page>
+</cit:CI_Series>
+</cit:series>
+</cit:CI_Citation>
+</mrl:sourceCitation>
+</mrl:LI_Source>
+</gml:GenericMetaData>
+</gml:metaDataProperty>
+<gml:metaDataProperty>
+<gml:GenericMetaData>
+<mrl:LI_Source>
+<mrl:sourceCitation>
+<cit:CI_Citation>
+<cit:title>
+<gco:CharacterString>Charters Towers Region IN "North Queensland Geology" Bain, J.H.C. and Draper J.J. (eds)</gco:CharacterString>
+</cit:title>
+<cit:date>
+<cit:CI_Date>
+<cit:date>
+<gco:DateTime>1997-12-31T00:00:00Z</gco:DateTime>
+</cit:date>
+<cit:dateType>
+<cit:CI_DateTypeCode codeList="CI_DateTypeCode" codeListValue="publication">publication</cit:CI_DateTypeCode>
+</cit:dateType>
+</cit:CI_Date>
+</cit:date>
+<cit:citedResponsibleParty>
+<cit:CI_Responsibility id="cit.ci_individual.40472">
+<cit:role>
+<cit:CI_RoleCode codeList="CI_RoleCode" codeListValue="author">author</cit:CI_RoleCode>
+</cit:role>
+<cit:party>
+<cit:CI_Individual>
+<cit:name>
+<gco:CharacterString>Hutton, L.J.</gco:CharacterString>
+</cit:name>
+</cit:CI_Individual>
+</cit:party>
+</cit:CI_Responsibility>
+</cit:citedResponsibleParty>
+<cit:citedResponsibleParty>
+<cit:CI_Responsibility id="cit.ci_individual.40473">
+<cit:role>
+<cit:CI_RoleCode codeList="CI_RoleCode" codeListValue="author">author</cit:CI_RoleCode>
+</cit:role>
+<cit:party>
+<cit:CI_Individual>
+<cit:name>
+<gco:CharacterString>Draper, J.J.</gco:CharacterString>
+</cit:name>
+</cit:CI_Individual>
+</cit:party>
+</cit:CI_Responsibility>
+</cit:citedResponsibleParty>
+<cit:citedResponsibleParty>
+<cit:CI_Responsibility id="cit.ci_individual.40474">
+<cit:role>
+<cit:CI_RoleCode codeList="CI_RoleCode" codeListValue="author">author</cit:CI_RoleCode>
+</cit:role>
+<cit:party>
+<cit:CI_Individual>
+<cit:name>
+<gco:CharacterString>Rienks, I.P.</gco:CharacterString>
+</cit:name>
+</cit:CI_Individual>
+</cit:party>
+</cit:CI_Responsibility>
+</cit:citedResponsibleParty>
+<cit:citedResponsibleParty>
+<cit:CI_Responsibility id="cit.ci_individual.40475">
+<cit:role>
+<cit:CI_RoleCode codeList="CI_RoleCode" codeListValue="author">author</cit:CI_RoleCode>
+</cit:role>
+<cit:party>
+<cit:CI_Individual>
+<cit:name>
+<gco:CharacterString>Withnall, I.W.</gco:CharacterString>
+</cit:name>
+</cit:CI_Individual>
+</cit:party>
+</cit:CI_Responsibility>
+</cit:citedResponsibleParty>
+<cit:citedResponsibleParty>
+<cit:CI_Responsibility id="cit.ci_individual.40476">
+<cit:role>
+<cit:CI_RoleCode codeList="CI_RoleCode" codeListValue="author">author</cit:CI_RoleCode>
+</cit:role>
+<cit:party>
+<cit:CI_Individual>
+<cit:name>
+<gco:CharacterString>Knutson, J.</gco:CharacterString>
+</cit:name>
+</cit:CI_Individual>
+</cit:party>
+</cit:CI_Responsibility>
+</cit:citedResponsibleParty>
+<cit:series>
+<cit:CI_Series>
+<cit:name>
+<gco:CharacterString>Australian Geological Survey Organisation Bulletin/Queensland Department of Mines and Energy Qld Geo</gco:CharacterString>
+</cit:name>
+<cit:issueIdentification>
+<gco:CharacterString>240/9</gco:CharacterString>
+</cit:issueIdentification>
+<cit:page>
+<gco:CharacterString>p165-224</gco:CharacterString>
+</cit:page>
+</cit:CI_Series>
+</cit:series>
+</cit:CI_Citation>
+</mrl:sourceCitation>
+</mrl:LI_Source>
+</gml:GenericMetaData>
+</gml:metaDataProperty>
+<gml:metaDataProperty>
+<gml:GenericMetaData>
+<mrl:LI_Source>
+<mrl:sourceCitation>
+<cit:CI_Citation>
+<cit:title>
+<gco:CharacterString>Cairns Region. In 'North Queensland Geology' Bain J.H.C and Draper J.J. (eds)</gco:CharacterString>
+</cit:title>
+<cit:date>
+<cit:CI_Date>
+<cit:date>
+<gco:DateTime>1997-12-31T00:00:00Z</gco:DateTime>
+</cit:date>
+<cit:dateType>
+<cit:CI_DateTypeCode codeList="CI_DateTypeCode" codeListValue="publication">publication</cit:CI_DateTypeCode>
+</cit:dateType>
+</cit:CI_Date>
+</cit:date>
+<cit:citedResponsibleParty>
+<cit:CI_Responsibility id="cit.ci_individual.40477">
+<cit:role>
+<cit:CI_RoleCode codeList="CI_RoleCode" codeListValue="author">author</cit:CI_RoleCode>
+</cit:role>
+<cit:party>
+<cit:CI_Individual>
+<cit:name>
+<gco:CharacterString>Bultitude, R.J.</gco:CharacterString>
+</cit:name>
+</cit:CI_Individual>
+</cit:party>
+</cit:CI_Responsibility>
+</cit:citedResponsibleParty>
+<cit:citedResponsibleParty>
+<cit:CI_Responsibility id="cit.ci_individual.40478">
+<cit:role>
+<cit:CI_RoleCode codeList="CI_RoleCode" codeListValue="author">author</cit:CI_RoleCode>
+</cit:role>
+<cit:party>
+<cit:CI_Individual>
+<cit:name>
+<gco:CharacterString>Garrad, P.D.</gco:CharacterString>
+</cit:name>
+</cit:CI_Individual>
+</cit:party>
+</cit:CI_Responsibility>
+</cit:citedResponsibleParty>
+<cit:citedResponsibleParty>
+<cit:CI_Responsibility id="cit.ci_individual.40479">
+<cit:role>
+<cit:CI_RoleCode codeList="CI_RoleCode" codeListValue="author">author</cit:CI_RoleCode>
+</cit:role>
+<cit:party>
+<cit:CI_Individual>
+<cit:name>
+<gco:CharacterString>Donchak, P.J.T.</gco:CharacterString>
+</cit:name>
+</cit:CI_Individual>
+</cit:party>
+</cit:CI_Responsibility>
+</cit:citedResponsibleParty>
+<cit:citedResponsibleParty>
+<cit:CI_Responsibility id="cit.ci_individual.40480">
+<cit:role>
+<cit:CI_RoleCode codeList="CI_RoleCode" codeListValue="author">author</cit:CI_RoleCode>
+</cit:role>
+<cit:party>
+<cit:CI_Individual>
+<cit:name>
+<gco:CharacterString>Domagala, J.</gco:CharacterString>
+</cit:name>
+</cit:CI_Individual>
+</cit:party>
+</cit:CI_Responsibility>
+</cit:citedResponsibleParty>
+<cit:citedResponsibleParty>
+<cit:CI_Responsibility id="cit.ci_individual.40481">
+<cit:role>
+<cit:CI_RoleCode codeList="CI_RoleCode" codeListValue="author">author</cit:CI_RoleCode>
+</cit:role>
+<cit:party>
+<cit:CI_Individual>
+<cit:name>
+<gco:CharacterString>Champion, D.C.</gco:CharacterString>
+</cit:name>
+</cit:CI_Individual>
+</cit:party>
+</cit:CI_Responsibility>
+</cit:citedResponsibleParty>
+<cit:citedResponsibleParty>
+<cit:CI_Responsibility id="cit.ci_individual.40482">
+<cit:role>
+<cit:CI_RoleCode codeList="CI_RoleCode" codeListValue="author">author</cit:CI_RoleCode>
+</cit:role>
+<cit:party>
+<cit:CI_Individual>
+<cit:name>
+<gco:CharacterString>Rees, I.D.</gco:CharacterString>
+</cit:name>
+</cit:CI_Individual>
+</cit:party>
+</cit:CI_Responsibility>
+</cit:citedResponsibleParty>
+<cit:citedResponsibleParty>
+<cit:CI_Responsibility id="cit.ci_individual.40483">
+<cit:role>
+<cit:CI_RoleCode codeList="CI_RoleCode" codeListValue="author">author</cit:CI_RoleCode>
+</cit:role>
+<cit:party>
+<cit:CI_Individual>
+<cit:name>
+<gco:CharacterString>Mackenzie, D.E.</gco:CharacterString>
+</cit:name>
+</cit:CI_Individual>
+</cit:party>
+</cit:CI_Responsibility>
+</cit:citedResponsibleParty>
+<cit:citedResponsibleParty>
+<cit:CI_Responsibility id="cit.ci_individual.40484">
+<cit:role>
+<cit:CI_RoleCode codeList="CI_RoleCode" codeListValue="author">author</cit:CI_RoleCode>
+</cit:role>
+<cit:party>
+<cit:CI_Individual>
+<cit:name>
+<gco:CharacterString>Wellman, P.</gco:CharacterString>
+</cit:name>
+</cit:CI_Individual>
+</cit:party>
+</cit:CI_Responsibility>
+</cit:citedResponsibleParty>
+<cit:citedResponsibleParty>
+<cit:CI_Responsibility id="cit.ci_individual.40485">
+<cit:role>
+<cit:CI_RoleCode codeList="CI_RoleCode" codeListValue="author">author</cit:CI_RoleCode>
+</cit:role>
+<cit:party>
+<cit:CI_Individual>
+<cit:name>
+<gco:CharacterString>Knutson, J.</gco:CharacterString>
+</cit:name>
+</cit:CI_Individual>
+</cit:party>
+</cit:CI_Responsibility>
+</cit:citedResponsibleParty>
+<cit:citedResponsibleParty>
+<cit:CI_Responsibility id="cit.ci_individual.40486">
+<cit:role>
+<cit:CI_RoleCode codeList="CI_RoleCode" codeListValue="author">author</cit:CI_RoleCode>
+</cit:role>
+<cit:party>
+<cit:CI_Individual>
+<cit:name>
+<gco:CharacterString>Fanning, C.M.</gco:CharacterString>
+</cit:name>
+</cit:CI_Individual>
+</cit:party>
+</cit:CI_Responsibility>
+</cit:citedResponsibleParty>
+<cit:citedResponsibleParty>
+<cit:CI_Responsibility id="cit.ci_individual.40487">
+<cit:role>
+<cit:CI_RoleCode codeList="CI_RoleCode" codeListValue="author">author</cit:CI_RoleCode>
+</cit:role>
+<cit:party>
+<cit:CI_Individual>
+<cit:name>
+<gco:CharacterString>Fordham, B.G.</gco:CharacterString>
+</cit:name>
+</cit:CI_Individual>
+</cit:party>
+</cit:CI_Responsibility>
+</cit:citedResponsibleParty>
+<cit:citedResponsibleParty>
+<cit:CI_Responsibility id="cit.ci_individual.40488">
+<cit:role>
+<cit:CI_RoleCode codeList="CI_RoleCode" codeListValue="author">author</cit:CI_RoleCode>
+</cit:role>
+<cit:party>
+<cit:CI_Individual>
+<cit:name>
+<gco:CharacterString>Grimes, K.G.</gco:CharacterString>
+</cit:name>
+</cit:CI_Individual>
+</cit:party>
+</cit:CI_Responsibility>
+</cit:citedResponsibleParty>
+<cit:citedResponsibleParty>
+<cit:CI_Responsibility id="cit.ci_individual.40489">
+<cit:role>
+<cit:CI_RoleCode codeList="CI_RoleCode" codeListValue="author">author</cit:CI_RoleCode>
+</cit:role>
+<cit:party>
+<cit:CI_Individual>
+<cit:name>
+<gco:CharacterString>Oversby, B.S.</gco:CharacterString>
+</cit:name>
+</cit:CI_Individual>
+</cit:party>
+</cit:CI_Responsibility>
+</cit:citedResponsibleParty>
+<cit:citedResponsibleParty>
+<cit:CI_Responsibility id="cit.ci_individual.40490">
+<cit:role>
+<cit:CI_RoleCode codeList="CI_RoleCode" codeListValue="author">author</cit:CI_RoleCode>
+</cit:role>
+<cit:party>
+<cit:CI_Individual>
+<cit:name>
+<gco:CharacterString>Rienks, I.P.</gco:CharacterString>
+</cit:name>
+</cit:CI_Individual>
+</cit:party>
+</cit:CI_Responsibility>
+</cit:citedResponsibleParty>
+<cit:citedResponsibleParty>
+<cit:CI_Responsibility id="cit.ci_individual.40491">
+<cit:role>
+<cit:CI_RoleCode codeList="CI_RoleCode" codeListValue="author">author</cit:CI_RoleCode>
+</cit:role>
+<cit:party>
+<cit:CI_Individual>
+<cit:name>
+<gco:CharacterString>Stephenson, P.J.</gco:CharacterString>
+</cit:name>
+</cit:CI_Individual>
+</cit:party>
+</cit:CI_Responsibility>
+</cit:citedResponsibleParty>
+<cit:citedResponsibleParty>
+<cit:CI_Responsibility id="cit.ci_individual.40492">
+<cit:role>
+<cit:CI_RoleCode codeList="CI_RoleCode" codeListValue="author">author</cit:CI_RoleCode>
+</cit:role>
+<cit:party>
+<cit:CI_Individual>
+<cit:name>
+<gco:CharacterString>Chappell, B.W.</gco:CharacterString>
+</cit:name>
+</cit:CI_Individual>
+</cit:party>
+</cit:CI_Responsibility>
+</cit:citedResponsibleParty>
+<cit:citedResponsibleParty>
+<cit:CI_Responsibility id="cit.ci_individual.40493">
+<cit:role>
+<cit:CI_RoleCode codeList="CI_RoleCode" codeListValue="author">author</cit:CI_RoleCode>
+</cit:role>
+<cit:party>
+<cit:CI_Individual>
+<cit:name>
+<gco:CharacterString>Pain, C.F.</gco:CharacterString>
+</cit:name>
+</cit:CI_Individual>
+</cit:party>
+</cit:CI_Responsibility>
+</cit:citedResponsibleParty>
+<cit:citedResponsibleParty>
+<cit:CI_Responsibility id="cit.ci_individual.40494">
+<cit:role>
+<cit:CI_RoleCode codeList="CI_RoleCode" codeListValue="author">author</cit:CI_RoleCode>
+</cit:role>
+<cit:party>
+<cit:CI_Individual>
+<cit:name>
+<gco:CharacterString>Wilford, J.R.</gco:CharacterString>
+</cit:name>
+</cit:CI_Individual>
+</cit:party>
+</cit:CI_Responsibility>
+</cit:citedResponsibleParty>
+<cit:citedResponsibleParty>
+<cit:CI_Responsibility id="cit.ci_individual.40495">
+<cit:role>
+<cit:CI_RoleCode codeList="CI_RoleCode" codeListValue="author">author</cit:CI_RoleCode>
+</cit:role>
+<cit:party>
+<cit:CI_Individual>
+<cit:name>
+<gco:CharacterString>Rigby, J.F.</gco:CharacterString>
+</cit:name>
+</cit:CI_Individual>
+</cit:party>
+</cit:CI_Responsibility>
+</cit:citedResponsibleParty>
+<cit:citedResponsibleParty>
+<cit:CI_Responsibility id="cit.ci_individual.40496">
+<cit:role>
+<cit:CI_RoleCode codeList="CI_RoleCode" codeListValue="author">author</cit:CI_RoleCode>
+</cit:role>
+<cit:party>
+<cit:CI_Individual>
+<cit:name>
+<gco:CharacterString>Woodbury, M.J.</gco:CharacterString>
+</cit:name>
+</cit:CI_Individual>
+</cit:party>
+</cit:CI_Responsibility>
+</cit:citedResponsibleParty>
+<cit:series>
+<cit:CI_Series>
+<cit:name>
+<gco:CharacterString>Australian Geological Survey Organisation Bulletin/Queensland Department of Mines and Energy Qld Geo</gco:CharacterString>
+</cit:name>
+<cit:issueIdentification>
+<gco:CharacterString>240/9</gco:CharacterString>
+</cit:issueIdentification>
+<cit:page>
+<gco:CharacterString>p225-325</gco:CharacterString>
+</cit:page>
+</cit:CI_Series>
+</cit:series>
+</cit:CI_Citation>
+</mrl:sourceCitation>
+</mrl:LI_Source>
+</gml:GenericMetaData>
+</gml:metaDataProperty>
+<gml:metaDataProperty>
+<gml:GenericMetaData>
+<mrl:LI_Source>
+<mrl:sourceCitation>
+<cit:CI_Citation>
+<cit:title>
+<gco:CharacterString>Mungana Region Sheet 7763 and part of 7863 First Edition. 1:100 000 Geological Special</gco:CharacterString>
+</cit:title>
+<cit:date>
+<cit:CI_Date>
+<cit:date>
+<gco:DateTime>1998-12-31T00:00:00Z</gco:DateTime>
+</cit:date>
+<cit:dateType>
+<cit:CI_DateTypeCode codeList="CI_DateTypeCode" codeListValue="publication">publication</cit:CI_DateTypeCode>
+</cit:dateType>
+</cit:CI_Date>
+</cit:date>
+<cit:citedResponsibleParty>
+<cit:CI_Responsibility id="cit.ci_individual.40696">
+<cit:role>
+<cit:CI_RoleCode codeList="CI_RoleCode" codeListValue="author">author</cit:CI_RoleCode>
+</cit:role>
+<cit:party>
+<cit:CI_Individual>
+<cit:name>
+<gco:CharacterString>Bultitude, R.J.</gco:CharacterString>
+</cit:name>
+</cit:CI_Individual>
+</cit:party>
+</cit:CI_Responsibility>
+</cit:citedResponsibleParty>
+<cit:citedResponsibleParty>
+<cit:CI_Responsibility id="cit.ci_individual.40697">
+<cit:role>
+<cit:CI_RoleCode codeList="CI_RoleCode" codeListValue="author">author</cit:CI_RoleCode>
+</cit:role>
+<cit:party>
+<cit:CI_Individual>
+<cit:name>
+<gco:CharacterString>Garrad, P.D.</gco:CharacterString>
+</cit:name>
+</cit:CI_Individual>
+</cit:party>
+</cit:CI_Responsibility>
+</cit:citedResponsibleParty>
+<cit:citedResponsibleParty>
+<cit:CI_Responsibility id="cit.ci_individual.40698">
+<cit:role>
+<cit:CI_RoleCode codeList="CI_RoleCode" codeListValue="author">author</cit:CI_RoleCode>
+</cit:role>
+<cit:party>
+<cit:CI_Individual>
+<cit:name>
+<gco:CharacterString>Roberts, C.W.</gco:CharacterString>
+</cit:name>
+</cit:CI_Individual>
+</cit:party>
+</cit:CI_Responsibility>
+</cit:citedResponsibleParty>
+<cit:citedResponsibleParty>
+<cit:CI_Responsibility id="cit.ci_individual.40699">
+<cit:role>
+<cit:CI_RoleCode codeList="CI_RoleCode" codeListValue="author">author</cit:CI_RoleCode>
+</cit:role>
+<cit:party>
+<cit:CI_Individual>
+<cit:name>
+<gco:CharacterString>Mackenzie, D.E.</gco:CharacterString>
+</cit:name>
+</cit:CI_Individual>
+</cit:party>
+</cit:CI_Responsibility>
+</cit:citedResponsibleParty>
+<cit:series>
+<cit:CI_Series>
+<cit:name>
+<gco:CharacterString>Queensland. Department of Mines and Energy</gco:CharacterString>
+</cit:name>
+<cit:issueIdentification>
+<gco:CharacterString>Map</gco:CharacterString>
+</cit:issueIdentification>
+<cit:page>
+<gco:CharacterString>Map Legend</gco:CharacterString>
+</cit:page>
+</cit:CI_Series>
+</cit:series>
+</cit:CI_Citation>
+</mrl:sourceCitation>
+</mrl:LI_Source>
+</gml:GenericMetaData>
+</gml:metaDataProperty>
+<gml:metaDataProperty>
+<gml:GenericMetaData>
+<mrl:LI_Source>
+<mrl:sourceCitation>
+<cit:CI_Citation>
+<cit:title>
+<gco:CharacterString>Chillagoe Sheet 7863 First Edition 1:100 000 Geological Series</gco:CharacterString>
+</cit:title>
+<cit:date>
+<cit:CI_Date>
+<cit:date>
+<gco:DateTime>2000-12-31T00:00:00Z</gco:DateTime>
+</cit:date>
+<cit:dateType>
+<cit:CI_DateTypeCode codeList="CI_DateTypeCode" codeListValue="publication">publication</cit:CI_DateTypeCode>
+</cit:dateType>
+</cit:CI_Date>
+</cit:date>
+<cit:citedResponsibleParty>
+<cit:CI_Responsibility id="cit.ci_individual.40700">
+<cit:role>
+<cit:CI_RoleCode codeList="CI_RoleCode" codeListValue="author">author</cit:CI_RoleCode>
+</cit:role>
+<cit:party>
+<cit:CI_Individual>
+<cit:name>
+<gco:CharacterString>Bultitude, R.J.</gco:CharacterString>
+</cit:name>
+</cit:CI_Individual>
+</cit:party>
+</cit:CI_Responsibility>
+</cit:citedResponsibleParty>
+<cit:citedResponsibleParty>
+<cit:CI_Responsibility id="cit.ci_individual.40701">
+<cit:role>
+<cit:CI_RoleCode codeList="CI_RoleCode" codeListValue="author">author</cit:CI_RoleCode>
+</cit:role>
+<cit:party>
+<cit:CI_Individual>
+<cit:name>
+<gco:CharacterString>Garrad, P.D.</gco:CharacterString>
+</cit:name>
+</cit:CI_Individual>
+</cit:party>
+</cit:CI_Responsibility>
+</cit:citedResponsibleParty>
+<cit:citedResponsibleParty>
+<cit:CI_Responsibility id="cit.ci_individual.40702">
+<cit:role>
+<cit:CI_RoleCode codeList="CI_RoleCode" codeListValue="author">author</cit:CI_RoleCode>
+</cit:role>
+<cit:party>
+<cit:CI_Individual>
+<cit:name>
+<gco:CharacterString>Mackenzie, D.E.</gco:CharacterString>
+</cit:name>
+</cit:CI_Individual>
+</cit:party>
+</cit:CI_Responsibility>
+</cit:citedResponsibleParty>
+<cit:citedResponsibleParty>
+<cit:CI_Responsibility id="cit.ci_individual.40703">
+<cit:role>
+<cit:CI_RoleCode codeList="CI_RoleCode" codeListValue="author">author</cit:CI_RoleCode>
+</cit:role>
+<cit:party>
+<cit:CI_Individual>
+<cit:name>
+<gco:CharacterString>Roberts, C.W.</gco:CharacterString>
+</cit:name>
+</cit:CI_Individual>
+</cit:party>
+</cit:CI_Responsibility>
+</cit:citedResponsibleParty>
+<cit:series>
+<cit:CI_Series>
+<cit:name>
+<gco:CharacterString>Queensland. Department of Mines and Energy</gco:CharacterString>
+</cit:name>
+<cit:issueIdentification>
+<gco:CharacterString>Map</gco:CharacterString>
+</cit:issueIdentification>
+<cit:page>
+<gco:CharacterString>Map</gco:CharacterString>
+</cit:page>
+</cit:CI_Series>
+</cit:series>
+</cit:CI_Citation>
+</mrl:sourceCitation>
+</mrl:LI_Source>
+</gml:GenericMetaData>
+</gml:metaDataProperty>
+<gml:metaDataProperty>
+<gml:GenericMetaData>
+<mrl:LI_Source>
+<mrl:sourceCitation>
+<cit:CI_Citation>
+<cit:title>
+<gco:CharacterString>Atherton, second edition. Queensland 1:250 000 Geological Series Explanatory Notes</gco:CharacterString>
+</cit:title>
+<cit:date>
+<cit:CI_Date>
+<cit:date>
+<gco:DateTime>1998-12-31T00:00:00Z</gco:DateTime>
+</cit:date>
+<cit:dateType>
+<cit:CI_DateTypeCode codeList="CI_DateTypeCode" codeListValue="publication">publication</cit:CI_DateTypeCode>
+</cit:dateType>
+</cit:CI_Date>
+</cit:date>
+<cit:citedResponsibleParty>
+<cit:CI_Responsibility id="cit.ci_individual.41008">
+<cit:role>
+<cit:CI_RoleCode codeList="CI_RoleCode" codeListValue="author">author</cit:CI_RoleCode>
+</cit:role>
+<cit:party>
+<cit:CI_Individual>
+<cit:name>
+<gco:CharacterString>Donchak, P.J.T.</gco:CharacterString>
+</cit:name>
+</cit:CI_Individual>
+</cit:party>
+</cit:CI_Responsibility>
+</cit:citedResponsibleParty>
+<cit:citedResponsibleParty>
+<cit:CI_Responsibility id="cit.ci_individual.41009">
+<cit:role>
+<cit:CI_RoleCode codeList="CI_RoleCode" codeListValue="author">author</cit:CI_RoleCode>
+</cit:role>
+<cit:party>
+<cit:CI_Individual>
+<cit:name>
+<gco:CharacterString>Bultitude, R.J.</gco:CharacterString>
+</cit:name>
+</cit:CI_Individual>
+</cit:party>
+</cit:CI_Responsibility>
+</cit:citedResponsibleParty>
+<cit:series>
+<cit:CI_Series>
+<cit:name>
+<gco:CharacterString>Geological Survey of Queensland, Queensland Department of Mines and Energy</gco:CharacterString>
+</cit:name>
+<cit:issueIdentification>
+<gco:CharacterString>1v</gco:CharacterString>
+</cit:issueIdentification>
+<cit:page>
+<gco:CharacterString>100p</gco:CharacterString>
+</cit:page>
+</cit:CI_Series>
+</cit:series>
+</cit:CI_Citation>
+</mrl:sourceCitation>
+</mrl:LI_Source>
+</gml:GenericMetaData>
+</gml:metaDataProperty>
+<gml:metaDataProperty>
+<gml:GenericMetaData>
+<mrl:LI_Source>
+<mrl:sourceCitation>
+<cit:CI_Citation>
+<cit:title>
+<gco:CharacterString>Bellevue Region Sheet 7764, Part 7774 [7864] Queensland 1:100 000 Geological Map Commentary</gco:CharacterString>
+</cit:title>
+<cit:date>
+<cit:CI_Date>
+<cit:date>
+<gco:DateTime>1995-12-31T00:00:00Z</gco:DateTime>
+</cit:date>
+<cit:dateType>
+<cit:CI_DateTypeCode codeList="CI_DateTypeCode" codeListValue="publication">publication</cit:CI_DateTypeCode>
+</cit:dateType>
+</cit:CI_Date>
+</cit:date>
+<cit:citedResponsibleParty>
+<cit:CI_Responsibility id="cit.ci_individual.41149">
+<cit:role>
+<cit:CI_RoleCode codeList="CI_RoleCode" codeListValue="author">author</cit:CI_RoleCode>
+</cit:role>
+<cit:party>
+<cit:CI_Individual>
+<cit:name>
+<gco:CharacterString>Bultitude, R.J.</gco:CharacterString>
+</cit:name>
+</cit:CI_Individual>
+</cit:party>
+</cit:CI_Responsibility>
+</cit:citedResponsibleParty>
+<cit:citedResponsibleParty>
+<cit:CI_Responsibility id="cit.ci_individual.41150">
+<cit:role>
+<cit:CI_RoleCode codeList="CI_RoleCode" codeListValue="author">author</cit:CI_RoleCode>
+</cit:role>
+<cit:party>
+<cit:CI_Individual>
+<cit:name>
+<gco:CharacterString>Rees, I.D.</gco:CharacterString>
+</cit:name>
+</cit:CI_Individual>
+</cit:party>
+</cit:CI_Responsibility>
+</cit:citedResponsibleParty>
+<cit:citedResponsibleParty>
+<cit:CI_Responsibility id="cit.ci_individual.41151">
+<cit:role>
+<cit:CI_RoleCode codeList="CI_RoleCode" codeListValue="author">author</cit:CI_RoleCode>
+</cit:role>
+<cit:party>
+<cit:CI_Individual>
+<cit:name>
+<gco:CharacterString>Garrad, P.D.</gco:CharacterString>
+</cit:name>
+</cit:CI_Individual>
+</cit:party>
+</cit:CI_Responsibility>
+</cit:citedResponsibleParty>
+<cit:series>
+<cit:CI_Series>
+<cit:name>
+<gco:CharacterString>Geological Survey of Queensland, Queensland Department of Mines and Energy</gco:CharacterString>
+</cit:name>
+<cit:issueIdentification>
+<gco:CharacterString>1v</gco:CharacterString>
+</cit:issueIdentification>
+<cit:page>
+<gco:CharacterString>76p</gco:CharacterString>
+</cit:page>
+</cit:CI_Series>
+</cit:series>
+</cit:CI_Citation>
+</mrl:sourceCitation>
+</mrl:LI_Source>
+</gml:GenericMetaData>
+</gml:metaDataProperty>
+<gml:metaDataProperty>
+<gml:GenericMetaData>
+<mrl:LI_Source>
+<mrl:sourceCitation>
+<cit:CI_Citation>
+<cit:title>
+<gco:CharacterString>Mungana 1:100 000  Geological Map Commentary.  Sheet 7763</gco:CharacterString>
+</cit:title>
+<cit:date>
+<cit:CI_Date>
+<cit:date>
+<gco:DateTime>2002-12-31T00:00:00Z</gco:DateTime>
+</cit:date>
+<cit:dateType>
+<cit:CI_DateTypeCode codeList="CI_DateTypeCode" codeListValue="publication">publication</cit:CI_DateTypeCode>
+</cit:dateType>
+</cit:CI_Date>
+</cit:date>
+<cit:citedResponsibleParty>
+<cit:CI_Responsibility id="cit.ci_individual.43184">
+<cit:role>
+<cit:CI_RoleCode codeList="CI_RoleCode" codeListValue="author">author</cit:CI_RoleCode>
+</cit:role>
+<cit:party>
+<cit:CI_Individual>
+<cit:name>
+<gco:CharacterString>Bultitude, R.J.</gco:CharacterString>
+</cit:name>
+</cit:CI_Individual>
+</cit:party>
+</cit:CI_Responsibility>
+</cit:citedResponsibleParty>
+<cit:citedResponsibleParty>
+<cit:CI_Responsibility id="cit.ci_individual.43185">
+<cit:role>
+<cit:CI_RoleCode codeList="CI_RoleCode" codeListValue="author">author</cit:CI_RoleCode>
+</cit:role>
+<cit:party>
+<cit:CI_Individual>
+<cit:name>
+<gco:CharacterString>Garrad, P.D.</gco:CharacterString>
+</cit:name>
+</cit:CI_Individual>
+</cit:party>
+</cit:CI_Responsibility>
+</cit:citedResponsibleParty>
+<cit:citedResponsibleParty>
+<cit:CI_Responsibility id="cit.ci_individual.43186">
+<cit:role>
+<cit:CI_RoleCode codeList="CI_RoleCode" codeListValue="author">author</cit:CI_RoleCode>
+</cit:role>
+<cit:party>
+<cit:CI_Individual>
+<cit:name>
+<gco:CharacterString>Young, D.</gco:CharacterString>
+</cit:name>
+</cit:CI_Individual>
+</cit:party>
+</cit:CI_Responsibility>
+</cit:citedResponsibleParty>
+<cit:citedResponsibleParty>
+<cit:CI_Responsibility id="cit.ci_individual.43187">
+<cit:role>
+<cit:CI_RoleCode codeList="CI_RoleCode" codeListValue="author">author</cit:CI_RoleCode>
+</cit:role>
+<cit:party>
+<cit:CI_Individual>
+<cit:name>
+<gco:CharacterString>Donchak, P.J.T.</gco:CharacterString>
+</cit:name>
+</cit:CI_Individual>
+</cit:party>
+</cit:CI_Responsibility>
+</cit:citedResponsibleParty>
+<cit:citedResponsibleParty>
+<cit:CI_Responsibility id="cit.ci_individual.43188">
+<cit:role>
+<cit:CI_RoleCode codeList="CI_RoleCode" codeListValue="author">author</cit:CI_RoleCode>
+</cit:role>
+<cit:party>
+<cit:CI_Individual>
+<cit:name>
+<gco:CharacterString>Fordham, B.G.</gco:CharacterString>
+</cit:name>
+</cit:CI_Individual>
+</cit:party>
+</cit:CI_Responsibility>
+</cit:citedResponsibleParty>
+<cit:series>
+<cit:CI_Series>
+<cit:name>
+<gco:CharacterString>Queensland. Department of Mines 1:100 000 Geological Map Commentary</gco:CharacterString>
+</cit:name>
+<cit:issueIdentification>
+<gco:CharacterString>1v.</gco:CharacterString>
+</cit:issueIdentification>
+<cit:page>
+<gco:CharacterString>92p</gco:CharacterString>
+</cit:page>
+</cit:CI_Series>
+</cit:series>
+</cit:CI_Citation>
+</mrl:sourceCitation>
+</mrl:LI_Source>
+</gml:GenericMetaData>
+</gml:metaDataProperty>
+<gml:metaDataProperty>
+<gml:GenericMetaData>
+<mrl:LI_Source>
+<mrl:sourceCitation>
+<cit:CI_Citation>
+<cit:title>
+<gco:CharacterString>Mungana 1:100 000 Sheet 7763. First edition</gco:CharacterString>
+</cit:title>
+<cit:date>
+<cit:CI_Date>
+<cit:date>
+<gco:DateTime>2003-12-31T00:00:00Z</gco:DateTime>
+</cit:date>
+<cit:dateType>
+<cit:CI_DateTypeCode codeList="CI_DateTypeCode" codeListValue="publication">publication</cit:CI_DateTypeCode>
+</cit:dateType>
+</cit:CI_Date>
+</cit:date>
+<cit:citedResponsibleParty>
+<cit:CI_Responsibility id="cit.ci_individual.43189">
+<cit:role>
+<cit:CI_RoleCode codeList="CI_RoleCode" codeListValue="author">author</cit:CI_RoleCode>
+</cit:role>
+<cit:party>
+<cit:CI_Individual>
+<cit:name>
+<gco:CharacterString>Bultitude, R.J.</gco:CharacterString>
+</cit:name>
+</cit:CI_Individual>
+</cit:party>
+</cit:CI_Responsibility>
+</cit:citedResponsibleParty>
+<cit:citedResponsibleParty>
+<cit:CI_Responsibility id="cit.ci_individual.43190">
+<cit:role>
+<cit:CI_RoleCode codeList="CI_RoleCode" codeListValue="author">author</cit:CI_RoleCode>
+</cit:role>
+<cit:party>
+<cit:CI_Individual>
+<cit:name>
+<gco:CharacterString>Garrad, P.D.</gco:CharacterString>
+</cit:name>
+</cit:CI_Individual>
+</cit:party>
+</cit:CI_Responsibility>
+</cit:citedResponsibleParty>
+<cit:series>
+<cit:CI_Series>
+<cit:name>
+<gco:CharacterString>Queensland. Department of Natural Resources and Mines.</gco:CharacterString>
+</cit:name>
+<cit:issueIdentification>
+<gco:CharacterString>1v.</gco:CharacterString>
+</cit:issueIdentification>
+<cit:page>
+<gco:CharacterString>Map</gco:CharacterString>
+</cit:page>
+</cit:CI_Series>
+</cit:series>
+</cit:CI_Citation>
+</mrl:sourceCitation>
+</mrl:LI_Source>
+</gml:GenericMetaData>
+</gml:metaDataProperty>
+<gml:metaDataProperty>
+<gml:GenericMetaData>
+<mrl:LI_Source>
+<mrl:sourceCitation>
+<cit:CI_Citation>
+<cit:title>
+<gco:CharacterString>Mineral occurrences Mount Mulligan 1:100 000 sheet area, North Queensland</gco:CharacterString>
+</cit:title>
+<cit:date>
+<cit:CI_Date>
+<cit:date>
+<gco:DateTime>1993-12-31T00:00:00Z</gco:DateTime>
+</cit:date>
+<cit:dateType>
+<cit:CI_DateTypeCode codeList="CI_DateTypeCode" codeListValue="publication">publication</cit:CI_DateTypeCode>
+</cit:dateType>
+</cit:CI_Date>
+</cit:date>
+<cit:citedResponsibleParty>
+<cit:CI_Responsibility id="cit.ci_individual.71487">
+<cit:role>
+<cit:CI_RoleCode codeList="CI_RoleCode" codeListValue="author">author</cit:CI_RoleCode>
+</cit:role>
+<cit:party>
+<cit:CI_Individual>
+<cit:name>
+<gco:CharacterString>Garrad, P.D.</gco:CharacterString>
+</cit:name>
+</cit:CI_Individual>
+</cit:party>
+</cit:CI_Responsibility>
+</cit:citedResponsibleParty>
+<cit:series>
+<cit:CI_Series>
+<cit:name>
+<gco:CharacterString>Queensland Geological Record</gco:CharacterString>
+</cit:name>
+<cit:issueIdentification>
+<gco:CharacterString>1993/11</gco:CharacterString>
+</cit:issueIdentification>
+<cit:page>
+<gco:CharacterString>37p</gco:CharacterString>
+</cit:page>
+</cit:CI_Series>
+</cit:series>
+</cit:CI_Citation>
+</mrl:sourceCitation>
+</mrl:LI_Source>
+</gml:GenericMetaData>
+</gml:metaDataProperty>
+<gml:metaDataProperty>
+<gml:GenericMetaData>
+<mrl:LI_Source>
+<mrl:sourceCitation>
+<cit:CI_Citation>
+<cit:title>
+<gco:CharacterString>Geology of the Atherton 1:250 000 Sheet Area.</gco:CharacterString>
+</cit:title>
+<cit:date>
+<cit:CI_Date>
+<cit:date>
+<gco:DateTime>1994-12-31T00:00:00Z</gco:DateTime>
+</cit:date>
+<cit:dateType>
+<cit:CI_DateTypeCode codeList="CI_DateTypeCode" codeListValue="publication">publication</cit:CI_DateTypeCode>
+</cit:dateType>
+</cit:CI_Date>
+</cit:date>
+<cit:citedResponsibleParty>
+<cit:CI_Responsibility id="cit.ci_individual.72265">
+<cit:role>
+<cit:CI_RoleCode codeList="CI_RoleCode" codeListValue="author">author</cit:CI_RoleCode>
+</cit:role>
+<cit:party>
+<cit:CI_Individual>
+<cit:name>
+<gco:CharacterString>Donchak, P.J.T.</gco:CharacterString>
+</cit:name>
+</cit:CI_Individual>
+</cit:party>
+</cit:CI_Responsibility>
+</cit:citedResponsibleParty>
+<cit:citedResponsibleParty>
+<cit:CI_Responsibility id="cit.ci_individual.72266">
+<cit:role>
+<cit:CI_RoleCode codeList="CI_RoleCode" codeListValue="author">author</cit:CI_RoleCode>
+</cit:role>
+<cit:party>
+<cit:CI_Individual>
+<cit:name>
+<gco:CharacterString>Bultitude, R.J.</gco:CharacterString>
+</cit:name>
+</cit:CI_Individual>
+</cit:party>
+</cit:CI_Responsibility>
+</cit:citedResponsibleParty>
+<cit:series>
+<cit:CI_Series>
+<cit:name>
+<gco:CharacterString>Queensland Geological Record</gco:CharacterString>
+</cit:name>
+<cit:issueIdentification>
+<gco:CharacterString>1994/5</gco:CharacterString>
+</cit:issueIdentification>
+<cit:page>
+<gco:CharacterString>144pp</gco:CharacterString>
+</cit:page>
+</cit:CI_Series>
+</cit:series>
+</cit:CI_Citation>
+</mrl:sourceCitation>
+</mrl:LI_Source>
+</gml:GenericMetaData>
+</gml:metaDataProperty>
+<gml:metaDataProperty>
+<gml:GenericMetaData>
+<mrl:LI_Source>
+<mrl:sourceCitation>
+<cit:CI_Citation>
+<cit:title>
+<gco:CharacterString>The Pre-Mesozoic Stratigraphy and Structure of the Western Hodgkinson Province and Environs.</gco:CharacterString>
+</cit:title>
+<cit:date>
+<cit:CI_Date>
+<cit:date>
+<gco:DateTime>1993-12-31T00:00:00Z</gco:DateTime>
+</cit:date>
+<cit:dateType>
+<cit:CI_DateTypeCode codeList="CI_DateTypeCode" codeListValue="publication">publication</cit:CI_DateTypeCode>
+</cit:dateType>
+</cit:CI_Date>
+</cit:date>
+<cit:citedResponsibleParty>
+<cit:CI_Responsibility id="cit.ci_individual.72316">
+<cit:role>
+<cit:CI_RoleCode codeList="CI_RoleCode" codeListValue="author">author</cit:CI_RoleCode>
+</cit:role>
+<cit:party>
+<cit:CI_Individual>
+<cit:name>
+<gco:CharacterString>Bultitude, R.J.</gco:CharacterString>
+</cit:name>
+</cit:CI_Individual>
+</cit:party>
+</cit:CI_Responsibility>
+</cit:citedResponsibleParty>
+<cit:citedResponsibleParty>
+<cit:CI_Responsibility id="cit.ci_individual.72317">
+<cit:role>
+<cit:CI_RoleCode codeList="CI_RoleCode" codeListValue="author">author</cit:CI_RoleCode>
+</cit:role>
+<cit:party>
+<cit:CI_Individual>
+<cit:name>
+<gco:CharacterString>Donchak, P.J.T.</gco:CharacterString>
+</cit:name>
+</cit:CI_Individual>
+</cit:party>
+</cit:CI_Responsibility>
+</cit:citedResponsibleParty>
+<cit:citedResponsibleParty>
+<cit:CI_Responsibility id="cit.ci_individual.72318">
+<cit:role>
+<cit:CI_RoleCode codeList="CI_RoleCode" codeListValue="author">author</cit:CI_RoleCode>
+</cit:role>
+<cit:party>
+<cit:CI_Individual>
+<cit:name>
+<gco:CharacterString>Domagala, J.</gco:CharacterString>
+</cit:name>
+</cit:CI_Individual>
+</cit:party>
+</cit:CI_Responsibility>
+</cit:citedResponsibleParty>
+<cit:citedResponsibleParty>
+<cit:CI_Responsibility id="cit.ci_individual.72319">
+<cit:role>
+<cit:CI_RoleCode codeList="CI_RoleCode" codeListValue="author">author</cit:CI_RoleCode>
+</cit:role>
+<cit:party>
+<cit:CI_Individual>
+<cit:name>
+<gco:CharacterString>Fordham, B.G.</gco:CharacterString>
+</cit:name>
+</cit:CI_Individual>
+</cit:party>
+</cit:CI_Responsibility>
+</cit:citedResponsibleParty>
+<cit:series>
+<cit:CI_Series>
+<cit:name>
+<gco:CharacterString>Queensland Geological Record</gco:CharacterString>
+</cit:name>
+<cit:issueIdentification>
+<gco:CharacterString>1993/29</gco:CharacterString>
+</cit:issueIdentification>
+<cit:page>
+<gco:CharacterString>259pp</gco:CharacterString>
+</cit:page>
+</cit:CI_Series>
+</cit:series>
+</cit:CI_Citation>
+</mrl:sourceCitation>
+</mrl:LI_Source>
+</gml:GenericMetaData>
+</gml:metaDataProperty>
+<gml:metaDataProperty>
+<gml:GenericMetaData>
+<mrl:LI_Source>
+<mrl:sourceCitation>
+<cit:CI_Citation>
+<cit:title>
+<gco:CharacterString>Bellevue Region 1:100 000 geological map.</gco:CharacterString>
+</cit:title>
+<cit:date>
+<cit:CI_Date>
+<cit:date>
+<gco:DateTime>1995-12-31T00:00:00Z</gco:DateTime>
+</cit:date>
+<cit:dateType>
+<cit:CI_DateTypeCode codeList="CI_DateTypeCode" codeListValue="publication">publication</cit:CI_DateTypeCode>
+</cit:dateType>
+</cit:CI_Date>
+</cit:date>
+<cit:citedResponsibleParty>
+<cit:CI_Responsibility id="cit.ci_individual.72704">
+<cit:role>
+<cit:CI_RoleCode codeList="CI_RoleCode" codeListValue="author">author</cit:CI_RoleCode>
+</cit:role>
+<cit:party>
+<cit:CI_Individual>
+<cit:name>
+<gco:CharacterString>Bultitude, R.J.</gco:CharacterString>
+</cit:name>
+</cit:CI_Individual>
+</cit:party>
+</cit:CI_Responsibility>
+</cit:citedResponsibleParty>
+<cit:citedResponsibleParty>
+<cit:CI_Responsibility id="cit.ci_individual.72705">
+<cit:role>
+<cit:CI_RoleCode codeList="CI_RoleCode" codeListValue="author">author</cit:CI_RoleCode>
+</cit:role>
+<cit:party>
+<cit:CI_Individual>
+<cit:name>
+<gco:CharacterString>Mackenzie, D.E.</gco:CharacterString>
+</cit:name>
+</cit:CI_Individual>
+</cit:party>
+</cit:CI_Responsibility>
+</cit:citedResponsibleParty>
+<cit:citedResponsibleParty>
+<cit:CI_Responsibility id="cit.ci_individual.72706">
+<cit:role>
+<cit:CI_RoleCode codeList="CI_RoleCode" codeListValue="author">author</cit:CI_RoleCode>
+</cit:role>
+<cit:party>
+<cit:CI_Individual>
+<cit:name>
+<gco:CharacterString>Roberts, C.W.</gco:CharacterString>
+</cit:name>
+</cit:CI_Individual>
+</cit:party>
+</cit:CI_Responsibility>
+</cit:citedResponsibleParty>
+<cit:series>
+<cit:CI_Series>
+<cit:name>
+<gco:CharacterString>Queensland. Department of Minerals &amp; Energy</gco:CharacterString>
+</cit:name>
+<cit:issueIdentification>
+<gco:CharacterString>1v</gco:CharacterString>
+</cit:issueIdentification>
+<cit:page>
+<gco:CharacterString>map</gco:CharacterString>
+</cit:page>
+</cit:CI_Series>
+</cit:series>
+</cit:CI_Citation>
+</mrl:sourceCitation>
+</mrl:LI_Source>
+</gml:GenericMetaData>
+</gml:metaDataProperty>
+<gml:metaDataProperty>
+<gml:GenericMetaData>
+<mrl:LI_Source>
+<mrl:sourceCitation>
+<cit:CI_Citation>
+<cit:title>
+<gco:CharacterString>Mossman 1:250 000 geological sheet. 2nd edition.</gco:CharacterString>
+</cit:title>
+<cit:date>
+<cit:CI_Date>
+<cit:date>
+<gco:DateTime>1996-12-31T00:00:00Z</gco:DateTime>
+</cit:date>
+<cit:dateType>
+<cit:CI_DateTypeCode codeList="CI_DateTypeCode" codeListValue="publication">publication</cit:CI_DateTypeCode>
+</cit:dateType>
+</cit:CI_Date>
+</cit:date>
+<cit:citedResponsibleParty>
+<cit:CI_Responsibility id="cit.ci_individual.72770">
+<cit:role>
+<cit:CI_RoleCode codeList="CI_RoleCode" codeListValue="author">author</cit:CI_RoleCode>
+</cit:role>
+<cit:party>
+<cit:CI_Individual>
+<cit:name>
+<gco:CharacterString>Bultitude, R.J.</gco:CharacterString>
+</cit:name>
+</cit:CI_Individual>
+</cit:party>
+</cit:CI_Responsibility>
+</cit:citedResponsibleParty>
+<cit:citedResponsibleParty>
+<cit:CI_Responsibility id="cit.ci_individual.72771">
+<cit:role>
+<cit:CI_RoleCode codeList="CI_RoleCode" codeListValue="author">author</cit:CI_RoleCode>
+</cit:role>
+<cit:party>
+<cit:CI_Individual>
+<cit:name>
+<gco:CharacterString>Mackenzie, D.E.</gco:CharacterString>
+</cit:name>
+</cit:CI_Individual>
+</cit:party>
+</cit:CI_Responsibility>
+</cit:citedResponsibleParty>
+<cit:citedResponsibleParty>
+<cit:CI_Responsibility id="cit.ci_individual.72772">
+<cit:role>
+<cit:CI_RoleCode codeList="CI_RoleCode" codeListValue="author">author</cit:CI_RoleCode>
+</cit:role>
+<cit:party>
+<cit:CI_Individual>
+<cit:name>
+<gco:CharacterString>Hill, R.B.</gco:CharacterString>
+</cit:name>
+</cit:CI_Individual>
+</cit:party>
+</cit:CI_Responsibility>
+</cit:citedResponsibleParty>
+<cit:series>
+<cit:CI_Series>
+<cit:name>
+<gco:CharacterString>Queensland. Department of Mines and Energy</gco:CharacterString>
+</cit:name>
+<cit:issueIdentification>
+<gco:CharacterString>1v</gco:CharacterString>
+</cit:issueIdentification>
+<cit:page>
+<gco:CharacterString>Map</gco:CharacterString>
+</cit:page>
+</cit:CI_Series>
+</cit:series>
+</cit:CI_Citation>
+</mrl:sourceCitation>
+</mrl:LI_Source>
+</gml:GenericMetaData>
+</gml:metaDataProperty>
+<gml:metaDataProperty>
+<gml:GenericMetaData>
+<mrl:LI_Source>
+<mrl:sourceCitation>
+<cit:CI_Citation>
+<cit:title>
+<gco:CharacterString>Mossman - 1:250 000 Explanatory Notes, Second Edition</gco:CharacterString>
+</cit:title>
+<cit:date>
+<cit:CI_Date>
+<cit:date>
+<gco:DateTime>1996-12-31T00:00:00Z</gco:DateTime>
+</cit:date>
+<cit:dateType>
+<cit:CI_DateTypeCode codeList="CI_DateTypeCode" codeListValue="publication">publication</cit:CI_DateTypeCode>
+</cit:dateType>
+</cit:CI_Date>
+</cit:date>
+<cit:citedResponsibleParty>
+<cit:CI_Responsibility id="cit.ci_individual.73321">
+<cit:role>
+<cit:CI_RoleCode codeList="CI_RoleCode" codeListValue="author">author</cit:CI_RoleCode>
+</cit:role>
+<cit:party>
+<cit:CI_Individual>
+<cit:name>
+<gco:CharacterString>Bultitude, R.J.</gco:CharacterString>
+</cit:name>
+</cit:CI_Individual>
+</cit:party>
+</cit:CI_Responsibility>
+</cit:citedResponsibleParty>
+<cit:citedResponsibleParty>
+<cit:CI_Responsibility id="cit.ci_individual.73322">
+<cit:role>
+<cit:CI_RoleCode codeList="CI_RoleCode" codeListValue="author">author</cit:CI_RoleCode>
+</cit:role>
+<cit:party>
+<cit:CI_Individual>
+<cit:name>
+<gco:CharacterString>Rees, I.D.</gco:CharacterString>
+</cit:name>
+</cit:CI_Individual>
+</cit:party>
+</cit:CI_Responsibility>
+</cit:citedResponsibleParty>
+<cit:citedResponsibleParty>
+<cit:CI_Responsibility id="cit.ci_individual.73323">
+<cit:role>
+<cit:CI_RoleCode codeList="CI_RoleCode" codeListValue="author">author</cit:CI_RoleCode>
+</cit:role>
+<cit:party>
+<cit:CI_Individual>
+<cit:name>
+<gco:CharacterString>Garrad, P.D.</gco:CharacterString>
+</cit:name>
+</cit:CI_Individual>
+</cit:party>
+</cit:CI_Responsibility>
+</cit:citedResponsibleParty>
+<cit:citedResponsibleParty>
+<cit:CI_Responsibility id="cit.ci_individual.73324">
+<cit:role>
+<cit:CI_RoleCode codeList="CI_RoleCode" codeListValue="author">author</cit:CI_RoleCode>
+</cit:role>
+<cit:party>
+<cit:CI_Individual>
+<cit:name>
+<gco:CharacterString>Champion, D.C.</gco:CharacterString>
+</cit:name>
+</cit:CI_Individual>
+</cit:party>
+</cit:CI_Responsibility>
+</cit:citedResponsibleParty>
+<cit:citedResponsibleParty>
+<cit:CI_Responsibility id="cit.ci_individual.73325">
+<cit:role>
+<cit:CI_RoleCode codeList="CI_RoleCode" codeListValue="author">author</cit:CI_RoleCode>
+</cit:role>
+<cit:party>
+<cit:CI_Individual>
+<cit:name>
+<gco:CharacterString>Fanning, C.M.</gco:CharacterString>
+</cit:name>
+</cit:CI_Individual>
+</cit:party>
+</cit:CI_Responsibility>
+</cit:citedResponsibleParty>
+<cit:series>
+<cit:CI_Series>
+<cit:name>
+<gco:CharacterString>Geological Survey of Queensland</gco:CharacterString>
+</cit:name>
+<cit:page>
+<gco:CharacterString>p1-128</gco:CharacterString>
+</cit:page>
+</cit:CI_Series>
+</cit:series>
+</cit:CI_Citation>
+</mrl:sourceCitation>
+</mrl:LI_Source>
+</gml:GenericMetaData>
+</gml:metaDataProperty>
+<gml:metaDataProperty>
+<gml:GenericMetaData>
+<mrl:LI_Source>
+<mrl:sourceCitation>
+<cit:CI_Citation>
+<cit:title>
+<gco:CharacterString>Atherton 1:250 000 geological series sheet SE55-5. Second Edition.</gco:CharacterString>
+</cit:title>
+<cit:date>
+<cit:CI_Date>
+<cit:date>
+<gco:DateTime>1997-12-31T00:00:00Z</gco:DateTime>
+</cit:date>
+<cit:dateType>
+<cit:CI_DateTypeCode codeList="CI_DateTypeCode" codeListValue="publication">publication</cit:CI_DateTypeCode>
+</cit:dateType>
+</cit:CI_Date>
+</cit:date>
+<cit:citedResponsibleParty>
+<cit:CI_Responsibility id="cit.ci_individual.74543">
+<cit:role>
+<cit:CI_RoleCode codeList="CI_RoleCode" codeListValue="author">author</cit:CI_RoleCode>
+</cit:role>
+<cit:party>
+<cit:CI_Individual>
+<cit:name>
+<gco:CharacterString>Donchak, P.J.T.</gco:CharacterString>
+</cit:name>
+</cit:CI_Individual>
+</cit:party>
+</cit:CI_Responsibility>
+</cit:citedResponsibleParty>
+<cit:citedResponsibleParty>
+<cit:CI_Responsibility id="cit.ci_individual.74544">
+<cit:role>
+<cit:CI_RoleCode codeList="CI_RoleCode" codeListValue="author">author</cit:CI_RoleCode>
+</cit:role>
+<cit:party>
+<cit:CI_Individual>
+<cit:name>
+<gco:CharacterString>Mackenzie, D.E.</gco:CharacterString>
+</cit:name>
+</cit:CI_Individual>
+</cit:party>
+</cit:CI_Responsibility>
+</cit:citedResponsibleParty>
+<cit:citedResponsibleParty>
+<cit:CI_Responsibility id="cit.ci_individual.74545">
+<cit:role>
+<cit:CI_RoleCode codeList="CI_RoleCode" codeListValue="author">author</cit:CI_RoleCode>
+</cit:role>
+<cit:party>
+<cit:CI_Individual>
+<cit:name>
+<gco:CharacterString>Robertson, A.</gco:CharacterString>
+</cit:name>
+</cit:CI_Individual>
+</cit:party>
+</cit:CI_Responsibility>
+</cit:citedResponsibleParty>
+<cit:series>
+<cit:CI_Series>
+<cit:name>
+<gco:CharacterString>Queensland. Department of Mines and Energy</gco:CharacterString>
+</cit:name>
+<cit:issueIdentification>
+<gco:CharacterString>1v</gco:CharacterString>
+</cit:issueIdentification>
+<cit:page>
+<gco:CharacterString>Map Legend</gco:CharacterString>
+</cit:page>
+</cit:CI_Series>
+</cit:series>
+</cit:CI_Citation>
+</mrl:sourceCitation>
+</mrl:LI_Source>
+</gml:GenericMetaData>
+</gml:metaDataProperty>
+<gml:metaDataProperty>
+<gml:GenericMetaData>
+<mrl:LI_Source>
+<mrl:sourceCitation>
+<cit:CI_Citation>
+<cit:title>
+<gco:CharacterString>Mount Mulligan, Qld. 1:100 000 Sheet 7864, First edition</gco:CharacterString>
+</cit:title>
+<cit:date>
+<cit:CI_Date>
+<cit:date>
+<gco:DateTime>2000-12-31T00:00:00Z</gco:DateTime>
+</cit:date>
+<cit:dateType>
+<cit:CI_DateTypeCode codeList="CI_DateTypeCode" codeListValue="publication">publication</cit:CI_DateTypeCode>
+</cit:dateType>
+</cit:CI_Date>
+</cit:date>
+<cit:citedResponsibleParty>
+<cit:CI_Responsibility id="cit.ci_individual.86075">
+<cit:role>
+<cit:CI_RoleCode codeList="CI_RoleCode" codeListValue="author">author</cit:CI_RoleCode>
+</cit:role>
+<cit:party>
+<cit:CI_Individual>
+<cit:name>
+<gco:CharacterString>Bultitude, R.J.</gco:CharacterString>
+</cit:name>
+</cit:CI_Individual>
+</cit:party>
+</cit:CI_Responsibility>
+</cit:citedResponsibleParty>
+<cit:citedResponsibleParty>
+<cit:CI_Responsibility id="cit.ci_individual.86076">
+<cit:role>
+<cit:CI_RoleCode codeList="CI_RoleCode" codeListValue="author">author</cit:CI_RoleCode>
+</cit:role>
+<cit:party>
+<cit:CI_Individual>
+<cit:name>
+<gco:CharacterString>Garrad, P.D.</gco:CharacterString>
+</cit:name>
+</cit:CI_Individual>
+</cit:party>
+</cit:CI_Responsibility>
+</cit:citedResponsibleParty>
+<cit:citedResponsibleParty>
+<cit:CI_Responsibility id="cit.ci_individual.86077">
+<cit:role>
+<cit:CI_RoleCode codeList="CI_RoleCode" codeListValue="author">author</cit:CI_RoleCode>
+</cit:role>
+<cit:party>
+<cit:CI_Individual>
+<cit:name>
+<gco:CharacterString>Mackenzie, D.E.</gco:CharacterString>
+</cit:name>
+</cit:CI_Individual>
+</cit:party>
+</cit:CI_Responsibility>
+</cit:citedResponsibleParty>
+<cit:citedResponsibleParty>
+<cit:CI_Responsibility id="cit.ci_individual.86078">
+<cit:role>
+<cit:CI_RoleCode codeList="CI_RoleCode" codeListValue="author">author</cit:CI_RoleCode>
+</cit:role>
+<cit:party>
+<cit:CI_Individual>
+<cit:name>
+<gco:CharacterString>Roberts, C.W.</gco:CharacterString>
+</cit:name>
+</cit:CI_Individual>
+</cit:party>
+</cit:CI_Responsibility>
+</cit:citedResponsibleParty>
+<cit:series>
+<cit:CI_Series>
+<cit:name>
+<gco:CharacterString>Queensland. Department of Mines and Energy</gco:CharacterString>
+</cit:name>
+<cit:issueIdentification>
+<gco:CharacterString>1v</gco:CharacterString>
+</cit:issueIdentification>
+<cit:page>
+<gco:CharacterString>Map</gco:CharacterString>
+</cit:page>
+</cit:CI_Series>
+</cit:series>
+</cit:CI_Citation>
+</mrl:sourceCitation>
+</mrl:LI_Source>
+</gml:GenericMetaData>
+</gml:metaDataProperty>
+<gml:metaDataProperty>
+<gml:GenericMetaData>
+<mrl:LI_Source>
+<mrl:sourceCitation>
+<cit:CI_Citation>
+<cit:title>
+<gco:CharacterString>Geology, mining history and mineralisation of the Hodgkinson and Kennedy Provinces, Cairns Region, North Queensland</gco:CharacterString>
+</cit:title>
+<cit:date>
+<cit:CI_Date>
+<cit:date>
+<gco:DateTime>1999-12-31T00:00:00Z</gco:DateTime>
+</cit:date>
+<cit:dateType>
+<cit:CI_DateTypeCode codeList="CI_DateTypeCode" codeListValue="publication">publication</cit:CI_DateTypeCode>
+</cit:dateType>
+</cit:CI_Date>
+</cit:date>
+<cit:citedResponsibleParty>
+<cit:CI_Responsibility id="cit.ci_individual.87583">
+<cit:role>
+<cit:CI_RoleCode codeList="CI_RoleCode" codeListValue="author">author</cit:CI_RoleCode>
+</cit:role>
+<cit:party>
+<cit:CI_Individual>
+<cit:name>
+<gco:CharacterString>Garrad, P.D.</gco:CharacterString>
+</cit:name>
+</cit:CI_Individual>
+</cit:party>
+</cit:CI_Responsibility>
+</cit:citedResponsibleParty>
+<cit:citedResponsibleParty>
+<cit:CI_Responsibility id="cit.ci_individual.87584">
+<cit:role>
+<cit:CI_RoleCode codeList="CI_RoleCode" codeListValue="author">author</cit:CI_RoleCode>
+</cit:role>
+<cit:party>
+<cit:CI_Individual>
+<cit:name>
+<gco:CharacterString>Bultitude, R.J.</gco:CharacterString>
+</cit:name>
+</cit:CI_Individual>
+</cit:party>
+</cit:CI_Responsibility>
+</cit:citedResponsibleParty>
+<cit:series>
+<cit:CI_Series>
+<cit:name>
+<gco:CharacterString>Queensland Minerals and Energy Review Series, Queensland Geological Survey</gco:CharacterString>
+</cit:name>
+<cit:issueIdentification>
+<gco:CharacterString>March 1999</gco:CharacterString>
+</cit:issueIdentification>
+<cit:page>
+<gco:CharacterString>306p</gco:CharacterString>
+</cit:page>
+</cit:CI_Series>
+</cit:series>
+</cit:CI_Citation>
+</mrl:sourceCitation>
+</mrl:LI_Source>
+</gml:GenericMetaData>
+</gml:metaDataProperty>
+<gml:metaDataProperty>
+<gml:GenericMetaData>
+<mrl:LI_Source>
+<mrl:sourceCitation>
+<cit:CI_Citation>
+<cit:title>
+<gco:CharacterString>Characteristics of orogenic-gold deposits in the Northcote district, Hodgkinson Province, north Queensland: implications for tectonic evolution</gco:CharacterString>
+</cit:title>
+<cit:date>
+<cit:CI_Date>
+<cit:date>
+<gco:DateTime>2006-12-31T00:00:00Z</gco:DateTime>
+</cit:date>
+<cit:dateType>
+<cit:CI_DateTypeCode codeList="CI_DateTypeCode" codeListValue="publication">publication</cit:CI_DateTypeCode>
+</cit:dateType>
+</cit:CI_Date>
+</cit:date>
+<cit:citedResponsibleParty>
+<cit:CI_Responsibility id="cit.ci_individual.91289">
+<cit:role>
+<cit:CI_RoleCode codeList="CI_RoleCode" codeListValue="author">author</cit:CI_RoleCode>
+</cit:role>
+<cit:party>
+<cit:CI_Individual>
+<cit:name>
+<gco:CharacterString>Vos, I.M.A.</gco:CharacterString>
+</cit:name>
+</cit:CI_Individual>
+</cit:party>
+</cit:CI_Responsibility>
+</cit:citedResponsibleParty>
+<cit:citedResponsibleParty>
+<cit:CI_Responsibility id="cit.ci_individual.91290">
+<cit:role>
+<cit:CI_RoleCode codeList="CI_RoleCode" codeListValue="author">author</cit:CI_RoleCode>
+</cit:role>
+<cit:party>
+<cit:CI_Individual>
+<cit:name>
+<gco:CharacterString>Bierlein, F.P.</gco:CharacterString>
+</cit:name>
+</cit:CI_Individual>
+</cit:party>
+</cit:CI_Responsibility>
+</cit:citedResponsibleParty>
+<cit:series>
+<cit:CI_Series>
+<cit:name>
+<gco:CharacterString>Australian Journal of Earth Sciences</gco:CharacterString>
+</cit:name>
+<cit:issueIdentification>
+<gco:CharacterString>53(3)</gco:CharacterString>
+</cit:issueIdentification>
+<cit:page>
+<gco:CharacterString>p469-484</gco:CharacterString>
+</cit:page>
+</cit:CI_Series>
+</cit:series>
+</cit:CI_Citation>
+</mrl:sourceCitation>
+</mrl:LI_Source>
+</gml:GenericMetaData>
+</gml:metaDataProperty>
+<gml:metaDataProperty>
+<gml:GenericMetaData>
+<mrl:LI_Source>
+<mrl:sourceCitation>
+<cit:CI_Citation>
+<cit:title>
+<gco:CharacterString>Geochemistry of Early-Middle Palaeozoic basalts in the Hodgkinson Province: a key to tectono-magmatic evolution of the Tasman Fold Belt System in northeastern Queensland, Australia</gco:CharacterString>
+</cit:title>
+<cit:date>
+<cit:CI_Date>
+<cit:date>
+<gco:DateTime>2006-12-31T00:00:00Z</gco:DateTime>
+</cit:date>
+<cit:dateType>
+<cit:CI_DateTypeCode codeList="CI_DateTypeCode" codeListValue="publication">publication</cit:CI_DateTypeCode>
+</cit:dateType>
+</cit:CI_Date>
+</cit:date>
+<cit:citedResponsibleParty>
+<cit:CI_Responsibility id="cit.ci_individual.92874">
+<cit:role>
+<cit:CI_RoleCode codeList="CI_RoleCode" codeListValue="author">author</cit:CI_RoleCode>
+</cit:role>
+<cit:party>
+<cit:CI_Individual>
+<cit:name>
+<gco:CharacterString>Vos, I.M.A.</gco:CharacterString>
+</cit:name>
+</cit:CI_Individual>
+</cit:party>
+</cit:CI_Responsibility>
+</cit:citedResponsibleParty>
+<cit:citedResponsibleParty>
+<cit:CI_Responsibility id="cit.ci_individual.92875">
+<cit:role>
+<cit:CI_RoleCode codeList="CI_RoleCode" codeListValue="author">author</cit:CI_RoleCode>
+</cit:role>
+<cit:party>
+<cit:CI_Individual>
+<cit:name>
+<gco:CharacterString>Bierlein, F.P.</gco:CharacterString>
+</cit:name>
+</cit:CI_Individual>
+</cit:party>
+</cit:CI_Responsibility>
+</cit:citedResponsibleParty>
+<cit:citedResponsibleParty>
+<cit:CI_Responsibility id="cit.ci_individual.92876">
+<cit:role>
+<cit:CI_RoleCode codeList="CI_RoleCode" codeListValue="author">author</cit:CI_RoleCode>
+</cit:role>
+<cit:party>
+<cit:CI_Individual>
+<cit:name>
+<gco:CharacterString>Webb, J.</gco:CharacterString>
+</cit:name>
+</cit:CI_Individual>
+</cit:party>
+</cit:CI_Responsibility>
+</cit:citedResponsibleParty>
+<cit:series>
+<cit:CI_Series>
+<cit:name>
+<gco:CharacterString>International Journal of Earth Sciences</gco:CharacterString>
+</cit:name>
+<cit:issueIdentification>
+<gco:CharacterString>95(4)</gco:CharacterString>
+</cit:issueIdentification>
+<cit:page>
+<gco:CharacterString>p569-585</gco:CharacterString>
+</cit:page>
+</cit:CI_Series>
+</cit:series>
+</cit:CI_Citation>
+</mrl:sourceCitation>
+</mrl:LI_Source>
+</gml:GenericMetaData>
+</gml:metaDataProperty>
+<gml:metaDataProperty>
+<gml:GenericMetaData>
+<mrl:LI_Source>
+<mrl:sourceCitation>
+<cit:CI_Citation>
+<cit:title>
+<gco:CharacterString>The Palaeozoic tectono-metallogenic evolution of the northern Tasman Fold Belt System, Australia: interplay of subduction rollback and accretion</gco:CharacterString>
+</cit:title>
+<cit:date>
+<cit:CI_Date>
+<cit:date>
+<gco:DateTime>2007-12-31T00:00:00Z</gco:DateTime>
+</cit:date>
+<cit:dateType>
+<cit:CI_DateTypeCode codeList="CI_DateTypeCode" codeListValue="publication">publication</cit:CI_DateTypeCode>
+</cit:dateType>
+</cit:CI_Date>
+</cit:date>
+<cit:citedResponsibleParty>
+<cit:CI_Responsibility id="cit.ci_individual.92914">
+<cit:role>
+<cit:CI_RoleCode codeList="CI_RoleCode" codeListValue="author">author</cit:CI_RoleCode>
+</cit:role>
+<cit:party>
+<cit:CI_Individual>
+<cit:name>
+<gco:CharacterString>Vos, I.M.A.</gco:CharacterString>
+</cit:name>
+</cit:CI_Individual>
+</cit:party>
+</cit:CI_Responsibility>
+</cit:citedResponsibleParty>
+<cit:citedResponsibleParty>
+<cit:CI_Responsibility id="cit.ci_individual.92915">
+<cit:role>
+<cit:CI_RoleCode codeList="CI_RoleCode" codeListValue="author">author</cit:CI_RoleCode>
+</cit:role>
+<cit:party>
+<cit:CI_Individual>
+<cit:name>
+<gco:CharacterString>Bierlein, F.P.</gco:CharacterString>
+</cit:name>
+</cit:CI_Individual>
+</cit:party>
+</cit:CI_Responsibility>
+</cit:citedResponsibleParty>
+<cit:citedResponsibleParty>
+<cit:CI_Responsibility id="cit.ci_individual.92916">
+<cit:role>
+<cit:CI_RoleCode codeList="CI_RoleCode" codeListValue="author">author</cit:CI_RoleCode>
+</cit:role>
+<cit:party>
+<cit:CI_Individual>
+<cit:name>
+<gco:CharacterString>Phillips, D.</gco:CharacterString>
+</cit:name>
+</cit:CI_Individual>
+</cit:party>
+</cit:CI_Responsibility>
+</cit:citedResponsibleParty>
+<cit:series>
+<cit:CI_Series>
+<cit:name>
+<gco:CharacterString>Ore Geology Reviews</gco:CharacterString>
+</cit:name>
+<cit:issueIdentification>
+<gco:CharacterString>30(3-4)</gco:CharacterString>
+</cit:issueIdentification>
+<cit:page>
+<gco:CharacterString>p277-296</gco:CharacterString>
+</cit:page>
+</cit:CI_Series>
+</cit:series>
+</cit:CI_Citation>
+</mrl:sourceCitation>
+</mrl:LI_Source>
+</gml:GenericMetaData>
+</gml:metaDataProperty>
+<gml:metaDataProperty>
+<gml:GenericMetaData>
+<mrl:LI_Source>
+<mrl:sourceCitation>
+<cit:CI_Citation>
+<cit:title>
+<gco:CharacterString>Chillagoe 1:100 000 Geological Series Sheet 7863 2nd edition</gco:CharacterString>
+</cit:title>
+<cit:date>
+<cit:CI_Date>
+<cit:date>
+<gco:DateTime>2007-12-31T00:00:00Z</gco:DateTime>
+</cit:date>
+<cit:dateType>
+<cit:CI_DateTypeCode codeList="CI_DateTypeCode" codeListValue="publication">publication</cit:CI_DateTypeCode>
+</cit:dateType>
+</cit:CI_Date>
+</cit:date>
+<cit:citedResponsibleParty>
+<cit:CI_Responsibility id="cit.ci_individual.102983">
+<cit:role>
+<cit:CI_RoleCode codeList="CI_RoleCode" codeListValue="author">author</cit:CI_RoleCode>
+</cit:role>
+<cit:party>
+<cit:CI_Individual>
+<cit:name>
+<gco:CharacterString>Bultitude, R.J.</gco:CharacterString>
+</cit:name>
+</cit:CI_Individual>
+</cit:party>
+</cit:CI_Responsibility>
+</cit:citedResponsibleParty>
+<cit:citedResponsibleParty>
+<cit:CI_Responsibility id="cit.ci_individual.102984">
+<cit:role>
+<cit:CI_RoleCode codeList="CI_RoleCode" codeListValue="author">author</cit:CI_RoleCode>
+</cit:role>
+<cit:party>
+<cit:CI_Individual>
+<cit:name>
+<gco:CharacterString>Roberts, C.W.</gco:CharacterString>
+</cit:name>
+</cit:CI_Individual>
+</cit:party>
+</cit:CI_Responsibility>
+</cit:citedResponsibleParty>
+<cit:series>
+<cit:CI_Series>
+<cit:name>
+<gco:CharacterString>Department of Mines and Energy, Queensland</gco:CharacterString>
+</cit:name>
+<cit:issueIdentification>
+<gco:CharacterString>map</gco:CharacterString>
+</cit:issueIdentification>
+</cit:CI_Series>
+</cit:series>
+</cit:CI_Citation>
+</mrl:sourceCitation>
+</mrl:LI_Source>
+</gml:GenericMetaData>
+</gml:metaDataProperty>
+<gml:metaDataProperty>
+<gml:GenericMetaData>
+<mrl:LI_Source>
+<mrl:sourceCitation>
+<cit:CI_Citation>
+<cit:title>
+<gco:CharacterString>Queensland geology 1:2 000 000 scale map and Queensland geology framework</gco:CharacterString>
+</cit:title>
+<cit:date>
+<cit:CI_Date>
+<cit:date>
+<gco:DateTime>2012-12-31T00:00:00Z</gco:DateTime>
+</cit:date>
+<cit:dateType>
+<cit:CI_DateTypeCode codeList="CI_DateTypeCode" codeListValue="publication">publication</cit:CI_DateTypeCode>
+</cit:dateType>
+</cit:CI_Date>
+</cit:date>
+<cit:citedResponsibleParty>
+<cit:CI_Responsibility id="cit.ci_individual.103300">
+<cit:role>
+<cit:CI_RoleCode codeList="CI_RoleCode" codeListValue="author">author</cit:CI_RoleCode>
+</cit:role>
+<cit:party>
+<cit:CI_Individual>
+<cit:name>
+<gco:CharacterString>Geological Survey of Queensland</gco:CharacterString>
+</cit:name>
+</cit:CI_Individual>
+</cit:party>
+</cit:CI_Responsibility>
+</cit:citedResponsibleParty>
+<cit:series>
+<cit:CI_Series>
+<cit:name>
+<gco:CharacterString>Department of Natural Resources and Mines, Queensland</gco:CharacterString>
+</cit:name>
+<cit:page>
+<gco:CharacterString>map (in 2 sheets)</gco:CharacterString>
+</cit:page>
+</cit:CI_Series>
+</cit:series>
+</cit:CI_Citation>
+</mrl:sourceCitation>
+</mrl:LI_Source>
+</gml:GenericMetaData>
+</gml:metaDataProperty>
+<gml:metaDataProperty>
+<gml:GenericMetaData>
+<mrl:LI_Source>
+<mrl:sourceCitation>
+<cit:CI_Citation>
+<cit:title>
+<gco:CharacterString>Mossman orogenic gold province in north Queensland - regional metallogenic controls and gold resource potential</gco:CharacterString>
+</cit:title>
+<cit:date>
+<cit:CI_Date>
+<cit:date>
+<gco:DateTime>2013-12-31T00:00:00Z</gco:DateTime>
+</cit:date>
+<cit:dateType>
+<cit:CI_DateTypeCode codeList="CI_DateTypeCode" codeListValue="publication">publication</cit:CI_DateTypeCode>
+</cit:dateType>
+</cit:CI_Date>
+</cit:date>
+<cit:citedResponsibleParty>
+<cit:CI_Responsibility id="cit.ci_individual.104070">
+<cit:role>
+<cit:CI_RoleCode codeList="CI_RoleCode" codeListValue="author">author</cit:CI_RoleCode>
+</cit:role>
+<cit:party>
+<cit:CI_Individual>
+<cit:name>
+<gco:CharacterString>Lisitsin, V.A.</gco:CharacterString>
+</cit:name>
+</cit:CI_Individual>
+</cit:party>
+</cit:CI_Responsibility>
+</cit:citedResponsibleParty>
+<cit:citedResponsibleParty>
+<cit:CI_Responsibility id="cit.ci_individual.107556">
+<cit:role>
+<cit:CI_RoleCode codeList="CI_RoleCode" codeListValue="author">author</cit:CI_RoleCode>
+</cit:role>
+<cit:party>
+<cit:CI_Individual>
+<cit:name>
+<gco:CharacterString>Dhnaram, C.R.</gco:CharacterString>
+</cit:name>
+</cit:CI_Individual>
+</cit:party>
+</cit:CI_Responsibility>
+</cit:citedResponsibleParty>
+<cit:citedResponsibleParty>
+<cit:CI_Responsibility id="cit.ci_individual.107557">
+<cit:role>
+<cit:CI_RoleCode codeList="CI_RoleCode" codeListValue="author">author</cit:CI_RoleCode>
+</cit:role>
+<cit:party>
+<cit:CI_Individual>
+<cit:name>
+<gco:CharacterString>Donchak, P.J.T.</gco:CharacterString>
+</cit:name>
+</cit:CI_Individual>
+</cit:party>
+</cit:CI_Responsibility>
+</cit:citedResponsibleParty>
+<cit:citedResponsibleParty>
+<cit:CI_Responsibility id="cit.ci_individual.107558">
+<cit:role>
+<cit:CI_RoleCode codeList="CI_RoleCode" codeListValue="author">author</cit:CI_RoleCode>
+</cit:role>
+<cit:party>
+<cit:CI_Individual>
+<cit:name>
+<gco:CharacterString>Greenwood, M.L.</gco:CharacterString>
+</cit:name>
+</cit:CI_Individual>
+</cit:party>
+</cit:CI_Responsibility>
+</cit:citedResponsibleParty>
+<cit:series>
+<cit:CI_Series>
+<cit:name>
+<gco:CharacterString>Queensland Minerals and Energy Review Series, Queensland Geological Survey</gco:CharacterString>
+</cit:name>
+<cit:page>
+<gco:CharacterString>CD ROM</gco:CharacterString>
+</cit:page>
+</cit:CI_Series>
+</cit:series>
+</cit:CI_Citation>
+</mrl:sourceCitation>
+</mrl:LI_Source>
+</gml:GenericMetaData>
+</gml:metaDataProperty>
+<gml:metaDataProperty>
+<gml:GenericMetaData>
+<mrl:LI_Source>
+<mrl:sourceCitation>
+<cit:CI_Citation>
+<cit:title>
+<gco:CharacterString>Chapter 6. Kennedy Igneous Association. In Jell, P. A., (ed) Geology of Queensland</gco:CharacterString>
+</cit:title>
+<cit:date>
+<cit:CI_Date>
+<cit:date>
+<gco:DateTime>2013-12-31T00:00:00Z</gco:DateTime>
+</cit:date>
+<cit:dateType>
+<cit:CI_DateTypeCode codeList="CI_DateTypeCode" codeListValue="publication">publication</cit:CI_DateTypeCode>
+</cit:dateType>
+</cit:CI_Date>
+</cit:date>
+<cit:citedResponsibleParty>
+<cit:CI_Responsibility id="cit.ci_individual.105083">
+<cit:role>
+<cit:CI_RoleCode codeList="CI_RoleCode" codeListValue="author">author</cit:CI_RoleCode>
+</cit:role>
+<cit:party>
+<cit:CI_Individual>
+<cit:name>
+<gco:CharacterString>Champion, D.C.</gco:CharacterString>
+</cit:name>
+</cit:CI_Individual>
+</cit:party>
+</cit:CI_Responsibility>
+</cit:citedResponsibleParty>
+<cit:citedResponsibleParty>
+<cit:CI_Responsibility id="cit.ci_individual.105084">
+<cit:role>
+<cit:CI_RoleCode codeList="CI_RoleCode" codeListValue="author">author</cit:CI_RoleCode>
+</cit:role>
+<cit:party>
+<cit:CI_Individual>
+<cit:name>
+<gco:CharacterString>Bultitude, R.J.</gco:CharacterString>
+</cit:name>
+</cit:CI_Individual>
+</cit:party>
+</cit:CI_Responsibility>
+</cit:citedResponsibleParty>
+<cit:series>
+<cit:CI_Series>
+<cit:name>
+<gco:CharacterString>Geological Survey of Queensland</gco:CharacterString>
+</cit:name>
+<cit:page>
+<gco:CharacterString>pp473-513</gco:CharacterString>
+</cit:page>
+</cit:CI_Series>
+</cit:series>
+</cit:CI_Citation>
+</mrl:sourceCitation>
+</mrl:LI_Source>
+</gml:GenericMetaData>
+</gml:metaDataProperty>
+<gml:description>Highly porphyritic microgranite to microdiorite, with various combinations of biotite, hornblende, clinopyroxene, orthopyroxene.</gml:description>
+<gml:identifier codeSpace="urn:ietf:rfc:1738">http://pid.geoscience.gov.au/feature/asc/gsml/geologicalunit/10010</gml:identifier>
+<gml:name>Lags Supersuite</gml:name>
+<gsmlb:observationMethod xlink:href="http://resource.geosciml.org/classifier/cgi/featureobservationmethod/synthesis_from_multiple_sources" xlink:title="synthesis from multiple sources"/>
+<gsmlb:purpose>typicalNorm</gsmlb:purpose>
+<gsmlb:classifier xlink:href="http://asud.ga.gov.au/search-stratigraphic-units/results/10010" xlink:title="Lags Supersuite"/>
+<gsmlb:geologicHistory>
+<gsmlb:GeologicEvent gml:id="asud.gsml.geologicevent.10010">
+<gsmlb:eventProcess xlink:href="http://resource.geosciml.org/classifier/cgi/eventprocess/intrusion" xlink:title="intrusion"/>
+<gsmlb:numericAge>
+<gsmlb:NumericAgeRange>
+<gsmlb:olderBoundDate>
+<swe:Quantity>
+<swe:uom code="Ma" xlink:href="http://pid.geoscience.gov.au/def/voc/ga/uom/Ma" xlink:title="Million years"/>
+<swe:value>280.0</swe:value>
+</swe:Quantity>
+</gsmlb:olderBoundDate>
+<gsmlb:youngerBoundDate>
+<swe:Quantity>
+<swe:uom code="Ma" xlink:href="http://pid.geoscience.gov.au/def/voc/ga/uom/Ma" xlink:title="Million years"/>
+<swe:value>279.0</swe:value>
+</swe:Quantity>
+</gsmlb:youngerBoundDate>
+</gsmlb:NumericAgeRange>
+</gsmlb:numericAge>
+<gsmlb:olderNamedAge xlink:href="http://resource.geosciml.org/classifier/ics/ischart/Cisuralian" xlink:title="Cisuralian"/>
+<gsmlb:youngerNamedAge xlink:href="http://resource.geosciml.org/classifier/ics/ischart/Cisuralian" xlink:title="Cisuralian"/>
+</gsmlb:GeologicEvent>
+</gsmlb:geologicHistory>
+<gsmlb:geologicUnitType xlink:href="http://resource.geosciml.org/classifier/cgi/geologicunittype/lithostratigraphic_unit" xlink:title="lithostratigraphic unit"/>
+<gsmlb:rank xlink:href="http://resource.geosciml.org/classifier/cgi/stratigraphicrank/supergroup" xlink:title="supergroup"/>
+<gsmlb:composition>
+<gsmlb:CompositionPart>
+<gsmlb:role xlink:href="http://inspire.ec.europa.eu/codelist/CompositionPartRoleValue/unspecifiedPartRole" xlink:title="unspecified part role"/>
+<gsmlb:material>
+<gsmlb:RockMaterial gml:id="ga.gsmlb.compositionpart.1875">
+<gsmlb:lithology xlink:href="http://resource.geosciml.org/classifier/cgi/lithology/granite" xlink:title="granite"/>
+</gsmlb:RockMaterial>
+</gsmlb:material>
+</gsmlb:CompositionPart>
+</gsmlb:composition>
+<gsmlb:hierarchyLink>
+<gsmlb:GeologicUnitHierarchy>
+<gsmlb:role xlink:href="http://pid.geoscience.gov.au/def/voc/stratigraphichierarchy/chemical_part" xlink:title="chemical part"/>
+<gsmlb:targetUnit xlink:href="http://pid.geoscience.gov.au/feature/asc/gsml/geologicunit/21154" xlink:title="Arringunna Rhyolite"/>
+</gsmlb:GeologicUnitHierarchy>
+</gsmlb:hierarchyLink>
+<gsmlb:hierarchyLink>
+<gsmlb:GeologicUnitHierarchy>
+<gsmlb:role xlink:href="http://pid.geoscience.gov.au/def/voc/stratigraphichierarchy/chemical_part" xlink:title="chemical part"/>
+<gsmlb:targetUnit xlink:href="http://pid.geoscience.gov.au/feature/asc/gsml/geologicunit/21523" xlink:title="Combella Rhyolite"/>
+</gsmlb:GeologicUnitHierarchy>
+</gsmlb:hierarchyLink>
+<gsmlb:hierarchyLink>
+<gsmlb:GeologicUnitHierarchy>
+<gsmlb:role xlink:href="http://pid.geoscience.gov.au/def/voc/stratigraphichierarchy/chemical_part" xlink:title="chemical part"/>
+<gsmlb:targetUnit xlink:href="http://pid.geoscience.gov.au/feature/asc/gsml/geologicunit/21673" xlink:title="Djungan Volcanic Subgroup"/>
+</gsmlb:GeologicUnitHierarchy>
+</gsmlb:hierarchyLink>
+<gsmlb:hierarchyLink>
+<gsmlb:GeologicUnitHierarchy>
+<gsmlb:role xlink:href="http://pid.geoscience.gov.au/def/voc/stratigraphichierarchy/chemical_part" xlink:title="chemical part"/>
+<gsmlb:targetUnit xlink:href="http://pid.geoscience.gov.au/feature/asc/gsml/geologicunit/21791" xlink:title="Fisherman Rhyolite"/>
+</gsmlb:GeologicUnitHierarchy>
+</gsmlb:hierarchyLink>
+<gsmlb:hierarchyLink>
+<gsmlb:GeologicUnitHierarchy>
+<gsmlb:role xlink:href="http://pid.geoscience.gov.au/def/voc/stratigraphichierarchy/chemical_part" xlink:title="chemical part"/>
+<gsmlb:targetUnit xlink:href="http://pid.geoscience.gov.au/feature/asc/gsml/geologicunit/22227" xlink:title="Lumma Rhyolite"/>
+</gsmlb:GeologicUnitHierarchy>
+</gsmlb:hierarchyLink>
+<gsmlb:hierarchyLink>
+<gsmlb:GeologicUnitHierarchy>
+<gsmlb:role xlink:href="http://pid.geoscience.gov.au/def/voc/stratigraphichierarchy/chemical_part" xlink:title="chemical part"/>
+<gsmlb:targetUnit xlink:href="http://pid.geoscience.gov.au/feature/asc/gsml/geologicunit/22803" xlink:title="Saint Helena Monzogranite"/>
+</gsmlb:GeologicUnitHierarchy>
+</gsmlb:hierarchyLink>
+<gsmlb:hierarchyLink>
+<gsmlb:GeologicUnitHierarchy>
+<gsmlb:role xlink:href="http://pid.geoscience.gov.au/def/voc/stratigraphichierarchy/chemical_part" xlink:title="chemical part"/>
+<gsmlb:targetUnit xlink:href="http://pid.geoscience.gov.au/feature/asc/gsml/geologicunit/23117" xlink:title="Wakara Volcanic Subgroup"/>
+</gsmlb:GeologicUnitHierarchy>
+</gsmlb:hierarchyLink>
+<gsmlb:hierarchyLink>
+<gsmlb:GeologicUnitHierarchy>
+<gsmlb:role xlink:href="http://pid.geoscience.gov.au/def/voc/stratigraphichierarchy/chemical_part" xlink:title="chemical part"/>
+<gsmlb:targetUnit xlink:href="http://pid.geoscience.gov.au/feature/asc/gsml/geologicunit/23239" xlink:title="Wollenden Rhyolite"/>
+</gsmlb:GeologicUnitHierarchy>
+</gsmlb:hierarchyLink>
+<gsmlb:hierarchyLink>
+<gsmlb:GeologicUnitHierarchy>
+<gsmlb:role xlink:href="http://pid.geoscience.gov.au/def/voc/stratigraphichierarchy/chemical_part" xlink:title="chemical part"/>
+<gsmlb:targetUnit xlink:href="http://pid.geoscience.gov.au/feature/asc/gsml/geologicunit/27971" xlink:title="Yongala Volcanic Subgroup"/>
+</gsmlb:GeologicUnitHierarchy>
+</gsmlb:hierarchyLink>
+<gsmlb:hierarchyLink>
+<gsmlb:GeologicUnitHierarchy>
+<gsmlb:role xlink:href="http://pid.geoscience.gov.au/def/voc/stratigraphichierarchy/chemical_part" xlink:title="chemical part"/>
+<gsmlb:targetUnit xlink:href="http://pid.geoscience.gov.au/feature/asc/gsml/geologicunit/27978" xlink:title="Lightning Creek Rhyolite"/>
+</gsmlb:GeologicUnitHierarchy>
+</gsmlb:hierarchyLink>
+<gsmlb:hierarchyLink>
+<gsmlb:GeologicUnitHierarchy>
+<gsmlb:role xlink:href="http://pid.geoscience.gov.au/def/voc/stratigraphichierarchy/chemical_part" xlink:title="chemical part"/>
+<gsmlb:targetUnit xlink:href="http://pid.geoscience.gov.au/feature/asc/gsml/geologicunit/3198" xlink:title="Bustlem Microgranite"/>
+</gsmlb:GeologicUnitHierarchy>
+</gsmlb:hierarchyLink>
+<gsmlb:hierarchyLink>
+<gsmlb:GeologicUnitHierarchy>
+<gsmlb:role xlink:href="http://pid.geoscience.gov.au/def/voc/stratigraphichierarchy/chemical_part" xlink:title="chemical part"/>
+<gsmlb:targetUnit xlink:href="http://pid.geoscience.gov.au/feature/asc/gsml/geologicunit/68928" xlink:title="microgranite 68928"/>
+</gsmlb:GeologicUnitHierarchy>
+</gsmlb:hierarchyLink>
+<gsmlb:hierarchyLink>
+<gsmlb:GeologicUnitHierarchy>
+<gsmlb:role xlink:href="http://pid.geoscience.gov.au/def/voc/stratigraphichierarchy/chemical_part" xlink:title="chemical part"/>
+<gsmlb:targetUnit xlink:href="http://pid.geoscience.gov.au/feature/asc/gsml/geologicunit/69317" xlink:title="Maneater Suite"/>
+</gsmlb:GeologicUnitHierarchy>
+</gsmlb:hierarchyLink>
+<gsmlb:hierarchyLink>
+<gsmlb:GeologicUnitHierarchy>
+<gsmlb:role xlink:href="http://pid.geoscience.gov.au/def/voc/stratigraphichierarchy/chemical_part" xlink:title="chemical part"/>
+<gsmlb:targetUnit xlink:href="http://pid.geoscience.gov.au/feature/asc/gsml/geologicunit/69318" xlink:title="Lags Suite"/>
+</gsmlb:GeologicUnitHierarchy>
+</gsmlb:hierarchyLink>
+</gsmlb:GeologicUnit>
+</wfs:member>
+</wfs:FeatureCollection>

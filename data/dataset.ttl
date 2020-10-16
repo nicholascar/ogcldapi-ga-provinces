@@ -1,0 +1,20 @@
+PREFIX catprez: <https://w3id.org/profile/catprez/>
+PREFIX dcat: <http://www.w3.org/ns/dcat#>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX prov: <http://www.w3.org/ns/prov#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+<http://example.com/dataset/agp>
+    a dcat:Dataset ;
+    dcterms:title "Australian Geological Provinces Database' Dataset"@en ;
+    dcterms:description """This dataset contains descriptions and spatial extents of the fundamental geological elements of the Australian continent and offshore surrounds."""@en ;
+    prov:wasDerivedFrom <http://pid.geoscience.gov.au/dataset/ga/116823> ;
+    dcterms:contributor <https://surroundaustralia.com> ;
+    dcterms:created "2020-10-16"^^xsd:date ;
+    dcterms:modified "2020-10-16"^^xsd:date ;
+    dcterms:issued "2020-10-16"^^xsd:date ;
+    dcterms:publisher <https://linked.data.gov.au/org/ga> ;
+    dcterms:creator <https://linked.data.gov.au/org/ga> ;
+    catprez:servedBy <http://example.com/dataset/agp-api> ;
+.

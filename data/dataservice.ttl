@@ -1,0 +1,17 @@
+PREFIX dcat: <http://www.w3.org/ns/dcat#>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX ogcapi: <https://data.surroundaustralia.com/def/ogcapi/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+<http://example.com/dataset/agp-api>
+    a ogcapi:OgcApi ;
+    dcterms:title "AGP API"@en ;
+    dcterms:description "An OGC LD API for delivering the Australian Geological Provinces Database' Dataset"@en ;
+    dcat:servesDataset <https://w3id.org/dggs/tb16pix> ;
+    dcterms:created "2020-10-16"^^xsd:date ;
+    dcterms:modified "2020-10-16"^^xsd:date ;
+    dcterms:issued "2020-10-16"^^xsd:date ;
+    dcterms:publisher <https://linked.data.gov.au/org/ga> ;
+    dcterms:creator <https://surroundaustralia.com> ;
+.

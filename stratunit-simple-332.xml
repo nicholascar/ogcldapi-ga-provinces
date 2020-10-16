@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wfs:FeatureCollection xmlns:wfs="http://www.opengis.net/wfs" xmlns="http://www.opengis.net/wfs" xmlns:gml="http://www.opengis.net/gml" xmlns:stratunit="http://www.ga.gov.au/stratunit" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.opengis.net/wfs http://schemas.opengis.net/wfs/1.0.0/WFS-basic.xsd http://www.ga.gov.au/stratunit http://stratunits.gs.cloud.ga.gov.au/stratunit/wfs?service=WFS&amp;version=1.0.0&amp;request=DescribeFeatureType&amp;typeName=stratunit%3AStratigraphicUnit">
+    <gml:boundedBy>
+        <gml:Box srsName="http://www.opengis.net/gml/srs/epsg.xml#404000">
+            <gml:coordinates decimal="." cs="," ts=" ">-1,-1 0,0</gml:coordinates>
+        </gml:Box>
+    </gml:boundedBy>
+    <gml:featureMember>
+        <stratunit:StratigraphicUnit fid="StratigraphicUnit.332">
+            <stratunit:gmlid>ga.gsmlp.geologicunitview.332</stratunit:gmlid>
+            <stratunit:identifier>http://pid.geoscience.gov.au/feature/id/ga/gsmlp/geologicunitview/332</stratunit:identifier>
+            <stratunit:name>Alsace Quartzite</stratunit:name>
+            <stratunit:description>Quartzite, sandstone, grey-pink, feldspathic to quartzose, medium to coarse-grained, massive to blocky, thick to thin-bedded; contains some clayey rock fragments; thin grey-green siltstone interbeds near the top.</stratunit:description>
+            <stratunit:geologicunittype>lithostratigraphic unit</stratunit:geologicunittype>
+            <stratunit:rank>Formation, beds</stratunit:rank>
+            <stratunit:lithology>medium-coarse grained siliciclastic rock</stratunit:lithology>
+            <stratunit:geologichistory>Statherian</stratunit:geologichistory>
+            <stratunit:numericolderage>1779</stratunit:numericolderage>
+            <stratunit:numericyoungerage>1650</stratunit:numericyoungerage>
+            <stratunit:observationmethod>synthesis from multiple sources</stratunit:observationmethod>
+            <stratunit:geologicunittype_uri>http://resource.geosciml.org/classifier/cgi/geologicunittype/lithostratigraphic_unit</stratunit:geologicunittype_uri>
+            <stratunit:representativelithology_uri>http://resource.geosciml.org/classifier/cgi/lithology/clastic_sedimentary_rock</stratunit:representativelithology_uri>
+            <stratunit:representativeage_uri>http://resource.geosciml.org/classifier/ics/ischart/Statherian</stratunit:representativeage_uri>
+            <stratunit:representativeage>Statherian</stratunit:representativeage>
+            <stratunit:rep_age_zoneclass>period</stratunit:rep_age_zoneclass>
+            <stratunit:representativeyoungerage_uri>http://resource.geosciml.org/classifier/ics/ischart/Statherian</stratunit:representativeyoungerage_uri>
+            <stratunit:representative_young_age>Statherian</stratunit:representative_young_age>
+            <stratunit:rep_young_age_zoneclass>period</stratunit:rep_young_age_zoneclass>
+            <stratunit:representativeolderage_uri>http://resource.geosciml.org/classifier/ics/ischart/Statherian</stratunit:representativeolderage_uri>
+            <stratunit:representativeold_age>Statherian</stratunit:representativeold_age>
+            <stratunit:rep_old_age_class>period</stratunit:rep_old_age_class>
+            <stratunit:groupname>Haslingden Group</stratunit:groupname>
+            <stratunit:subgroup>Myally Subgroup</stratunit:subgroup>
+            <stratunit:formation>Alsace Quartzite</stratunit:formation>
+            <stratunit:state>NT, QLD</stratunit:state>
+        </stratunit:StratigraphicUnit>
+    </gml:featureMember>
+</wfs:FeatureCollection>
