@@ -1,0 +1,88 @@
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sesame: <http://www.openrdf.org/schema/sesame#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix fn: <http://www.w3.org/2005/xpath-functions#> .
+
+<http://www.opengis.net/def/geometry/ISO-19107/2003/GM_Circle> skos:prefLabel "Circle"@en ;
+	skos:notation "GM_Circle" .
+
+<http://www.opengis.net/def/geometry/ISO-19107/2003/GM_CompositeCurve> skos:prefLabel "Composite Curve"@en ;
+	skos:notation "GM_CompositeCurve" .
+
+<http://www.opengis.net/def/geometry/ISO-19107/2003/GM_CompositePoint> skos:prefLabel "Composite Point"@en ;
+	skos:notation "GM_CompositePoint" .
+
+<http://www.opengis.net/def/geometry/ISO-19107/2003/GM_CompositeSolid> skos:prefLabel "Composite Solid"@en ;
+	skos:notation "GM_CompositeSolid" .
+
+<http://www.opengis.net/def/geometry/ISO-19107/2003/GM_CompositeSurface> skos:prefLabel "Composite Surface"@en ;
+	skos:notation "GM_CompositeSurface" .
+
+<http://www.opengis.net/def/geometry/ISO-19107/2003/GM_Composite> skos:prefLabel "Composite geometry"@en ;
+	skos:notation "GM_Composite" .
+
+<http://www.opengis.net/def/geometry/ISO-19107/2003/GM_Curve> skos:prefLabel "Curve"@en ;
+	skos:notation "GM_Curve" .
+
+<http://www.opengis.net/def/geometry/ISO-19107/2003/GM_Envelope> skos:prefLabel "Envelope"@en ;
+	skos:notation "GM_Envelope" .
+
+<http://www.opengis.net/def/geometry/ISO-19107/2003/GM_Aggregate> skos:prefLabel "Geometric Aggregate"@en ;
+	skos:notation "GM_Aggregate" .
+
+<http://www.opengis.net/def/geometry/ISO-19107/2003/GM_Object> skos:prefLabel "Geometric Object"@en ;
+	skos:notation "GM_Object" .
+
+<http://www.opengis.net/def/geometry/ISO-19107/2003/GM_Primitive> skos:prefLabel "Geometric Primitive"@en ;
+	skos:notation "GM_Primitive" .
+
+<http://www.opengis.net/def/geometry/ISO-19107/2003/GM_Complex> skos:prefLabel "Geometry Complex"@en ;
+	skos:notation "GM_Complex" .
+
+<http://www.opengis.net/def/geometry/ISO-19107/2003/GM_LineString> skos:prefLabel "Line String"@en ;
+	skos:notation "GM_LineString" .
+
+<http://www.opengis.net/def/geometry/ISO-19107/2003/GM_MultiCurve> skos:prefLabel "Multi-Curve"@en ;
+	skos:notation "GM_MultiCurve" .
+
+<http://www.opengis.net/def/geometry/ISO-19107/2003/GM_MultiPoint> skos:prefLabel "Multi-Point"@en ;
+	skos:notation "GM_MultiPoint" .
+
+<http://www.opengis.net/def/geometry/ISO-19107/2003/GM_MultiPrimitive> skos:prefLabel "Multi-Primitive"@en ;
+	skos:notation "GM_MultiPrimitive" .
+
+<http://www.opengis.net/def/geometry/ISO-19107/2003/GM_MultiSolid> skos:prefLabel "Multi-Solid"@en ;
+	skos:notation "GM_MultiSolid" .
+
+<http://www.opengis.net/def/geometry/ISO-19107/2003/GM_MultiSurface> skos:prefLabel "Multi-Surface"@en ;
+	skos:notation "GM_MultiSurface" .
+
+<http://www.opengis.net/def/geometry/ISO-19107/2003/GM_OrientableCurve> skos:prefLabel "Orientable Curve"@en ;
+	skos:notation "GM_OrientableCurve" .
+
+<http://www.opengis.net/def/geometry/ISO-19107/2003/GM_OrientablePrimitive> skos:prefLabel "Orientable Primitive"@en ;
+	skos:notation "GM_OrientablePrimitive" .
+
+<http://www.opengis.net/def/geometry/ISO-19107/2003/GM_OrientableSurface> skos:prefLabel "Orientable Surface"@en ;
+	skos:notation "GM_OrientableSurface" .
+
+<http://www.opengis.net/def/geometry/ISO-19107/2003/GM_Point> skos:prefLabel "Point"@en ;
+	skos:notation "GM_Point" .
+
+<http://www.opengis.net/def/geometry/ISO-19107/2003/GM_Polygon> skos:prefLabel "Polygon"@en ;
+	skos:notation "GM_Polygon" .
+
+<http://www.opengis.net/def/geometry/ISO-19107/2003/GM_Ring> skos:prefLabel "Ring"@en ;
+	skos:notation "GM_Ring" .
+
+<http://www.opengis.net/def/geometry/ISO-19107/2003/GM_Shell> skos:prefLabel "Shell"@en ;
+	skos:notation "GM_Shell" .
+
+<http://www.opengis.net/def/geometry/ISO-19107/2003/GM_Solid> skos:prefLabel "Solid"@en ;
+	skos:notation "GM_Solid" .
+
+<http://www.opengis.net/def/geometry/ISO-19107/2003/GM_Surface> skos:prefLabel "Surface"@en ;
+	skos:notation "GM_Surface" .

@@ -1,0 +1,44 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://resource.geosciml.org/classifier/cgi/stratigraphicrank/bed> skos:prefLabel
+    "bed"@en .
+
+<http://resource.geosciml.org/classifier/cgi/stratigraphicrank/complex> skos:prefLabel
+    "complex"@en .
+
+<http://resource.geosciml.org/classifier/cgi/stratigraphicrank/formation> skos:prefLabel
+    "formation"@en .
+
+<http://resource.geosciml.org/classifier/cgi/stratigraphicrank/group> skos:prefLabel
+    "group"@en .
+
+<http://resource.geosciml.org/classifier/cgi/stratigraphicrank/lithodeme> skos:prefLabel
+    "lithodeme"@en .
+
+<http://resource.geosciml.org/classifier/cgi/stratigraphicrank/megasequence> skos:prefLabel
+    "megasequence"@en .
+
+<http://resource.geosciml.org/classifier/cgi/stratigraphicrank/member> skos:prefLabel
+    "member"@en .
+
+<http://resource.geosciml.org/classifier/cgi/stratigraphicrank/rank_not_specified>
+  skos:prefLabel "not specified"@en .
+
+<http://resource.geosciml.org/classifier/cgi/stratigraphicrank/sequence> skos:prefLabel
+    "sequence"@en .
+
+<http://resource.geosciml.org/classifier/cgi/stratigraphicrank/subgroup> skos:prefLabel
+    "subgroup"@en .
+
+<http://resource.geosciml.org/classifier/cgi/stratigraphicrank/suite> skos:prefLabel
+    "suite"@en .
+
+<http://resource.geosciml.org/classifier/cgi/stratigraphicrank/supergroup> skos:prefLabel
+    "supergroup"@en .
+
+<http://resource.geosciml.org/classifier/cgi/stratigraphicrank/supersequence> skos:prefLabel
+    "supersequence"@en .
+
+<http://resource.geosciml.org/classifier/cgi/stratigraphicrank/supersuite> skos:prefLabel
+    "supersuite"@en .

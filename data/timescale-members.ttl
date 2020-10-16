@@ -1,0 +1,370 @@
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix gts: <http://resource.geosciml.org/ontology/timescale/gts#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sesame: <http://www.openrdf.org/schema/sesame#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix fn: <http://www.w3.org/2005/xpath-functions#> .
+
+<http://resource.geosciml.org/classifier/ics/ischart/Aalenian> skos:prefLabel "Aalenian"@en .
+
+<http://resource.geosciml.org/classifier/ics/ischart/Aeronian> skos:prefLabel "Aeronian"@en .
+
+<http://resource.geosciml.org/classifier/ics/ischart/Albian> skos:prefLabel "Albian"@en .
+
+<http://resource.geosciml.org/classifier/ics/ischart/Anisian> skos:prefLabel "Anisian"@en .
+
+<http://resource.geosciml.org/classifier/ics/ischart/Aptian> skos:prefLabel "Aptian"@en .
+
+<http://resource.geosciml.org/classifier/ics/ischart/Aquitanian> skos:prefLabel "Aquitanian"@en .
+
+<http://resource.geosciml.org/classifier/ics/ischart/Archean> skos:prefLabel "Archean"@en .
+
+<http://resource.geosciml.org/classifier/ics/ischart/Artinskian> skos:prefLabel "Artinskian"@en .
+
+<http://resource.geosciml.org/classifier/ics/ischart/Asselian> skos:prefLabel "Asselian"@en .
+
+<http://resource.geosciml.org/classifier/ics/ischart/Bajocian> skos:prefLabel "Bajocian"@en .
+
+<http://resource.geosciml.org/classifier/ics/ischart/Barremian> skos:prefLabel "Barremian"@en .
+
+<http://resource.geosciml.org/classifier/ics/ischart/Bartonian> skos:prefLabel "Bartonian"@en .
+
+<http://resource.geosciml.org/classifier/ics/ischart/Bashkirian> skos:prefLabel "Bashkirian"@en .
+
+<http://resource.geosciml.org/classifier/ics/ischart/Bathonian> skos:prefLabel "Bathonian"@en .
+
+<http://resource.geosciml.org/classifier/ics/ischart/Berriasian> skos:prefLabel "Berriasian"@en .
+
+<http://resource.geosciml.org/classifier/ics/ischart/Burdigalian> skos:prefLabel "Burdigalian"@en .
+
+<http://resource.geosciml.org/classifier/ics/ischart/Calabrian> skos:prefLabel "Calabrian"@en .
+
+<http://resource.geosciml.org/classifier/ics/ischart/Callovian> skos:prefLabel "Callovian"@en .
+
+<http://resource.geosciml.org/classifier/ics/ischart/Calymmian> skos:prefLabel "Calymmian"@en .
+
+<http://resource.geosciml.org/classifier/ics/ischart/Cambrian> skos:prefLabel "Cambrian"@en .
+
+<http://resource.geosciml.org/classifier/ics/ischart/CambrianSeries2> skos:prefLabel "Cambrian Series 2"@en .
+
+<http://resource.geosciml.org/classifier/ics/ischart/CambrianSeries3> skos:prefLabel "Cambrian Series 3"@en .
+
+<http://resource.geosciml.org/classifier/ics/ischart/CambrianStage10> skos:prefLabel "Cambrian-Stage 10"@en .
+
+<http://resource.geosciml.org/classifier/ics/ischart/CambrianStage2> skos:prefLabel "Cambrian-Stage 2"@en .
+
+<http://resource.geosciml.org/classifier/ics/ischart/CambrianStage3> skos:prefLabel "Cambrian-Stage 3"@en .
+
+<http://resource.geosciml.org/classifier/ics/ischart/CambrianStage4> skos:prefLabel "Cambrian-Stage 4"@en .
+
+<http://resource.geosciml.org/classifier/ics/ischart/CambrianStage5> skos:prefLabel "Cambrian-Stage 5"@en .
+
+<http://resource.geosciml.org/classifier/ics/ischart/Campanian> skos:prefLabel "Campanian"@en .
+
+<http://resource.geosciml.org/classifier/ics/ischart/Capitanian> skos:prefLabel "Capitanian"@en .
+
+<http://resource.geosciml.org/classifier/ics/ischart/Carboniferous> skos:prefLabel "Carboniferous"@en .
+
+<http://resource.geosciml.org/classifier/ics/ischart/Carnian> skos:prefLabel "Carnian"@en .
+
+<http://resource.geosciml.org/classifier/ics/ischart/Cenomanian> skos:prefLabel "Cenomanian"@en .
+
+<http://resource.geosciml.org/classifier/ics/ischart/Cenozoic> skos:prefLabel "Cenozoic"@en .
+
+<http://resource.geosciml.org/classifier/ics/ischart/Changhsingian> skos:prefLabel "Changhsingian"@en .
+
+<http://resource.geosciml.org/classifier/ics/ischart/Chattian> skos:prefLabel "Chattian"@en .
+
+<http://resource.geosciml.org/classifier/ics/ischart/MiddlePleistocene> skos:prefLabel "Chibanian"@en .
+
+<http://resource.geosciml.org/classifier/ics/ischart/Cisuralian> skos:prefLabel "Cisuralian"@en .
+
+<http://resource.geosciml.org/classifier/ics/ischart/Coniacian> skos:prefLabel "Coniacian"@en .
+
+<http://resource.geosciml.org/classifier/ics/ischart/Cretaceous> skos:prefLabel "Cretaceous"@en .
+
+<http://resource.geosciml.org/classifier/ics/ischart/Cryogenian> skos:prefLabel "Cryogenian"@en .
+
+<http://resource.geosciml.org/classifier/ics/ischart/Danian> skos:prefLabel "Danian"@en .
+
+<http://resource.geosciml.org/classifier/ics/ischart/Dapingian> skos:prefLabel "Dapingian"@en .
+
+<http://resource.geosciml.org/classifier/ics/ischart/Darriwilian> skos:prefLabel "Darriwilian"@en .
+
+<http://resource.geosciml.org/classifier/ics/ischart/Devonian> skos:prefLabel "Devonian"@en .
+
+<http://resource.geosciml.org/classifier/ics/ischart/Drumian> skos:prefLabel "Drumian"@en .
+
+<http://resource.geosciml.org/classifier/ics/ischart/LowerCretaceous> skos:prefLabel "Early Cretaceous"@en .
+
+<http://resource.geosciml.org/classifier/ics/ischart/LowerDevonian> skos:prefLabel "Early Devonian"@en .
+
+<http://resource.geosciml.org/classifier/ics/ischart/LowerJurassic> skos:prefLabel "Early Jurassic"@en .
+
+<http://resource.geosciml.org/classifier/ics/ischart/LowerMississippian> skos:prefLabel "Early Mississippian"@en .
+
+<http://resource.geosciml.org/classifier/ics/ischart/LowerOrdovician> skos:prefLabel "Early Ordovician"@en .
+
+<http://resource.geosciml.org/classifier/ics/ischart/LowerPennsylvanian> skos:prefLabel "Early Pennsylvanian"@en .
+
+<http://resource.geosciml.org/classifier/ics/ischart/LowerTriassic> skos:prefLabel "Early Triassic"@en .
+
+<http://resource.geosciml.org/classifier/ics/ischart/Ectasian> skos:prefLabel "Ectasian"@en .
+
+<http://resource.geosciml.org/classifier/ics/ischart/Ediacaran> skos:prefLabel "Ediacaran"@en .
+
+<http://resource.geosciml.org/classifier/ics/ischart/Eifelian> skos:prefLabel "Eifelian"@en .
+
+<http://resource.geosciml.org/classifier/ics/ischart/Emsian> skos:prefLabel "Emsian"@en .
+
+<http://resource.geosciml.org/classifier/ics/ischart/Eoarchean> skos:prefLabel "Eoarchean"@en .
+
+<http://resource.geosciml.org/classifier/ics/ischart/Eocene> skos:prefLabel "Eocene"@en .
+
+<http://resource.geosciml.org/classifier/ics/ischart/Famennian> skos:prefLabel "Famennian"@en .
+
+<http://resource.geosciml.org/classifier/ics/ischart/Floian> skos:prefLabel "Floian"@en .
+
+<http://resource.geosciml.org/classifier/ics/ischart/Fortunian> skos:prefLabel "Fortunian"@en .
+
+<http://resource.geosciml.org/classifier/ics/ischart/Frasnian> skos:prefLabel "Frasnian"@en .
+
+<http://resource.geosciml.org/classifier/ics/ischart/Furongian> skos:prefLabel "Furongian"@en .
+
+<http://resource.geosciml.org/classifier/ics/ischart/Gelasian> skos:prefLabel "Gelasian"@en .
+
+<http://resource.geosciml.org/classifier/ics/ischart/Givetian> skos:prefLabel "Givetian"@en .
+
+<http://resource.geosciml.org/classifier/ics/ischart/Gorstian> skos:prefLabel "Gorstian"@en .
+
+<http://resource.geosciml.org/classifier/ics/ischart/Greenlandian> skos:prefLabel "Greenlandian"@en .
+
+<http://resource.geosciml.org/classifier/ics/ischart/Guadalupian> skos:prefLabel "Guadalupian"@en .
+
+<http://resource.geosciml.org/classifier/ics/ischart/Guzhangian> skos:prefLabel "Guzhangian"@en .
+
+<http://resource.geosciml.org/classifier/ics/ischart/Gzhelian> skos:prefLabel "Gzhelian"@en .
+
+<http://resource.geosciml.org/classifier/ics/ischart/Hadean> skos:prefLabel "Hadean"@en .
+
+<http://resource.geosciml.org/classifier/ics/ischart/Hauterivian> skos:prefLabel "Hauterivian"@en .
+
+<http://resource.geosciml.org/classifier/ics/ischart/Hettangian> skos:prefLabel "Hettangian"@en .
+
+<http://resource.geosciml.org/classifier/ics/ischart/Hirnantian> skos:prefLabel "Hirnantian"@en .
+
+<http://resource.geosciml.org/classifier/ics/ischart/Holocene> skos:prefLabel "Holocene"@en .
+
+<http://resource.geosciml.org/classifier/ics/ischart/Homerian> skos:prefLabel "Homerian"@en .
+
+<http://resource.geosciml.org/classifier/ics/ischart/Induan> skos:prefLabel "Induan"@en .
+
+<http://resource.geosciml.org/classifier/ics/ischart/Ionian> skos:prefLabel "Ionian"@en .
+
+<http://resource.geosciml.org/classifier/ics/ischart/Jiangshanian> skos:prefLabel "Jiangshanian"@en .
+
+<http://resource.geosciml.org/classifier/ics/ischart/Jurassic> skos:prefLabel "Jurassic"@en .
+
+<http://resource.geosciml.org/classifier/ics/ischart/Kasimovian> skos:prefLabel "Kasimovian"@en .
+
+<http://resource.geosciml.org/classifier/ics/ischart/Katian> skos:prefLabel "Katian"@en .
+
+<http://resource.geosciml.org/classifier/ics/ischart/Kimmeridgian> skos:prefLabel "Kimmeridgian"@en .
+
+<http://resource.geosciml.org/classifier/ics/ischart/Kungurian> skos:prefLabel "Kungurian"@en .
+
+<http://resource.geosciml.org/classifier/ics/ischart/Ladinian> skos:prefLabel "Ladinian"@en .
+
+<http://resource.geosciml.org/classifier/ics/ischart/Langhian> skos:prefLabel "Langhian"@en .
+
+<http://resource.geosciml.org/classifier/ics/ischart/UpperCretaceous> skos:prefLabel "Late Cretaceous"@en .
+
+<http://resource.geosciml.org/classifier/ics/ischart/UpperDevonian> skos:prefLabel "Late Devonian"@en .
+
+<http://resource.geosciml.org/classifier/ics/ischart/UpperJurassic> skos:prefLabel "Late Jurassic"@en .
+
+<http://resource.geosciml.org/classifier/ics/ischart/UpperMississippian> skos:prefLabel "Late Mississippian"@en .
+
+<http://resource.geosciml.org/classifier/ics/ischart/UpperOrdovician> skos:prefLabel "Late Ordovician"@en .
+
+<http://resource.geosciml.org/classifier/ics/ischart/UpperPennsylvanian> skos:prefLabel "Late Pennsylvanian"@en .
+
+<http://resource.geosciml.org/classifier/ics/ischart/UpperPleistocene> skos:prefLabel "Late Pleistocene"@en .
+
+<http://resource.geosciml.org/classifier/ics/ischart/UpperTriassic> skos:prefLabel "Late Triassic"@en .
+
+<http://resource.geosciml.org/classifier/ics/ischart/Llandovery> skos:prefLabel "Llandovery"@en .
+
+<http://resource.geosciml.org/classifier/ics/ischart/Lochkovian> skos:prefLabel "Lochkovian"@en .
+
+<http://resource.geosciml.org/classifier/ics/ischart/Lopingian> skos:prefLabel "Lopingian"@en .
+
+<http://resource.geosciml.org/classifier/ics/ischart/Ludfordian> skos:prefLabel "Ludfordian"@en .
+
+<http://resource.geosciml.org/classifier/ics/ischart/Ludlow> skos:prefLabel "Ludlow"@en .
+
+<http://resource.geosciml.org/classifier/ics/ischart/Lutetian> skos:prefLabel "Lutetian"@en .
+
+<http://resource.geosciml.org/classifier/ics/ischart/Maastrichtian> skos:prefLabel "Maastrichtian"@en .
+
+<http://resource.geosciml.org/classifier/ics/ischart/Meghalayan> skos:prefLabel "Meghalayan"@en .
+
+<http://resource.geosciml.org/classifier/ics/ischart/Mesoarchean> skos:prefLabel "Mesoarchean"@en .
+
+<http://resource.geosciml.org/classifier/ics/ischart/Mesoproterozoic> skos:prefLabel "Mesoproterozoic"@en .
+
+<http://resource.geosciml.org/classifier/ics/ischart/Mesozoic> skos:prefLabel "Mesozoic"@en .
+
+<http://resource.geosciml.org/classifier/ics/ischart/Messinian> skos:prefLabel "Messinian"@en .
+
+<http://resource.geosciml.org/classifier/ics/ischart/Miaolingian> skos:prefLabel "Miaolingian"@en .
+
+<http://resource.geosciml.org/classifier/ics/ischart/MiddleDevonian> skos:prefLabel "Middle Devonian"@en .
+
+<http://resource.geosciml.org/classifier/ics/ischart/MiddleJurassic> skos:prefLabel "Middle Jurassic"@en .
+
+<http://resource.geosciml.org/classifier/ics/ischart/MiddleMississippian> skos:prefLabel "Middle Mississippian"@en .
+
+<http://resource.geosciml.org/classifier/ics/ischart/MiddleOrdovician> skos:prefLabel "Middle Ordovician"@en .
+
+<http://resource.geosciml.org/classifier/ics/ischart/MiddlePennsylvanian> skos:prefLabel "Middle Pennsylvanian"@en .
+
+<http://resource.geosciml.org/classifier/ics/ischart/MiddleTriassic> skos:prefLabel "Middle Triassic"@en .
+
+<http://resource.geosciml.org/classifier/ics/ischart/Miocene> skos:prefLabel "Miocene"@en .
+
+<http://resource.geosciml.org/classifier/ics/ischart/Mississippian> skos:prefLabel "Mississippian"@en .
+
+<http://resource.geosciml.org/classifier/ics/ischart/Moscovian> skos:prefLabel "Moscovian"@en .
+
+<http://resource.geosciml.org/classifier/ics/ischart/Neoarchean> skos:prefLabel "Neoarchean"@en .
+
+<http://resource.geosciml.org/classifier/ics/ischart/Neogene> skos:prefLabel "Neogene"@en .
+
+<http://resource.geosciml.org/classifier/ics/ischart/Neoproterozoic> skos:prefLabel "Neoproterozoic"@en .
+
+<http://resource.geosciml.org/classifier/ics/ischart/Norian> skos:prefLabel "Norian"@en .
+
+<http://resource.geosciml.org/classifier/ics/ischart/Northgrippian> skos:prefLabel "Northgrippian"@en .
+
+<http://resource.geosciml.org/classifier/ics/ischart/Olenekian> skos:prefLabel "Olenekian"@en .
+
+<http://resource.geosciml.org/classifier/ics/ischart/Oligocene> skos:prefLabel "Oligocene"@en .
+
+<http://resource.geosciml.org/classifier/ics/ischart/Ordovician> skos:prefLabel "Ordovician"@en .
+
+<http://resource.geosciml.org/classifier/ics/ischart/Orosirian> skos:prefLabel "Orosirian"@en .
+
+<http://resource.geosciml.org/classifier/ics/ischart/Oxfordian> skos:prefLabel "Oxfordian"@en .
+
+<http://resource.geosciml.org/classifier/ics/ischart/Paibian> skos:prefLabel "Paibian"@en .
+
+<http://resource.geosciml.org/classifier/ics/ischart/Paleoarchean> skos:prefLabel "Paleoarchean"@en .
+
+<http://resource.geosciml.org/classifier/ics/ischart/Paleocene> skos:prefLabel "Paleocene"@en .
+
+<http://resource.geosciml.org/classifier/ics/ischart/Paleogene> skos:prefLabel "Paleogene"@en .
+
+<http://resource.geosciml.org/classifier/ics/ischart/Paleoproterozoic> skos:prefLabel "Paleoproterozoic"@en .
+
+<http://resource.geosciml.org/classifier/ics/ischart/Paleozoic> skos:prefLabel "Paleozoic"@en .
+
+<http://resource.geosciml.org/classifier/ics/ischart/Pennsylvanian> skos:prefLabel "Pennsylvanian"@en .
+
+<http://resource.geosciml.org/classifier/ics/ischart/Permian> skos:prefLabel "Permian"@en .
+
+<http://resource.geosciml.org/classifier/ics/ischart/Phanerozoic> skos:prefLabel "Phanerozoic"@en .
+
+<http://resource.geosciml.org/classifier/ics/ischart/Piacenzian> skos:prefLabel "Piacenzian"@en .
+
+<http://resource.geosciml.org/classifier/ics/ischart/Pleistocene> skos:prefLabel "Pleistocene"@en .
+
+<http://resource.geosciml.org/classifier/ics/ischart/Pliensbachian> skos:prefLabel "Pliensbachian"@en .
+
+<http://resource.geosciml.org/classifier/ics/ischart/Pliocene> skos:prefLabel "Pliocene"@en .
+
+<http://resource.geosciml.org/classifier/ics/ischart/Pragian> skos:prefLabel "Pragian"@en .
+
+<http://resource.geosciml.org/classifier/ics/ischart/Precambrian> skos:prefLabel "Precambrian"@en .
+
+<http://resource.geosciml.org/classifier/ics/ischart/Priabonian> skos:prefLabel "Priabonian"@en .
+
+<http://resource.geosciml.org/classifier/ics/ischart/Pridoli> skos:prefLabel "Pridoli"@en .
+
+<http://resource.geosciml.org/classifier/ics/ischart/Proterozoic> skos:prefLabel "Proterozoic"@en .
+
+<http://resource.geosciml.org/classifier/ics/ischart/Quaternary> skos:prefLabel "Quaternary"@en .
+
+<http://resource.geosciml.org/classifier/ics/ischart/Rhaetian> skos:prefLabel "Rhaetian"@en .
+
+<http://resource.geosciml.org/classifier/ics/ischart/Rhuddanian> skos:prefLabel "Rhuddanian"@en .
+
+<http://resource.geosciml.org/classifier/ics/ischart/Rhyacian> skos:prefLabel "Rhyacian"@en .
+
+<http://resource.geosciml.org/classifier/ics/ischart/Roadian> skos:prefLabel "Roadian"@en .
+
+<http://resource.geosciml.org/classifier/ics/ischart/Rupelian> skos:prefLabel "Rupelian"@en .
+
+<http://resource.geosciml.org/classifier/ics/ischart/Sakmarian> skos:prefLabel "Sakmarian"@en .
+
+<http://resource.geosciml.org/classifier/ics/ischart/Sandbian> skos:prefLabel "Sandbian"@en .
+
+<http://resource.geosciml.org/classifier/ics/ischart/Santonian> skos:prefLabel "Santonian"@en .
+
+<http://resource.geosciml.org/classifier/ics/ischart/Selandian> skos:prefLabel "Selandian"@en .
+
+<http://resource.geosciml.org/classifier/ics/ischart/Serpukhovian> skos:prefLabel "Serpukhovian"@en .
+
+<http://resource.geosciml.org/classifier/ics/ischart/Serravallian> skos:prefLabel "Serravallian"@en .
+
+<http://resource.geosciml.org/classifier/ics/ischart/Sheinwoodian> skos:prefLabel "Sheinwoodian"@en .
+
+<http://resource.geosciml.org/classifier/ics/ischart/Siderian> skos:prefLabel "Siderian"@en .
+
+<http://resource.geosciml.org/classifier/ics/ischart/Silurian> skos:prefLabel "Silurian"@en .
+
+<http://resource.geosciml.org/classifier/ics/ischart/Sinemurian> skos:prefLabel "Sinemurian"@en .
+
+<http://resource.geosciml.org/classifier/ics/ischart/Statherian> skos:prefLabel "Statherian"@en .
+
+<http://resource.geosciml.org/classifier/ics/ischart/Stenian> skos:prefLabel "Stenian"@en .
+
+<http://resource.geosciml.org/classifier/ics/ischart/Telychian> skos:prefLabel "Telychian"@en .
+
+<http://resource.geosciml.org/classifier/ics/ischart/Terreneuvian> skos:prefLabel "Terreneuvian"@en .
+
+<http://resource.geosciml.org/classifier/ics/ischart/Thanetian> skos:prefLabel "Thanetian"@en .
+
+<http://resource.geosciml.org/classifier/ics/ischart/Tithonian> skos:prefLabel "Tithonian"@en .
+
+<http://resource.geosciml.org/classifier/ics/ischart/Toarcian> skos:prefLabel "Toarcian"@en .
+
+<http://resource.geosciml.org/classifier/ics/ischart/Tonian> skos:prefLabel "Tonian"@en .
+
+<http://resource.geosciml.org/classifier/ics/ischart/Tortonian> skos:prefLabel "Tortonian"@en .
+
+<http://resource.geosciml.org/classifier/ics/ischart/Tournaisian> skos:prefLabel "Tournaisian"@en .
+
+<http://resource.geosciml.org/classifier/ics/ischart/Tremadocian> skos:prefLabel "Tremadocian"@en .
+
+<http://resource.geosciml.org/classifier/ics/ischart/Triassic> skos:prefLabel "Triassic"@en .
+
+<http://resource.geosciml.org/classifier/ics/ischart/Turonian> skos:prefLabel "Turonian"@en .
+
+<http://resource.geosciml.org/classifier/ics/ischart/Valanginian> skos:prefLabel "Valanginian"@en .
+
+<http://resource.geosciml.org/classifier/ics/ischart/Visean> skos:prefLabel "Visean"@en .
+
+<http://resource.geosciml.org/classifier/ics/ischart/Wenlock> skos:prefLabel "Wenlock"@en .
+
+<http://resource.geosciml.org/classifier/ics/ischart/Wordian> skos:prefLabel "Wordian"@en .
+
+<http://resource.geosciml.org/classifier/ics/ischart/Wuchiapingian> skos:prefLabel "Wuchiapingian"@en .
+
+<http://resource.geosciml.org/classifier/ics/ischart/Wuliuan> skos:prefLabel "Wuliuan"@en .
+
+<http://resource.geosciml.org/classifier/ics/ischart/Ypresian> skos:prefLabel "Ypresian"@en .
+
+<http://resource.geosciml.org/classifier/ics/ischart/Zanclean> skos:prefLabel "Zanclean"@en .

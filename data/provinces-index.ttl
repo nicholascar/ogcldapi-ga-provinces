@@ -1,0 +1,2589 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix gfs: <http://pid.geoscience.gov.au/geologicFeature/au/> .
+@prefix strat: <http://pid.geoscience.gov.au/def/stratunits#> .
+
+gfs:PR20119 a strat:Province ;
+    dcterms:identifier "PR20119" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Collie Basin" .
+
+gfs:PR20331 a strat:Province ;
+    dcterms:identifier "PR20331" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Curnamona Province" .
+
+gfs:PR20345 a strat:Province ;
+    dcterms:identifier "PR20345" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Tasmania Basin" .
+
+gfs:PR20348 a strat:Province ;
+    dcterms:identifier "PR20348" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Thylacine Province" .
+
+gfs:PR20367 a strat:Province ;
+    dcterms:identifier "PR20367" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Stawell Zone" .
+
+gfs:PR20368 a strat:Province ;
+    dcterms:identifier "PR20368" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Selwyn Province" .
+
+gfs:PR20437 a strat:Province ;
+    dcterms:identifier "PR20437" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Etheridge Province" .
+
+gfs:PR20444 a strat:Province ;
+    dcterms:identifier "PR20444" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Savannah Province" .
+
+gfs:PR20457 a strat:Province ;
+    dcterms:identifier "PR20457" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Lakefield Basin" .
+
+gfs:PR20487 a strat:Province ;
+    dcterms:identifier "PR20487" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Gamboola Basin" .
+
+gfs:PR20488 a strat:Province ;
+    dcterms:identifier "PR20488" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Gilberton Basin" .
+
+gfs:PR20489 a strat:Province ;
+    dcterms:identifier "PR20489" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Thomson Orogen" .
+
+gfs:PR20512 a strat:Province ;
+    dcterms:identifier "PR20512" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Bendigo Zone" .
+
+gfs:PR20527 a strat:Province ;
+    dcterms:identifier "PR20527" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Hodgkinson Province" .
+
+gfs:PR20533 a strat:Province ;
+    dcterms:identifier "PR20533" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Delamerian Orogen" .
+
+gfs:PR20535 a strat:Province ;
+    dcterms:identifier "PR20535" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Barnard Province" .
+
+gfs:PR20563 a strat:Province ;
+    dcterms:identifier "PR20563" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Iron Range Province" .
+
+gfs:PR20917 a strat:Province ;
+    dcterms:identifier "PR20917" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "South Tasman Rise" .
+
+gfs:PR20925 a strat:Province ;
+    dcterms:identifier "PR20925" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Northern Carnarvon Basin" .
+
+gfs:PR20936 a strat:Province ;
+    dcterms:identifier "PR20936" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Eucla Basin" .
+
+gfs:PR21024 a strat:Province ;
+    dcterms:identifier "PR21024" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Sorell Basin" .
+
+gfs:PR21093 a strat:Province ;
+    dcterms:identifier "PR21093" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Capricorn Basin" .
+
+gfs:PR21914 a strat:Province ;
+    dcterms:identifier "PR21914" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Bonaparte Basin" .
+
+gfs:PR22020 a strat:Province ;
+    dcterms:identifier "PR22020" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Perth Basin" .
+
+gfs:PR22022 a strat:Province ;
+    dcterms:identifier "PR22022" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Vlaming Sub-basin" .
+
+gfs:PR22023 a strat:Province ;
+    dcterms:identifier "PR22023" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Abrolhos Sub-basin" .
+
+gfs:PR22024 a strat:Province ;
+    dcterms:identifier "PR22024" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Dandaragan Trough" .
+
+gfs:PR22025 a strat:Province ;
+    dcterms:identifier "PR22025" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Bunbury Trough" .
+
+gfs:PR22074 a strat:Province ;
+    dcterms:identifier "PR22074" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Zeewyck Sub-basin" .
+
+gfs:PR22075 a strat:Province ;
+    dcterms:identifier "PR22075" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Petrel Sub-basin" .
+
+gfs:PR22076 a strat:Province ;
+    dcterms:identifier "PR22076" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Scott Plateau" .
+
+gfs:PR22077 a strat:Province ;
+    dcterms:identifier "PR22077" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Adavale Basin" .
+
+gfs:PR22078 a strat:Province ;
+    dcterms:identifier "PR22078" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Amadeus Basin" .
+
+gfs:PR22097 a strat:Province ;
+    dcterms:identifier "PR22097" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Southern Carnarvon Basin" .
+
+gfs:PR22102 a strat:Province ;
+    dcterms:identifier "PR22102" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Browse Basin" .
+
+gfs:PR22109 a strat:Province ;
+    dcterms:identifier "PR22109" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Wiso Basin" .
+
+gfs:PR22113 a strat:Province ;
+    dcterms:identifier "PR22113" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Ngalia Basin" .
+
+gfs:PR22114 a strat:Province ;
+    dcterms:identifier "PR22114" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Canning Basin" .
+
+gfs:PR22115 a strat:Province ;
+    dcterms:identifier "PR22115" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Officer Basin" .
+
+gfs:PR22196 a strat:Province ;
+    dcterms:identifier "PR22196" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Roebuck Basin" .
+
+gfs:PR22198 a strat:Province ;
+    dcterms:identifier "PR22198" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Lorne Basin" .
+
+gfs:PR22295 a strat:Province ;
+    dcterms:identifier "PR22295" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Bass Basin" .
+
+gfs:PR22297 a strat:Province ;
+    dcterms:identifier "PR22297" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Naturaliste Plateau" .
+
+gfs:PR22320 a strat:Province ;
+    dcterms:identifier "PR22320" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Marion Plateau" .
+
+gfs:PR22330 a strat:Province ;
+    dcterms:identifier "PR22330" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Money Shoal Basin" .
+
+gfs:PR22345 a strat:Province ;
+    dcterms:identifier "PR22345" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Maryborough Basin" .
+
+gfs:PR22350 a strat:Province ;
+    dcterms:identifier "PR22350" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Lord Howe Basin" .
+
+gfs:PR22352 a strat:Province ;
+    dcterms:identifier "PR22352" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Stansbury Basin" .
+
+gfs:PR22353 a strat:Province ;
+    dcterms:identifier "PR22353" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Hillsborough Basin" .
+
+gfs:PR22356 a strat:Province ;
+    dcterms:identifier "PR22356" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Bight Basin" .
+
+gfs:PR22359 a strat:Province ;
+    dcterms:identifier "PR22359" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Torquay Sub-basin" .
+
+gfs:PR22360 a strat:Province ;
+    dcterms:identifier "PR22360" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Bamaga Basin" .
+
+gfs:PR22361 a strat:Province ;
+    dcterms:identifier "PR22361" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Nambour Basin" .
+
+gfs:PR22401 a strat:Province ;
+    dcterms:identifier "PR22401" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Laura-Lakefield Basin" .
+
+gfs:PR22404 a strat:Province ;
+    dcterms:identifier "PR22404" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Queensland Basin" .
+
+gfs:PR22406 a strat:Province ;
+    dcterms:identifier "PR22406" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Townsville Basin" .
+
+gfs:PR22644 a strat:Province ;
+    dcterms:identifier "PR22644" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Styx Basin" .
+
+gfs:PR26965 a strat:Province ;
+    dcterms:identifier "PR26965" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Malita Graben" .
+
+gfs:PR27009 a strat:Province ;
+    dcterms:identifier "PR27009" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Gippsland Basin" .
+
+gfs:PR27011 a strat:Province ;
+    dcterms:identifier "PR27011" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Yallingup Shelf" .
+
+gfs:PR27012 a strat:Province ;
+    dcterms:identifier "PR27012" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Houtman Sub-basin" .
+
+gfs:PR27018 a strat:Province ;
+    dcterms:identifier "PR27018" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Dongara Terrace" .
+
+gfs:PR27019 a strat:Province ;
+    dcterms:identifier "PR27019" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Turtle Dove Ridge" .
+
+gfs:PR27020 a strat:Province ;
+    dcterms:identifier "PR27020" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Beagle Ridge" .
+
+gfs:PR27026 a strat:Province ;
+    dcterms:identifier "PR27026" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Beermullah Trough" .
+
+gfs:PR27028 a strat:Province ;
+    dcterms:identifier "PR27028" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Mandurah Terrace" .
+
+gfs:PR27029 a strat:Province ;
+    dcterms:identifier "PR27029" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Vasse Shelf" .
+
+gfs:PR27293 a strat:Province ;
+    dcterms:identifier "PR27293" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Eyre Sub-basin" .
+
+gfs:PR27354 a strat:Province ;
+    dcterms:identifier "PR27354" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Surat Basin" .
+
+gfs:PR27358 a strat:Province ;
+    dcterms:identifier "PR27358" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Duntroon Sub-basin" .
+
+gfs:PR27360 a strat:Province ;
+    dcterms:identifier "PR27360" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Recherche Sub-basin" .
+
+gfs:PR27361 a strat:Province ;
+    dcterms:identifier "PR27361" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Madura Shelf" .
+
+gfs:PR27364 a strat:Province ;
+    dcterms:identifier "PR27364" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Denmark Sub-basin" .
+
+gfs:PR27546 a strat:Province ;
+    dcterms:identifier "PR27546" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Mulgildie Basin" .
+
+gfs:PR27718 a strat:Province ;
+    dcterms:identifier "PR27718" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Barrow Sub-basin" .
+
+gfs:PR27770 a strat:Province ;
+    dcterms:identifier "PR27770" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Monawai Basin" .
+
+gfs:PR27897 a strat:Province ;
+    dcterms:identifier "PR27897" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Middleton Basin" .
+
+gfs:PR27898 a strat:Province ;
+    dcterms:identifier "PR27898" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Fairway Basin" .
+
+gfs:PR27899 a strat:Province ;
+    dcterms:identifier "PR27899" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Dampier Sub-basin" .
+
+gfs:PR28311 a strat:Province ;
+    dcterms:identifier "PR28311" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Capel Basin" .
+
+gfs:PR28315 a strat:Province ;
+    dcterms:identifier "PR28315" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Vulcan Sub-basin" .
+
+gfs:PR28319 a strat:Province ;
+    dcterms:identifier "PR28319" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Gascoyne Sub-basin" .
+
+gfs:PR28450 a strat:Province ;
+    dcterms:identifier "PR28450" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Ashmore Platform" .
+
+gfs:PR28451 a strat:Province ;
+    dcterms:identifier "PR28451" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Exmouth Sub-basin" .
+
+gfs:PR28452 a strat:Province ;
+    dcterms:identifier "PR28452" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "New Caledonia Basin" .
+
+gfs:PR28454 a strat:Province ;
+    dcterms:identifier "PR28454" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Lord Howe Platform" .
+
+gfs:PR28505 a strat:Province ;
+    dcterms:identifier "PR28505" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Ceduna Sub-basin" .
+
+gfs:PR28506 a strat:Province ;
+    dcterms:identifier "PR28506" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Calder Graben" .
+
+gfs:PR28590 a strat:Province ;
+    dcterms:identifier "PR28590" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Sahul Platform" .
+
+gfs:PR29476 a strat:Province ;
+    dcterms:identifier "PR29476" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Challenger Plateau" .
+
+gfs:PR29477 a strat:Province ;
+    dcterms:identifier "PR29477" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Bellona Trough" .
+
+gfs:PR29478 a strat:Province ;
+    dcterms:identifier "PR29478" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Queensland Plateau" .
+
+gfs:PR30351 a strat:Province ;
+    dcterms:identifier "PR30351" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Exmouth Plateau" .
+
+gfs:PR33443 a strat:Province ;
+    dcterms:identifier "PR33443" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Gower Basin" .
+
+gfs:PR33446 a strat:Province ;
+    dcterms:identifier "PR33446" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Londonderry High" .
+
+gfs:PR33660 a strat:Province ;
+    dcterms:identifier "PR33660" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Rowley Sub-basin" .
+
+gfs:PR33662 a strat:Province ;
+    dcterms:identifier "PR33662" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Yampi Shelf" .
+
+gfs:PR33663 a strat:Province ;
+    dcterms:identifier "PR33663" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Merlinleigh Sub-basin" .
+
+gfs:PR33664 a strat:Province ;
+    dcterms:identifier "PR33664" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Oobagooma Sub-basin" .
+
+gfs:PR33666 a strat:Province ;
+    dcterms:identifier "PR33666" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Darwin Shelf" .
+
+gfs:PR33668 a strat:Province ;
+    dcterms:identifier "PR33668" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Beagle Sub-basin" .
+
+gfs:PR33670 a strat:Province ;
+    dcterms:identifier "PR33670" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Leveque Shelf" .
+
+gfs:PR33672 a strat:Province ;
+    dcterms:identifier "PR33672" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Bedout Sub-basin" .
+
+gfs:PR33673 a strat:Province ;
+    dcterms:identifier "PR33673" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Barcoo Sub-basin" .
+
+gfs:PR33674 a strat:Province ;
+    dcterms:identifier "PR33674" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Broome Platform" .
+
+gfs:PR33676 a strat:Province ;
+    dcterms:identifier "PR33676" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Troubadour Terrace" .
+
+gfs:PR33678 a strat:Province ;
+    dcterms:identifier "PR33678" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Peedamullah Shelf" .
+
+gfs:PR33680 a strat:Province ;
+    dcterms:identifier "PR33680" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Rankin Platform" .
+
+gfs:PR34849 a strat:Province ;
+    dcterms:identifier "PR34849" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Willara Sub-basin" .
+
+gfs:PR34850 a strat:Province ;
+    dcterms:identifier "PR34850" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Nancar Trough" .
+
+gfs:PR34853 a strat:Province ;
+    dcterms:identifier "PR34853" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Polda Basin" .
+
+gfs:PR34857 a strat:Province ;
+    dcterms:identifier "PR34857" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Nelson Sub-basin" .
+
+gfs:PR34858 a strat:Province ;
+    dcterms:identifier "PR34858" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Hunter Sub-basin" .
+
+gfs:PR34861 a strat:Province ;
+    dcterms:identifier "PR34861" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Morum Sub-basin" .
+
+gfs:PR34862 a strat:Province ;
+    dcterms:identifier "PR34862" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Discovery Bay High" .
+
+gfs:PR34863 a strat:Province ;
+    dcterms:identifier "PR34863" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Fairway Ridge" .
+
+gfs:PR34864 a strat:Province ;
+    dcterms:identifier "PR34864" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Faust Basin" .
+
+gfs:PR34865 a strat:Province ;
+    dcterms:identifier "PR34865" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Norfolk Ridge" .
+
+gfs:PR34868 a strat:Province ;
+    dcterms:identifier "PR34868" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Moore Basin" .
+
+gfs:PR34869 a strat:Province ;
+    dcterms:identifier "PR34869" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Monawai Ridge" .
+
+gfs:PR34870 a strat:Province ;
+    dcterms:identifier "PR34870" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Eastern Plateau" .
+
+gfs:PR34871 a strat:Province ;
+    dcterms:identifier "PR34871" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Mellish Rise" .
+
+gfs:PR34873 a strat:Province ;
+    dcterms:identifier "PR34873" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Kenn Plateau" .
+
+gfs:PR34874 a strat:Province ;
+    dcterms:identifier "PR34874" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Cape Wickham Sub-basin" .
+
+gfs:PR34875 a strat:Province ;
+    dcterms:identifier "PR34875" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Durroon Sub-basin" .
+
+gfs:PR34876 a strat:Province ;
+    dcterms:identifier "PR34876" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Couedic Shelf" .
+
+gfs:PR35160 a strat:Province ;
+    dcterms:identifier "PR35160" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Maggie Hays Nickel Metallogenic Province" .
+
+gfs:PR35165 a strat:Province ;
+    dcterms:identifier "PR35165" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Ravensthorpe Nickel Metallogenic Province" .
+
+gfs:PR35267 a strat:Province ;
+    dcterms:identifier "PR35267" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Radio Hill Nickel Metallogenic Province" .
+
+gfs:PR35269 a strat:Province ;
+    dcterms:identifier "PR35269" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Munni Munni PGE-Ni Metallogenic Province" .
+
+gfs:PR35276 a strat:Province ;
+    dcterms:identifier "PR35276" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Forrestania Nickel Metallogenic Province" .
+
+gfs:PR359040 a strat:Province ;
+    dcterms:identifier "PR359040" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Arafura Basin" .
+
+gfs:PR364771 a strat:Province ;
+    dcterms:identifier "PR364771" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Aileron Province" .
+
+gfs:PR364772 a strat:Province ;
+    dcterms:identifier "PR364772" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Warumpi Province" .
+
+gfs:PR39526 a strat:Province ;
+    dcterms:identifier "PR39526" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Sherlock Bay Nickel Metallogenic Province" .
+
+gfs:PR39529 a strat:Province ;
+    dcterms:identifier "PR39529" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Panton PGE-Ni Metallogenic Province" .
+
+gfs:PR39535 a strat:Province ;
+    dcterms:identifier "PR39535" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Sally Malay Nickel Metallogenic Province" .
+
+gfs:PR39717 a strat:Province ;
+    dcterms:identifier "PR39717" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Ruth Well Nickel Metallogenic Province" .
+
+gfs:PR39721 a strat:Province ;
+    dcterms:identifier "PR39721" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Kambalda Nickel Metallogenic Province" .
+
+gfs:PR39725 a strat:Province ;
+    dcterms:identifier "PR39725" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Mount Keith Nickel Metallogenic Province" .
+
+gfs:PR39728 a strat:Province ;
+    dcterms:identifier "PR39728" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Windarra Nickel Metallogenic Province" .
+
+gfs:PR39956 a strat:Province ;
+    dcterms:identifier "PR39956" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Sahul Syncline" .
+
+gfs:PR39958 a strat:Province ;
+    dcterms:identifier "PR39958" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Laminaria High" .
+
+gfs:PR39959 a strat:Province ;
+    dcterms:identifier "PR39959" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Flamingo High" .
+
+gfs:PR39960 a strat:Province ;
+    dcterms:identifier "PR39960" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Flamingo Syncline" .
+
+gfs:PR40484 a strat:Province ;
+    dcterms:identifier "PR40484" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "New England Orogen" .
+
+gfs:PR40535 a strat:Province ;
+    dcterms:identifier "PR40535" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Calliope Province" .
+
+gfs:PR40536 a strat:Province ;
+    dcterms:identifier "PR40536" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Connors-Auburn Province" .
+
+gfs:PR40540 a strat:Province ;
+    dcterms:identifier "PR40540" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Woolomin Province" .
+
+gfs:PR40549 a strat:Province ;
+    dcterms:identifier "PR40549" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Coffs Harbour Province" .
+
+gfs:PR40555 a strat:Province ;
+    dcterms:identifier "PR40555" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Gamilaroi Terrane" .
+
+gfs:PR40558 a strat:Province ;
+    dcterms:identifier "PR40558" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Hastings Province" .
+
+gfs:PR40564 a strat:Province ;
+    dcterms:identifier "PR40564" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Nambucca Province" .
+
+gfs:PR40573 a strat:Province ;
+    dcterms:identifier "PR40573" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Tamworth Province" .
+
+gfs:PR40671 a strat:Province ;
+    dcterms:identifier "PR40671" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Arckaringa Basin" .
+
+gfs:PR407416 a strat:Province ;
+    dcterms:identifier "PR407416" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Wandilla Province" .
+
+gfs:PR407417 a strat:Province ;
+    dcterms:identifier "PR407417" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Marlborough Province" .
+
+gfs:PR407419 a strat:Province ;
+    dcterms:identifier "PR407419" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Gympie Province" .
+
+gfs:PR407427 a strat:Province ;
+    dcterms:identifier "PR407427" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Christie Domain" .
+
+gfs:PR407569 a strat:Province ;
+    dcterms:identifier "PR407569" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Wisemans Arm Province" .
+
+gfs:PR407594 a strat:Province ;
+    dcterms:identifier "PR407594" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Port Macquarie Province" .
+
+gfs:PR42187 a strat:Province ;
+    dcterms:identifier "PR42187" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Avebury Nickel Metallogenic Province" .
+
+gfs:PR42511 a strat:Province ;
+    dcterms:identifier "PR42511" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Caswell Sub-basin" .
+
+gfs:PR42518 a strat:Province ;
+    dcterms:identifier "PR42518" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Gawler Craton" .
+
+gfs:PR429252 a strat:Province ;
+    dcterms:identifier "PR429252" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Lamboo Province" .
+
+gfs:PR429253 a strat:Province ;
+    dcterms:identifier "PR429253" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Hooper Province" .
+
+gfs:PR435379 a strat:Province ;
+    dcterms:identifier "PR435379" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Bremer Sub-basin" .
+
+gfs:PR436513 a strat:Province ;
+    dcterms:identifier "PR436513" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Otway Basin" .
+
+gfs:PR436540 a strat:Province ;
+    dcterms:identifier "PR436540" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Inner Otway Basin" .
+
+gfs:PR442771 a strat:Province ;
+    dcterms:identifier "PR442771" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Croydon Province" .
+
+gfs:PR443092 a strat:Province ;
+    dcterms:identifier "PR443092" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Greenvale Province" .
+
+gfs:PR444520 a strat:Province ;
+    dcterms:identifier "PR444520" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Tabberabbera Zone" .
+
+gfs:PR444524 a strat:Province ;
+    dcterms:identifier "PR444524" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Mallacoota Zone" .
+
+gfs:PR449962 a strat:Province ;
+    dcterms:identifier "PR449962" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Anakie Province" .
+
+gfs:PR464167 a strat:Province ;
+    dcterms:identifier "PR464167" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Leeuwin Province" .
+
+gfs:PR464168 a strat:Province ;
+    dcterms:identifier "PR464168" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Pinjarra Orogen" .
+
+gfs:PR464169 a strat:Province ;
+    dcterms:identifier "PR464169" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Mullingarra Province" .
+
+gfs:PR464170 a strat:Province ;
+    dcterms:identifier "PR464170" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Northampton Province" .
+
+gfs:PR464192 a strat:Province ;
+    dcterms:identifier "PR464192" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Gascoyne Province" .
+
+gfs:PR464200 a strat:Province ;
+    dcterms:identifier "PR464200" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Hamersley Basin" .
+
+gfs:PR464203 a strat:Province ;
+    dcterms:identifier "PR464203" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Pilbara Craton" .
+
+gfs:PR464380 a strat:Province ;
+    dcterms:identifier "PR464380" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Sylvania Dome" .
+
+gfs:PR464382 a strat:Province ;
+    dcterms:identifier "PR464382" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Marymia Dome" .
+
+gfs:PR464551 a strat:Province ;
+    dcterms:identifier "PR464551" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Ashburton Basin" .
+
+gfs:PR464560 a strat:Province ;
+    dcterms:identifier "PR464560" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Edmund Basin" .
+
+gfs:PR464562 a strat:Province ;
+    dcterms:identifier "PR464562" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Collier Basin" .
+
+gfs:PR464632 a strat:Province ;
+    dcterms:identifier "PR464632" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Yilgarn Craton" .
+
+gfs:PR464633 a strat:Province ;
+    dcterms:identifier "PR464633" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Earaheedy Basin" .
+
+gfs:PR464634 a strat:Province ;
+    dcterms:identifier "PR464634" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Yerrida Basin" .
+
+gfs:PR464708 a strat:Province ;
+    dcterms:identifier "PR464708" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Bryah Basin" .
+
+gfs:PR464812 a strat:Province ;
+    dcterms:identifier "PR464812" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Padbury Basin" .
+
+gfs:PR464813 a strat:Province ;
+    dcterms:identifier "PR464813" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Albany-Fraser Orogen" .
+
+gfs:PR466191 a strat:Province ;
+    dcterms:identifier "PR466191" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Paterson Orogen" .
+
+gfs:PR466205 a strat:Province ;
+    dcterms:identifier "PR466205" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Rudall Province" .
+
+gfs:PR466206 a strat:Province ;
+    dcterms:identifier "PR466206" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Yeneena Basin" .
+
+gfs:PR466893 a strat:Province ;
+    dcterms:identifier "PR466893" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Ward-Oldham Province" .
+
+gfs:PR466894 a strat:Province ;
+    dcterms:identifier "PR466894" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Scorpion Basin" .
+
+gfs:PR466896 a strat:Province ;
+    dcterms:identifier "PR466896" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Salvation Basin" .
+
+gfs:PR466897 a strat:Province ;
+    dcterms:identifier "PR466897" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Malmac Dome" .
+
+gfs:PR466898 a strat:Province ;
+    dcterms:identifier "PR466898" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Blair Basin" .
+
+gfs:PR466899 a strat:Province ;
+    dcterms:identifier "PR466899" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Mount Minnie Basin" .
+
+gfs:PR466900 a strat:Province ;
+    dcterms:identifier "PR466900" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Bresnahan Basin" .
+
+gfs:PR466901 a strat:Province ;
+    dcterms:identifier "PR466901" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Warakurna Large Igneous Province" .
+
+gfs:PR466902 a strat:Province ;
+    dcterms:identifier "PR466902" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Gunbarrel Basin" .
+
+gfs:PR467103 a strat:Province ;
+    dcterms:identifier "PR467103" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Halls Creek Orogen" .
+
+gfs:PR467104 a strat:Province ;
+    dcterms:identifier "PR467104" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "King Leopold Orogen" .
+
+gfs:PR467107 a strat:Province ;
+    dcterms:identifier "PR467107" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Speewah Basin" .
+
+gfs:PR467108 a strat:Province ;
+    dcterms:identifier "PR467108" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Kimberley Basin" .
+
+gfs:PR467109 a strat:Province ;
+    dcterms:identifier "PR467109" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Carr Boyd Basin" .
+
+gfs:PR467194 a strat:Province ;
+    dcterms:identifier "PR467194" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Louisa Basin" .
+
+gfs:PR467195 a strat:Province ;
+    dcterms:identifier "PR467195" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Bastion Basin" .
+
+gfs:PR467197 a strat:Province ;
+    dcterms:identifier "PR467197" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Crowhurst Basin" .
+
+gfs:PR467199 a strat:Province ;
+    dcterms:identifier "PR467199" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Red Rock Basin" .
+
+gfs:PR467200 a strat:Province ;
+    dcterms:identifier "PR467200" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Texas Downs Basin" .
+
+gfs:PR467201 a strat:Province ;
+    dcterms:identifier "PR467201" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Revolver Creek Basin" .
+
+gfs:PR467202 a strat:Province ;
+    dcterms:identifier "PR467202" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Osmond Basin" .
+
+gfs:PR467203 a strat:Province ;
+    dcterms:identifier "PR467203" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Moola Bulla Basin" .
+
+gfs:PR467204 a strat:Province ;
+    dcterms:identifier "PR467204" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Wolfe Basin" .
+
+gfs:PR467206 a strat:Province ;
+    dcterms:identifier "PR467206" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Ord Basin" .
+
+gfs:PR467207 a strat:Province ;
+    dcterms:identifier "PR467207" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Glidden Basin" .
+
+gfs:PR467208 a strat:Province ;
+    dcterms:identifier "PR467208" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Birrindudu Basin" .
+
+gfs:PR467226 a strat:Province ;
+    dcterms:identifier "PR467226" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Tanami Orogen" .
+
+gfs:PR467254 a strat:Province ;
+    dcterms:identifier "PR467254" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Lucas Craton" .
+
+gfs:PR467255 a strat:Province ;
+    dcterms:identifier "PR467255" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Murraba Basin" .
+
+gfs:PR467256 a strat:Province ;
+    dcterms:identifier "PR467256" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Arunta Orogen" .
+
+gfs:PR467262 a strat:Province ;
+    dcterms:identifier "PR467262" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Musgrave Province" .
+
+gfs:PR467823 a strat:Province ;
+    dcterms:identifier "PR467823" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Oscar Range Province" .
+
+gfs:PR468041 a strat:Province ;
+    dcterms:identifier "PR468041" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Davenport Province" .
+
+gfs:PR468043 a strat:Province ;
+    dcterms:identifier "PR468043" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Tomkinson Province" .
+
+gfs:PR468265 a strat:Province ;
+    dcterms:identifier "PR468265" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Warramunga Province" .
+
+gfs:PR468269 a strat:Province ;
+    dcterms:identifier "PR468269" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Kalkarindji Igneous Province" .
+
+gfs:PR512258 a strat:Province ;
+    dcterms:identifier "PR512258" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Irindina Province" .
+
+gfs:PR512263 a strat:Province ;
+    dcterms:identifier "PR512263" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Pine Creek Orogen" .
+
+gfs:PR512264 a strat:Province ;
+    dcterms:identifier "PR512264" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "McArthur Basin" .
+
+gfs:PR513114 a strat:Province ;
+    dcterms:identifier "PR513114" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Olympic Domain" .
+
+gfs:PR523493 a strat:Province ;
+    dcterms:identifier "PR523493" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Mentelle Basin" .
+
+gfs:PR523494 a strat:Province ;
+    dcterms:identifier "PR523494" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Eastern Mentelle Basin" .
+
+gfs:PR523495 a strat:Province ;
+    dcterms:identifier "PR523495" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Western Mentelle Basin" .
+
+gfs:PR529302 a strat:Province ;
+    dcterms:identifier "PR529302" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Eromanga Basin" .
+
+gfs:PR529511 a strat:Province ;
+    dcterms:identifier "PR529511" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Cooper Basin" .
+
+gfs:PR529549 a strat:Province ;
+    dcterms:identifier "PR529549" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Pedirka Basin" .
+
+gfs:PR529551 a strat:Province ;
+    dcterms:identifier "PR529551" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Warburton Basin" .
+
+gfs:PR529556 a strat:Province ;
+    dcterms:identifier "PR529556" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Georgina Basin" .
+
+gfs:PR529727 a strat:Province ;
+    dcterms:identifier "PR529727" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Millungera Basin" .
+
+gfs:PR529788 a strat:Province ;
+    dcterms:identifier "PR529788" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Arrowie Basin" .
+
+gfs:PR529801 a strat:Province ;
+    dcterms:identifier "PR529801" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Lake Eyre Basin" .
+
+gfs:PR529913 a strat:Province ;
+    dcterms:identifier "PR529913" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Yathong Trough" .
+
+gfs:PR529922 a strat:Province ;
+    dcterms:identifier "PR529922" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Clarence-Moreton Basin" .
+
+gfs:PR530016 a strat:Province ;
+    dcterms:identifier "PR530016" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Gunnedah Basin" .
+
+gfs:PR530059 a strat:Province ;
+    dcterms:identifier "PR530059" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Bowen Basin" .
+
+gfs:PR530078 a strat:Province ;
+    dcterms:identifier "PR530078" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Sydney Basin" .
+
+gfs:PR530359 a strat:Province ;
+    dcterms:identifier "PR530359" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Darling Basin" .
+
+gfs:PR535919 a strat:Province ;
+    dcterms:identifier "PR535919" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Cobar Basin" .
+
+gfs:PR536552 a strat:Province ;
+    dcterms:identifier "PR536552" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Murray Basin" .
+
+gfs:PR544639 a strat:Province ;
+    dcterms:identifier "PR544639" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Wallaby Plateau" .
+
+gfs:PR547723 a strat:Province ;
+    dcterms:identifier "PR547723" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Hamilton Basin" .
+
+gfs:PR547725 a strat:Province ;
+    dcterms:identifier "PR547725" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Kopyje Shelf" .
+
+gfs:PR547727 a strat:Province ;
+    dcterms:identifier "PR547727" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Mount Hope Trough" .
+
+gfs:PR547728 a strat:Province ;
+    dcterms:identifier "PR547728" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Billa Kalina Basin" .
+
+gfs:PR547733 a strat:Province ;
+    dcterms:identifier "PR547733" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Canbelego - Mineral Hill Rift Zone" .
+
+gfs:PR547734 a strat:Province ;
+    dcterms:identifier "PR547734" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Walters Range Shelf" .
+
+gfs:PR547736 a strat:Province ;
+    dcterms:identifier "PR547736" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Melrose Trough" .
+
+gfs:PR549130 a strat:Province ;
+    dcterms:identifier "PR549130" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Rast Trough" .
+
+gfs:PR549700 a strat:Province ;
+    dcterms:identifier "PR549700" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Gloucester Basin" .
+
+gfs:PR550572 a strat:Province ;
+    dcterms:identifier "PR550572" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Carpentaria Basin" .
+
+gfs:PR550790 a strat:Province ;
+    dcterms:identifier "PR550790" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Galilee Basin" .
+
+gfs:PR550808 a strat:Province ;
+    dcterms:identifier "PR550808" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Berri Basin" .
+
+gfs:PR550809 a strat:Province ;
+    dcterms:identifier "PR550809" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Ivanhoe Trough" .
+
+gfs:PR551269 a strat:Province ;
+    dcterms:identifier "PR551269" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "South Nicholson Basin" .
+
+gfs:PR556124 a strat:Province ;
+    dcterms:identifier "PR556124" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Northern Foreland" .
+
+gfs:PR556159 a strat:Province ;
+    dcterms:identifier "PR556159" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Biranup Zone" .
+
+gfs:PR556275 a strat:Province ;
+    dcterms:identifier "PR556275" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Fraser Zone" .
+
+gfs:PR556276 a strat:Province ;
+    dcterms:identifier "PR556276" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Nornalup Zone" .
+
+gfs:PR556523 a strat:Province ;
+    dcterms:identifier "PR556523" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Mount Isa Orogen" .
+
+gfs:PR556736 a strat:Province ;
+    dcterms:identifier "PR556736" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Lachlan Orogen" .
+
+gfs:PR557148 a strat:Province ;
+    dcterms:identifier "PR557148" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Karumba Basin" .
+
+gfs:PR557149 a strat:Province ;
+    dcterms:identifier "PR557149" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Daly Basin" .
+
+gfs:PR559015 a strat:Province ;
+    dcterms:identifier "PR559015" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Camooweal-Murphy Domain" .
+
+gfs:PR559170 a strat:Province ;
+    dcterms:identifier "PR559170" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Arnhem Province" .
+
+gfs:PR559174 a strat:Province ;
+    dcterms:identifier "PR559174" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Broken River Province" .
+
+gfs:PR559175 a strat:Province ;
+    dcterms:identifier "PR559175" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Canobie Domain" .
+
+gfs:PR559176 a strat:Province ;
+    dcterms:identifier "PR559176" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Cape York - Oriomo Province" .
+
+gfs:PR559177 a strat:Province ;
+    dcterms:identifier "PR559177" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Cariewerloo Basin" .
+
+gfs:PR559178 a strat:Province ;
+    dcterms:identifier "PR559178" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Central NSW - Omeo Province" .
+
+gfs:PR559187 a strat:Province ;
+    dcterms:identifier "PR559187" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Century Domain" .
+
+gfs:PR559188 a strat:Province ;
+    dcterms:identifier "PR559188" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Charters Towers Province" .
+
+gfs:PR559189 a strat:Province ;
+    dcterms:identifier "PR559189" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Drummond Basin" .
+
+gfs:PR559191 a strat:Province ;
+    dcterms:identifier "PR559191" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Doherty - Fig Tree Gully Domain" .
+
+gfs:PR559193 a strat:Province ;
+    dcterms:identifier "PR559193" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Eastern Province" .
+
+gfs:PR559194 a strat:Province ;
+    dcterms:identifier "PR559194" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Kalkadoon-Leichhardt Domain" .
+
+gfs:PR559195 a strat:Province ;
+    dcterms:identifier "PR559195" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Kuridala-Selwyn Domain" .
+
+gfs:PR559196 a strat:Province ;
+    dcterms:identifier "PR559196" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Leichhardt River Domain" .
+
+gfs:PR559197 a strat:Province ;
+    dcterms:identifier "PR559197" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Marimo-Staveley Domain" .
+
+gfs:PR559198 a strat:Province ;
+    dcterms:identifier "PR559198" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Mary Kathleen Domain" .
+
+gfs:PR559199 a strat:Province ;
+    dcterms:identifier "PR559199" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Mitakoodi Domain" .
+
+gfs:PR559200 a strat:Province ;
+    dcterms:identifier "PR559200" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Mossman Orogen" .
+
+gfs:PR559201 a strat:Province ;
+    dcterms:identifier "PR559201" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Mount Oxide Domain" .
+
+gfs:PR559202 a strat:Province ;
+    dcterms:identifier "PR559202" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Northwest Province" .
+
+gfs:PR559203 a strat:Province ;
+    dcterms:identifier "PR559203" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Kuark Zone" .
+
+gfs:PR559204 a strat:Province ;
+    dcterms:identifier "PR559204" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Soldiers Cap Domain" .
+
+gfs:PR559205 a strat:Province ;
+    dcterms:identifier "PR559205" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Sybella Domain" .
+
+gfs:PR559206 a strat:Province ;
+    dcterms:identifier "PR559206" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Tommy Creek Domain" .
+
+gfs:PR559207 a strat:Province ;
+    dcterms:identifier "PR559207" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "West Province" .
+
+gfs:PR559208 a strat:Province ;
+    dcterms:identifier "PR559208" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Silverwood Province" .
+
+gfs:PR559209 a strat:Province ;
+    dcterms:identifier "PR559209" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Yarrol Province" .
+
+gfs:PR559229 a strat:Province ;
+    dcterms:identifier "PR559229" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Ashford Basin" .
+
+gfs:PR559492 a strat:Province ;
+    dcterms:identifier "PR559492" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Melbourne-Mathinna Zone" .
+
+gfs:PR559519 a strat:Province ;
+    dcterms:identifier "PR559519" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Emu Creek Province" .
+
+gfs:PR569185 a strat:Province ;
+    dcterms:identifier "PR569185" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Victoria Basin" .
+
+gfs:PR569864 a strat:Province ;
+    dcterms:identifier "PR569864" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Myall Syncline" .
+
+gfs:PR570458 a strat:Province ;
+    dcterms:identifier "PR570458" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Central Australian Element" .
+
+gfs:PR570543 a strat:Province ;
+    dcterms:identifier "PR570543" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "North Australian Element" .
+
+gfs:PR570548 a strat:Province ;
+    dcterms:identifier "PR570548" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Pinjarra Element" .
+
+gfs:PR570549 a strat:Province ;
+    dcterms:identifier "PR570549" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "South Australian Element" .
+
+gfs:PR570550 a strat:Province ;
+    dcterms:identifier "PR570550" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Tasman Element" .
+
+gfs:PR570551 a strat:Province ;
+    dcterms:identifier "PR570551" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "West Australian Element" .
+
+gfs:PR571045 a strat:Province ;
+    dcterms:identifier "PR571045" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Fortescue Basin" .
+
+gfs:PR575914 a strat:Province ;
+    dcterms:identifier "PR575914" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "16 Mile Basin Paleovalley" .
+
+gfs:PR575915 a strat:Province ;
+    dcterms:identifier "PR575915" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Acraman Paleovalley" .
+
+gfs:PR575916 a strat:Province ;
+    dcterms:identifier "PR575916" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Alice Farm Paleovalley" .
+
+gfs:PR575923 a strat:Province ;
+    dcterms:identifier "PR575923" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Allapalilla Paleovalley" .
+
+gfs:PR575925 a strat:Province ;
+    dcterms:identifier "PR575925" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Amputjuta Paleovalley" .
+
+gfs:PR575926 a strat:Province ;
+    dcterms:identifier "PR575926" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Andando Paleovalley" .
+
+gfs:PR575936 a strat:Province ;
+    dcterms:identifier "PR575936" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Anthony Paleovalley" .
+
+gfs:PR575938 a strat:Province ;
+    dcterms:identifier "PR575938" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Aremra Paleovalley" .
+
+gfs:PR575939 a strat:Province ;
+    dcterms:identifier "PR575939" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Arkaroola Paleovalley" .
+
+gfs:PR575940 a strat:Province ;
+    dcterms:identifier "PR575940" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Armstrong Creek Paleovalley" .
+
+gfs:PR575965 a strat:Province ;
+    dcterms:identifier "PR575965" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Arrowsmith Paleovalley" .
+
+gfs:PR575966 a strat:Province ;
+    dcterms:identifier "PR575966" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Ashburton Paleovalley" .
+
+gfs:PR575967 a strat:Province ;
+    dcterms:identifier "PR575967" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Atula Paleovalley" .
+
+gfs:PR575968 a strat:Province ;
+    dcterms:identifier "PR575968" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Austin Paleovalley" .
+
+gfs:PR575969 a strat:Province ;
+    dcterms:identifier "PR575969" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Avon Paleovalley" .
+
+gfs:PR575970 a strat:Province ;
+    dcterms:identifier "PR575970" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Baker Paleovalley" .
+
+gfs:PR575971 a strat:Province ;
+    dcterms:identifier "PR575971" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Beadell Paleovalley" .
+
+gfs:PR575972 a strat:Province ;
+    dcterms:identifier "PR575972" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Beasley Paleovalley" .
+
+gfs:PR575973 a strat:Province ;
+    dcterms:identifier "PR575973" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Beaufort Paleovalley" .
+
+gfs:PR575974 a strat:Province ;
+    dcterms:identifier "PR575974" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Beverley Paleovalley" .
+
+gfs:PR575975 a strat:Province ;
+    dcterms:identifier "PR575975" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Big John Paleovalley" .
+
+gfs:PR575976 a strat:Province ;
+    dcterms:identifier "PR575976" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Billeroo Paleovalley" .
+
+gfs:PR575977 a strat:Province ;
+    dcterms:identifier "PR575977" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Birksgate Paleovalley" .
+
+gfs:PR575978 a strat:Province ;
+    dcterms:identifier "PR575978" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Birrindudu Paleovalley" .
+
+gfs:PR575979 a strat:Province ;
+    dcterms:identifier "PR575979" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Blanche Paleovalley" .
+
+gfs:PR575980 a strat:Province ;
+    dcterms:identifier "PR575980" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Bloods Creek Paleovalley" .
+
+gfs:PR575981 a strat:Province ;
+    dcterms:identifier "PR575981" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Bloods Range Paleovalley" .
+
+gfs:PR575982 a strat:Province ;
+    dcterms:identifier "PR575982" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Bonney Paleovalley" .
+
+gfs:PR575983 a strat:Province ;
+    dcterms:identifier "PR575983" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Boulder Bore Paleovalley" .
+
+gfs:PR575987 a strat:Province ;
+    dcterms:identifier "PR575987" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Bremer Paleovalley" .
+
+gfs:PR575988 a strat:Province ;
+    dcterms:identifier "PR575988" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Buck Paleovalley" .
+
+gfs:PR575989 a strat:Province ;
+    dcterms:identifier "PR575989" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Bundey Paleovalley" .
+
+gfs:PR575990 a strat:Province ;
+    dcterms:identifier "PR575990" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Bungaroo Paleovalley" .
+
+gfs:PR575991 a strat:Province ;
+    dcterms:identifier "PR575991" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Burt Paleovalley" .
+
+gfs:PR575992 a strat:Province ;
+    dcterms:identifier "PR575992" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Byro Paleovalley" .
+
+gfs:PR575993 a strat:Province ;
+    dcterms:identifier "PR575993" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Caliwingina Paleovalley" .
+
+gfs:PR575994 a strat:Province ;
+    dcterms:identifier "PR575994" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Callabonna Paleovalley" .
+
+gfs:PR575995 a strat:Province ;
+    dcterms:identifier "PR575995" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Camm Paleovalley" .
+
+gfs:PR575996 a strat:Province ;
+    dcterms:identifier "PR575996" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Cane Paleovalley" .
+
+gfs:PR575997 a strat:Province ;
+    dcterms:identifier "PR575997" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Carey Paleovalley" .
+
+gfs:PR575998 a strat:Province ;
+    dcterms:identifier "PR575998" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Carnegie Paleovalley" .
+
+gfs:PR575999 a strat:Province ;
+    dcterms:identifier "PR575999" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Cobb Paleovalley" .
+
+gfs:PR576000 a strat:Province ;
+    dcterms:identifier "PR576000" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Cooniee Paleovalley" .
+
+gfs:PR576001 a strat:Province ;
+    dcterms:identifier "PR576001" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Cooper Creek Paleovalley" .
+
+gfs:PR576002 a strat:Province ;
+    dcterms:identifier "PR576002" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Cooryanna Paleovalley" .
+
+gfs:PR576003 a strat:Province ;
+    dcterms:identifier "PR576003" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Cowan Paleovalley" .
+
+gfs:PR576004 a strat:Province ;
+    dcterms:identifier "PR576004" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Cowcowling Paleovalley" .
+
+gfs:PR576006 a strat:Province ;
+    dcterms:identifier "PR576006" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Cudalgarra Paleovalley" .
+
+gfs:PR576007 a strat:Province ;
+    dcterms:identifier "PR576007" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Curnamona Paleovalley" .
+
+gfs:PR576141 a strat:Province ;
+    dcterms:identifier "PR576141" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Dales Gorge Paleovalley" .
+
+gfs:PR576142 a strat:Province ;
+    dcterms:identifier "PR576142" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Davis Paleovalley" .
+
+gfs:PR576143 a strat:Province ;
+    dcterms:identifier "PR576143" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "De Grey Paleovalley" .
+
+gfs:PR576144 a strat:Province ;
+    dcterms:identifier "PR576144" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Deborah Paleovalley" .
+
+gfs:PR576145 a strat:Province ;
+    dcterms:identifier "PR576145" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Disappointment Paleovalley" .
+
+gfs:PR576146 a strat:Province ;
+    dcterms:identifier "PR576146" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Docker River Paleovalley" .
+
+gfs:PR576147 a strat:Province ;
+    dcterms:identifier "PR576147" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Duck Creek Paleovalley" .
+
+gfs:PR576148 a strat:Province ;
+    dcterms:identifier "PR576148" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Eclipse Paleovalley" .
+
+gfs:PR576149 a strat:Province ;
+    dcterms:identifier "PR576149" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Emu Creek Paleovalley" .
+
+gfs:PR576150 a strat:Province ;
+    dcterms:identifier "PR576150" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Eneabba Paleovalley" .
+
+gfs:PR576151 a strat:Province ;
+    dcterms:identifier "PR576151" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Ernabella Paleovalley" .
+
+gfs:PR576152 a strat:Province ;
+    dcterms:identifier "PR576152" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Ethel Creek Paleovalley" .
+
+gfs:PR576154 a strat:Province ;
+    dcterms:identifier "PR576154" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Farewell Paleovalley" .
+
+gfs:PR576155 a strat:Province ;
+    dcterms:identifier "PR576155" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Fiddlers Paleovalley" .
+
+gfs:PR576156 a strat:Province ;
+    dcterms:identifier "PR576156" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Finke River Paleovalley" .
+
+gfs:PR576157 a strat:Province ;
+    dcterms:identifier "PR576157" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Four Mile Paleovalley" .
+
+gfs:PR576158 a strat:Province ;
+    dcterms:identifier "PR576158" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Garford Paleovalley" .
+
+gfs:PR576159 a strat:Province ;
+    dcterms:identifier "PR576159" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Gascoyne Paleovalley" .
+
+gfs:PR576160 a strat:Province ;
+    dcterms:identifier "PR576160" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Giddi-Giddinna Paleovalley" .
+
+gfs:PR576161 a strat:Province ;
+    dcterms:identifier "PR576161" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Gregory Paleovalley" .
+
+gfs:PR576162 a strat:Province ;
+    dcterms:identifier "PR576162" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Hale Paleovalley" .
+
+gfs:PR576163 a strat:Province ;
+    dcterms:identifier "PR576163" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Hamilton Paleovalley" .
+
+gfs:PR576164 a strat:Province ;
+    dcterms:identifier "PR576164" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Hamilton North Paleovalley" .
+
+gfs:PR576165 a strat:Province ;
+    dcterms:identifier "PR576165" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Hanson Paleovalley" .
+
+gfs:PR576166 a strat:Province ;
+    dcterms:identifier "PR576166" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Hazlett Paleovalley" .
+
+gfs:PR576167 a strat:Province ;
+    dcterms:identifier "PR576167" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Henry Paleovalley" .
+
+gfs:PR576168 a strat:Province ;
+    dcterms:identifier "PR576168" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Hope Paleovalley" .
+
+gfs:PR576169 a strat:Province ;
+    dcterms:identifier "PR576169" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Hotham Paleovalley" .
+
+gfs:PR576170 a strat:Province ;
+    dcterms:identifier "PR576170" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Hou Paleovalley" .
+
+gfs:PR576171 a strat:Province ;
+    dcterms:identifier "PR576171" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Irwin Paleovalley" .
+
+gfs:PR576172 a strat:Province ;
+    dcterms:identifier "PR576172" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Jacobson Paleovalley" .
+
+gfs:PR576173 a strat:Province ;
+    dcterms:identifier "PR576173" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Jadliaura Paleovalley" .
+
+gfs:PR576174 a strat:Province ;
+    dcterms:identifier "PR576174" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "John Brown Paleovalley" .
+
+gfs:PR576175 a strat:Province ;
+    dcterms:identifier "PR576175" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Jolly Paleovalley" .
+
+gfs:PR576176 a strat:Province ;
+    dcterms:identifier "PR576176" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Kadgo Paleovalley" .
+
+gfs:PR576177 a strat:Province ;
+    dcterms:identifier "PR576177" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Kamerooka Paleovalley" .
+
+gfs:PR576178 a strat:Province ;
+    dcterms:identifier "PR576178" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Katiti (Ayers Rock) Paleovalley" .
+
+gfs:PR576179 a strat:Province ;
+    dcterms:identifier "PR576179" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Keene Paleovalley" .
+
+gfs:PR576180 a strat:Province ;
+    dcterms:identifier "PR576180" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Killi Killi Paleovalley" .
+
+gfs:PR576181 a strat:Province ;
+    dcterms:identifier "PR576181" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Kingoonya Paleovalley" .
+
+gfs:PR576182 a strat:Province ;
+    dcterms:identifier "PR576182" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Kintore Paleovalley" .
+
+gfs:PR576183 a strat:Province ;
+    dcterms:identifier "PR576183" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Kumina Paleovalley" .
+
+gfs:PR576184 a strat:Province ;
+    dcterms:identifier "PR576184" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Lake Lewis Paleovalley" .
+
+gfs:PR576185 a strat:Province ;
+    dcterms:identifier "PR576185" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Lau Paleovalley" .
+
+gfs:PR576186 a strat:Province ;
+    dcterms:identifier "PR576186" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Lefroy Paleovalley" .
+
+gfs:PR576187 a strat:Province ;
+    dcterms:identifier "PR576187" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Lindsay Paleovalley" .
+
+gfs:PR576188 a strat:Province ;
+    dcterms:identifier "PR576188" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Lockhart Paleovalley" .
+
+gfs:PR576189 a strat:Province ;
+    dcterms:identifier "PR576189" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Lost Paleovalley" .
+
+gfs:PR576190 a strat:Province ;
+    dcterms:identifier "PR576190" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Lyons Paleovalley" .
+
+gfs:PR576193 a strat:Province ;
+    dcterms:identifier "PR576193" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Mackay (Wilkinkarra) Paleovalley" .
+
+gfs:PR576194 a strat:Province ;
+    dcterms:identifier "PR576194" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Mandora Paleovalley" .
+
+gfs:PR576195 a strat:Province ;
+    dcterms:identifier "PR576195" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Manunda Creek Paleovalley" .
+
+gfs:PR576196 a strat:Province ;
+    dcterms:identifier "PR576196" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Marandoo Paleovalley" .
+
+gfs:PR576197 a strat:Province ;
+    dcterms:identifier "PR576197" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Mc Dills Paleovalley" .
+
+gfs:PR576198 a strat:Province ;
+    dcterms:identifier "PR576198" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Melton Paleovalley" .
+
+gfs:PR576199 a strat:Province ;
+    dcterms:identifier "PR576199" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Meramangye Paleovalley" .
+
+gfs:PR576200 a strat:Province ;
+    dcterms:identifier "PR576200" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Mobrup Paleovalley" .
+
+gfs:PR576201 a strat:Province ;
+    dcterms:identifier "PR576201" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Mongrel Paleovalley" .
+
+gfs:PR576202 a strat:Province ;
+    dcterms:identifier "PR576202" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Moore-Monger Paleovalley" .
+
+gfs:PR576203 a strat:Province ;
+    dcterms:identifier "PR576203" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Mortlock Paleovalley" .
+
+gfs:PR576204 a strat:Province ;
+    dcterms:identifier "PR576204" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Mount Barker Paleovalley" .
+
+gfs:PR576205 a strat:Province ;
+    dcterms:identifier "PR576205" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Mount Wedge Paleovalley" .
+
+gfs:PR576206 a strat:Province ;
+    dcterms:identifier "PR576206" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Mt Theo Paleovalley" .
+
+gfs:PR576207 a strat:Province ;
+    dcterms:identifier "PR576207" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Mucumba Paleovalley" .
+
+gfs:PR576208 a strat:Province ;
+    dcterms:identifier "PR576208" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Mulligan Paleovalley" .
+
+gfs:PR576209 a strat:Province ;
+    dcterms:identifier "PR576209" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Mungkarta Paleovalley" .
+
+gfs:PR576210 a strat:Province ;
+    dcterms:identifier "PR576210" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Murchison Paleovalley" .
+
+gfs:PR576211 a strat:Province ;
+    dcterms:identifier "PR576211" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Seringapatam Sub-basin" .
+
+gfs:PR576212 a strat:Province ;
+    dcterms:identifier "PR576212" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Namba Paleovalley" .
+
+gfs:PR576213 a strat:Province ;
+    dcterms:identifier "PR576213" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Nappamurra Paleovalley" .
+
+gfs:PR576214 a strat:Province ;
+    dcterms:identifier "PR576214" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Nepouie Paleovalley" .
+
+gfs:PR576215 a strat:Province ;
+    dcterms:identifier "PR576215" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "New Granite Paleovalley" .
+
+gfs:PR576216 a strat:Province ;
+    dcterms:identifier "PR576216" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Ngalabaldjiri Paleovalley" .
+
+gfs:PR576217 a strat:Province ;
+    dcterms:identifier "PR576217" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Noorina Paleovalley" .
+
+gfs:PR576218 a strat:Province ;
+    dcterms:identifier "PR576218" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Nora Paleovalley" .
+
+gfs:PR576219 a strat:Province ;
+    dcterms:identifier "PR576219" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Nullagine Paleovalley" .
+
+gfs:PR576220 a strat:Province ;
+    dcterms:identifier "PR576220" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Oakover Paleovalley" .
+
+gfs:PR576221 a strat:Province ;
+    dcterms:identifier "PR576221" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Onkaparinga Paleovalley" .
+
+gfs:PR576222 a strat:Province ;
+    dcterms:identifier "PR576222" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Ord Paleovalley" .
+
+gfs:PR576223 a strat:Province ;
+    dcterms:identifier "PR576223" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Outouie Paleovalley" .
+
+gfs:PR576224 a strat:Province ;
+    dcterms:identifier "PR576224" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Palparti Paleovalley" .
+
+gfs:PR576225 a strat:Province ;
+    dcterms:identifier "PR576225" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Paraku Paleovalley" .
+
+gfs:PR576226 a strat:Province ;
+    dcterms:identifier "PR576226" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Parsons Paleovalley" .
+
+gfs:PR576227 a strat:Province ;
+    dcterms:identifier "PR576227" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Peake Creek Paleovalley" .
+
+gfs:PR576228 a strat:Province ;
+    dcterms:identifier "PR576228" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Pekina Plain Paleovalley" .
+
+gfs:PR576229 a strat:Province ;
+    dcterms:identifier "PR576229" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Percival Paleovalley" .
+
+gfs:PR576230 a strat:Province ;
+    dcterms:identifier "PR576230" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Pingidijarra Paleovalley" .
+
+gfs:PR576231 a strat:Province ;
+    dcterms:identifier "PR576231" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Pirie Basin Paleovalley" .
+
+gfs:PR576232 a strat:Province ;
+    dcterms:identifier "PR576232" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Poontana Paleovalley" .
+
+gfs:PR576233 a strat:Province ;
+    dcterms:identifier "PR576233" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Question Mark Paleovalley" .
+
+gfs:PR576234 a strat:Province ;
+    dcterms:identifier "PR576234" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Quorn Paleovalley" .
+
+gfs:PR576235 a strat:Province ;
+    dcterms:identifier "PR576235" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Rabbit Flat Paleovalley" .
+
+gfs:PR576236 a strat:Province ;
+    dcterms:identifier "PR576236" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Radium Paleovalley" .
+
+gfs:PR576237 a strat:Province ;
+    dcterms:identifier "PR576237" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Raeside Paleovalley" .
+
+gfs:PR576238 a strat:Province ;
+    dcterms:identifier "PR576238" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Rebecca Paleovalley" .
+
+gfs:PR576239 a strat:Province ;
+    dcterms:identifier "PR576239" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Red Hill Paleovalley" .
+
+gfs:PR576240 a strat:Province ;
+    dcterms:identifier "PR576240" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Robe Paleovalley" .
+
+gfs:PR576241 a strat:Province ;
+    dcterms:identifier "PR576241" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Rocklea Paleovalley" .
+
+gfs:PR576242 a strat:Province ;
+    dcterms:identifier "PR576242" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Roe Paleovalley" .
+
+gfs:PR576243 a strat:Province ;
+    dcterms:identifier "PR576243" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Sandy Blight Paleovalley" .
+
+gfs:PR576244 a strat:Province ;
+    dcterms:identifier "PR576244" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Sanford Paleovalley" .
+
+gfs:PR576245 a strat:Province ;
+    dcterms:identifier "PR576245" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Santa Teresa Paleovalley" .
+
+gfs:PR576246 a strat:Province ;
+    dcterms:identifier "PR576246" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Serenity Paleovalley" .
+
+gfs:PR576247 a strat:Province ;
+    dcterms:identifier "PR576247" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Serpentine Paleovalley" .
+
+gfs:PR576248 a strat:Province ;
+    dcterms:identifier "PR576248" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Solomon Paleovalley" .
+
+gfs:PR576249 a strat:Province ;
+    dcterms:identifier "PR576249" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Stevenson Creek Paleovalley" .
+
+gfs:PR576250 a strat:Province ;
+    dcterms:identifier "PR576250" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Surprise Paleovalley" .
+
+gfs:PR576251 a strat:Province ;
+    dcterms:identifier "PR576251" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Sylvania Paleovalley" .
+
+gfs:PR576252 a strat:Province ;
+    dcterms:identifier "PR576252" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Tallaringa Paleovalley" .
+
+gfs:PR576253 a strat:Province ;
+    dcterms:identifier "PR576253" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Tanami Paleovalley" .
+
+gfs:PR576254 a strat:Province ;
+    dcterms:identifier "PR576254" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Tarawera Paleovalley" .
+
+gfs:PR576255 a strat:Province ;
+    dcterms:identifier "PR576255" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Tea Tree Creek Paleovalley" .
+
+gfs:PR576256 a strat:Province ;
+    dcterms:identifier "PR576256" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Teede Paleovalley" .
+
+gfs:PR576257 a strat:Province ;
+    dcterms:identifier "PR576257" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Throssel Paleovalley" .
+
+gfs:PR576258 a strat:Province ;
+    dcterms:identifier "PR576258" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Ti Tree Paleovalley" .
+
+gfs:PR576259 a strat:Province ;
+    dcterms:identifier "PR576259" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Tolmer Paleovalley" .
+
+gfs:PR576260 a strat:Province ;
+    dcterms:identifier "PR576260" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Turee Paleovalley" .
+
+gfs:PR576261 a strat:Province ;
+    dcterms:identifier "PR576261" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Upper Benagerie Paleovalley" .
+
+gfs:PR576262 a strat:Province ;
+    dcterms:identifier "PR576262" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "van der Linden Paleovalley" .
+
+gfs:PR576263 a strat:Province ;
+    dcterms:identifier "PR576263" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Victory Paleovalley" .
+
+gfs:PR576264 a strat:Province ;
+    dcterms:identifier "PR576264" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Waite Paleovalley" .
+
+gfs:PR576265 a strat:Province ;
+    dcterms:identifier "PR576265" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Wallal Paleovalley" .
+
+gfs:PR576266 a strat:Province ;
+    dcterms:identifier "PR576266" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Wallamunga Paleovalley" .
+
+gfs:PR576267 a strat:Province ;
+    dcterms:identifier "PR576267" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Walu Paleovalley" .
+
+gfs:PR576268 a strat:Province ;
+    dcterms:identifier "PR576268" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Wanna Paleovalley" .
+
+gfs:PR576269 a strat:Province ;
+    dcterms:identifier "PR576269" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Warrabri Paleovalley" .
+
+gfs:PR576270 a strat:Province ;
+    dcterms:identifier "PR576270" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Warriner Creek Paleovalley" .
+
+gfs:PR576271 a strat:Province ;
+    dcterms:identifier "PR576271" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Wells Paleovalley" .
+
+gfs:PR576272 a strat:Province ;
+    dcterms:identifier "PR576272" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "West Pilbara Paleovalley" .
+
+gfs:PR576273 a strat:Province ;
+    dcterms:identifier "PR576273" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Whitcherry Paleovalley" .
+
+gfs:PR576274 a strat:Province ;
+    dcterms:identifier "PR576274" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "White Paleovalley" .
+
+gfs:PR576275 a strat:Province ;
+    dcterms:identifier "PR576275" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Wildcat Paleovalley" .
+
+gfs:PR576276 a strat:Province ;
+    dcterms:identifier "PR576276" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Wilgarup Paleovalley" .
+
+gfs:PR576277 a strat:Province ;
+    dcterms:identifier "PR576277" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Wilkinson Paleovalley" .
+
+gfs:PR576278 a strat:Province ;
+    dcterms:identifier "PR576278" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Willowra Paleovalley" .
+
+gfs:PR576279 a strat:Province ;
+    dcterms:identifier "PR576279" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Wilson Paleovalley" .
+
+gfs:PR576280 a strat:Province ;
+    dcterms:identifier "PR576280" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Woodmurra Paleovalley" .
+
+gfs:PR576281 a strat:Province ;
+    dcterms:identifier "PR576281" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Woolatchi Paleovalley" .
+
+gfs:PR576282 a strat:Province ;
+    dcterms:identifier "PR576282" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Wooltana Paleovalley" .
+
+gfs:PR576283 a strat:Province ;
+    dcterms:identifier "PR576283" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Wuldra Paleovalley" .
+
+gfs:PR576284 a strat:Province ;
+    dcterms:identifier "PR576284" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Wyambana Paleovalley" .
+
+gfs:PR576285 a strat:Province ;
+    dcterms:identifier "PR576285" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Wynbring Paleovalley" .
+
+gfs:PR576286 a strat:Province ;
+    dcterms:identifier "PR576286" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Yagga Yagga Paleovalley" .
+
+gfs:PR576287 a strat:Province ;
+    dcterms:identifier "PR576287" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Yallbewong Paleovalley" .
+
+gfs:PR576288 a strat:Province ;
+    dcterms:identifier "PR576288" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Yaloogarrie Paleovalley" .
+
+gfs:PR576289 a strat:Province ;
+    dcterms:identifier "PR576289" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Yandicoogina Paleovalley" .
+
+gfs:PR576290 a strat:Province ;
+    dcterms:identifier "PR576290" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Yarra Yarra Paleovalley" .
+
+gfs:PR576291 a strat:Province ;
+    dcterms:identifier "PR576291" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Yarramba Paleovalley" .
+
+gfs:PR576292 a strat:Province ;
+    dcterms:identifier "PR576292" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Yerila Paleovalley" .
+
+gfs:PR576293 a strat:Province ;
+    dcterms:identifier "PR576293" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Yingurrdu Paleovalley" .
+
+gfs:PR576294 a strat:Province ;
+    dcterms:identifier "PR576294" ;
+    dcterms:isPartOf <http://example.com/dataset/agp/agp> ;
+    dcterms:title "Yorke Paleovalley" .
+
