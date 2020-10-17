@@ -10,6 +10,7 @@ from enum import Enum
 from geomet import wkt
 from geojson_rewind import rewind
 import markdown
+from shapely.wkt import loads as load_wkt
 
 
 class GeometryRole(Enum):
@@ -116,7 +117,11 @@ class Geometry(object):
         if wkt_type == "POINT":
             wkt += "({})".format(self.coordinates)
         elif wkt_type == "POLYGON":
-            wkt += "(({}))".format(self.coordinates)
+            coords = self.coordinates.split(" ")
+            wkt_coords = ""
+            for i in range(0, len(coords), 2):
+                wkt_coords += coords[i] + " " + coords[i+1] + ", "
+            wkt += "(({}))".format(wkt_coords.strip(", "))
         return wkt
 
 
@@ -307,6 +312,8 @@ class Province(Feature):
             Geometry(props["coords"], GeometryType.Polygon, GeometryRole.Boundary, "WGS84 Boundary", CRS.WGS84),
         ]
 
+        self.calculate_centroid()
+
         # Feature other properties
         self.extent_spatial = None
         self.extent_temporal = None
@@ -320,6 +327,16 @@ class Province(Feature):
             self.links.extend(other_links)
 
         self.isPartOf = "agp"
+
+    def calculate_centroid(self):
+        centroid = None
+        for geometry in self.geometries:
+            if geometry.role == GeometryRole.Boundary and geometry.crs == CRS.WGS84:
+                p1 = load_wkt(geometry.to_wkt(with_crs=False))
+                centroid = Geometry(p1.centroid.wkt.strip("POINT (").strip(")"), GeometryType.Point, GeometryRole.Centroid, "WGS84 Centroid", CRS.WGS84)
+                self.geometries.append(centroid)
+
+        return centroid
 
 
 class FeatureRenderer(Renderer):
@@ -381,10 +398,29 @@ class FeatureRenderer(Renderer):
         )
 
     def _render_oai_html(self):
-        self.feature.geometries = [(x.label, x.to_wkt()) for x in self.feature.geometries]
+        self.feature.geometries = [(x.coordinates, x.to_wkt(), x.type, x.role, x.label, x.crs) for x in self.feature.geometries]
+
+        map_centroid = None
+        map_bbox = []
+        map_polygon = []
+        for i, v in enumerate(self.feature.geometries):
+            if v[3] == GeometryRole.Boundary:
+                coords = [float(x) for x in v[0].split(" ")]
+                for i2 in range(0, len(coords), 2):
+                    map_polygon.append([coords[i2+1], coords[i2]])
+            elif v[3] == GeometryRole.Centroid:
+                map_centroid = [float(x) for x in reversed(v[0].split(" "))]
+            elif v[3] == GeometryRole.BoundingBox:
+                coords = [float(x) for x in v[0].split(" ")]
+                for i2 in range(0, len(coords), 2):
+                    map_bbox.append([coords[i2+1], coords[i2]])
+
         _template_context = {
             "links": self.links,
-            "feature": self.feature
+            "feature": self.feature,
+            "map_centroid": map_centroid,
+            "map_polygon": map_polygon,
+            "map_bbox": map_bbox
         }
 
         return Response(
