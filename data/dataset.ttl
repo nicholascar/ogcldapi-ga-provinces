@@ -7,7 +7,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 <http://example.com/dataset/agp>
     a dcat:Dataset ;
-    dcterms:title "Australian Geological Provinces Database' Dataset"@en ;
+    dcterms:title "Australian Geological Provinces Database"@en ;
     dcterms:description """This dataset contains descriptions and spatial extents of the fundamental geological elements of the Australian continent and offshore surrounds."""@en ;
     prov:wasDerivedFrom <http://pid.geoscience.gov.au/dataset/ga/116823> ;
     dcterms:contributor <https://surroundaustralia.com> ;

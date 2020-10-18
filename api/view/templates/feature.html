@@ -36,14 +36,14 @@
           <td>Rank</td><td><a href="{{ feature.rank[0] }}">{{ feature.rank[1] }}</a></td>
         </tr>
         {% endif %}
-        {% if feature.older is not none %}
-        <tr>
-          <td>Older</td><td><a href="{{ feature.older[0] }}">{{ feature.older[1] }}</a></td>
-        </tr>
-        {% endif %}
         {% if feature.younger is not none %}
         <tr>
           <td>Younger</td><td><a href="{{ feature.younger[0] }}">{{ feature.younger[1] }}</a></td>
+        </tr>
+        {% endif %}
+        {% if feature.older is not none %}
+        <tr>
+          <td>Older</td><td><a href="{{ feature.older[0] }}">{{ feature.older[1] }}</a></td>
         </tr>
         {% endif %}
         {% if feature.source is not none %}

@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <link rel="shortcut icon" href="{{ url_for('static', filename="favicon.ico") }}">
+  <link rel="shortcut icon" href="{{ url_for('static', filename='favicon.ico') }}">
   <title>{% if api_title|length > 0 %}{{ api_title }}{% else %}{{ API_TITLE }}{% endif %}</title>
   <style>
     html, body {
@@ -11,43 +11,155 @@
 
     body {
       display: grid;
-      grid-template-rows: 200px 50px auto 200px;
+      grid-template-rows: 50px 150px 75px 50px auto 400px; /* header-top header-middle header-bottom content footer */
       grid-template-columns: auto 1000px auto;
-
-      font-family: 'Cairo', serif;
+      font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     }
 
     header {
+      grid-column: 1/4;
+      grid-rows: 1/4;
+      display: grid;
+      grid-template-columns: auto 1000px auto;
+    }
+
+    #header-top {
       grid-row: 1;
       grid-column: 1/4;
-      background-color: lightgrey;
+
+      display: grid;
+      grid-template-columns: auto 1000px auto;
+
+      border-bottom:solid 1px #eeeeee;
+      padding-top: 10px;
+    }
+
+    #header-top-center {
+      grid-column: 2;
+      text-align:right;
+    }
+
+    #header-top-center a.link {
+      color: #2f2f2f;
+      text-decoration: none;
+      font-size: 11px;
+      margin: 0 20px 0 0;
+      display: inline-block;
+    }
+
+    #header-top-center a.social {
+    }
+
+    #header-top-center a.social img {
+      width:25px;
+    }
+
+    #header-middle {
+      grid-row: 2;
+      grid-column: 1/4;
 
       display: grid;
       grid-template-columns: auto 1000px auto;
     }
 
-    nav {
-      grid-row: 2;
+    #header-middle-center {
       grid-column: 2;
-      background-color: grey;
-      padding: 10px;
-      text-align: center;
+      padding-top:20px;
     }
 
-    nav a {
+    #header-middle-center #nav {
+        margin-top:30px;
+        font-family: Helvetica, Arial, sans-serif;
+        font-weight: 300;
+        font-size: 15px;
+    }
+
+    #header-middle-center #nav a {
+        color: #2f2f2f;
+        text-decoration: none;
+        font-size:15px;
+        margin-right:50px;
+        display: inline-block;
+    }
+
+    #logo a img {
+        width: 160px;
+        float:left;
+        margin-right: 40px;
+    }
+
+    #slogan {
+      font-size: 18px;
+      font-weight: 400;
+      color: #2f2f2f;
+
+      overflow: hidden;
+    }
+
+    #header-bottom {
+      grid-row: 3;
+      grid-column: 1/4;
+
+      display: grid;
+      grid-template-columns: auto 1000px auto;
+
+      background-color: #006983;
+      margin-top: 20px;
+      height:75px;
+    }
+
+    #header-bottom-center {
+      grid-column: 2;
+    }
+
+    #header-bottom a {
       margin: 0 10px 0 10px;
       color: white;
       font-weight: bold;
       text-decoration: none;
     }
 
-    nav a:hover {
+    #header-bottom a:hover {
       text-decoration: underline;
     }
 
+    #mainmenu {
+        grid-row: 4;
+        grid-column: 1/4;
+
+        display: grid;
+        grid-template-columns: auto 1000px auto;
+        margin-bottom: 20px;
+    }
+
+    #mainmenu-center {
+        grid-column: 2;
+
+        font-size: 18px;
+        border-top: solid 2px #006983;
+        border-bottom: solid 2px #006983;
+        display: inline-block;
+    }
+
+    #mainmenu-center span {
+        display: inline-block;
+        width: 100%;
+        text-align: center;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    #mainmenu-center span a {
+        margin-left: 4%;
+        margin-right: 4%;
+        text-decoration: none;
+        color: black;
+    }
+
     #contents {
-      grid-row: 3;
+      grid-row: 5;
       grid-column: 2;
+
       display: grid;
       grid-template-columns: auto 250px;
     }
@@ -56,20 +168,103 @@
       grid-column: 1;
     }
 
+    #page_title {
+
+    }
+
     #altprofiles {
       grid-column: 2;
       margin-left: 20px;
     }
 
     footer {
-      grid-row: 4;
+      font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+      grid-row: 6;
       grid-column: 1/4;
-      background-color: #d3d3d3;
-
-      display:grid;
-      grid-template-columns: auto 1000px auto;
+      background-color: #2F2F2F;
+      grid-template-rows: 300px auto;
+      color: #e7e7e7;
+      font-size: small;
     }
 
+    footer a {
+        color: #e7e7e7;
+        text-decoration: none;
+    }
+
+    footer p {
+        margin: 20px 0 20px 0;
+    }
+
+    div#footer-upper {
+      grid-row: 1;
+      display:grid;
+      grid-template-columns: auto 250px 250px 250px 250px auto;
+      padding-top:20px;
+    }
+
+    div#footer-lower {
+      grid-row: 2;
+      display:grid;
+      grid-template-columns: auto 1000px auto;
+
+      border-top: solid 1px #e7e7e7;
+      background-color: #2F2F2F;
+    }
+
+    div#footer-lower-links {
+        grid-column: 2;
+        margin: 35px 0 20px 0;
+    }
+
+    div#footer-lower-links a {
+        margin: 0 20px 0 0;
+    }
+
+    #footer-contactus {
+        display:block;
+        width: 100%;
+        background: #006983 url("{{ url_for('static', filename='right-arrow.png') }}") no-repeat 90% 50%;
+        padding: 15px;
+        font-size: 14px;
+    }
+
+    #footer-contactus:hover {
+        background-color: #A33F1F;
+    }
+
+    h1 {
+        font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+        font-size: 32px;
+        font-weight: 400;
+    }
+
+    h2 {
+        font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+        font-size: 24px;
+        font-weight: 400;
+    }
+
+    h3 {
+        font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+        font-size: 20px;
+        font-weight: 400;
+    }
+
+    h4 {
+        font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+        font-size: 18px;
+        font-weight: 400;
+    }
+
+    a {
+        color: #006983;
+    }
+
+    p {
+        font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+        font-size: 13px;
+    }
     dt {
       font-weight: bolder;
     }
@@ -77,6 +272,7 @@
     table.layout {
         border-collapse: collapse;
     }
+
     table.layout tr {
         border-top: solid 1px black;
     }
@@ -102,8 +298,7 @@
       visibility: visible;
     }
 
-
-        /*
+    /*
     * Pagination
     */
     /* Borrowed from Bootstrap3 compiled CSS */
@@ -207,38 +402,111 @@
 </head>
 <body>
   <header>
-    <div style="grid-column: 2;">
-      <h1 style="font-size:80px;">{% if api_title|length > 0 %}{{ api_title }}{% else %}{{ API_TITLE }}{% endif %}</h1>
+    <div id="header-top">
+      <div id="header-top-center">
+        <a class="link" href="">Careers</a>
+        <a class="link" href="">Contact Us</a>
+        <a class="link" href="">Skip to Content</a>
+        <a class="social" href="https://twitter.com/GeoscienceAus"><img src="{{ url_for('static', filename='twitter.png') }}" /></a>
+        <a class="social" href="https://www.facebook.com/GeoscienceAustralia"><img src="{{ url_for('static', filename='facebook.png') }}" /></a>
+        <a class="social" href="http://www.youtube.com/user/GeoscienceAustralia"><img src="{{ url_for('static', filename='youtube.png') }}" /></a>
+        <a class="social" href="https://au.linkedin.com/company/geoscience-australia"><img src="{{ url_for('static', filename='linkedin.png') }}" /></a>
+      </div>
+    </div>
+    <div id="header-middle">
+      <div id="header-middle-center">
+        <div id="logo">
+          <a href="https://www.ga.gov.au">
+            <img alt="GA Logo" src="{{ url_for('static', filename='ga-logo.jpg') }}" />
+          </a>
+        </div>
+        <div style="display:grid; grid-template-rows:50% 50%; text-align:left;">
+          <div id="slogan" style="grid-column:1; grid-row:1; padding-top:20px;">
+            Applying geoscience to Australia's most important challenges
+          </div>
+          <div id="nav">
+            <a href="https://www.ga.gov.au">
+              <img alt="GA Home" style="width:20px;" src="{{ url_for('static', filename='home_2x.png') }}" />
+            </a>
+            <a href="https://www.ga.gov.au/about">About</a>
+            <a href="https://www.ga.gov.au/scientific-topics">Scientific Topics</a>
+            <a href="https://www.ga.gov.au/education">Education</a>
+            <a href="https://www.ga.gov.au/data-pubs">Data &amp; Publications</a>
+            <a href="https://www.ga.gov.au/news-events">News &amp; Events</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="header-bottom">
+      <div id="header-bottom-center">
+      </div>
     </div>
   </header>
-  <nav>
-    <a href="/">Landing Page</a>
-    <a href="{{ url_for('collections_route') }}">Collections</a>
-    <a href="/spec">API Description</a>
-    <a href="/doc">API Docs</a>
-    <a href="{{ url_for('conformance_route') }}">Conformance</a>
-  </nav>
+  <div id="mainmenu">
+    <div id="mainmenu-center">
+      <span>
+        <a href="/">Landing Page</a>
+        <a href="{{ url_for('collections_route') }}">Collections</a>
+        <a href="/spec">API Description</a>
+        <a href="/doc">API Docs</a>
+        <a href="{{ url_for('conformance_route') }}">Conformance</a>
+      </span>
+    </div>
+  </div>
   <div id="contents">
     {% block content %}{% endblock %}
   </div>
   <footer>
-    <div style="grid-column: 2;">
-      <div style="display: grid; grid-template-columns: 75% 25%;">
-        <div style="grid-column: 1">
-          <p>
-            This API is created using <a href="https://github.com/rdflib/pyLDAPI">pyLDAPI</a>, a Linked Data API tool written in Python.
-        </div>
-        <div style="grid-column: 2">
-          <p>This API is maintained by:</p>
-          <p>
-            <a href="https://surroundaustralia.com" style="font-family: sans-serif; text-decoration: none; font-weight: bold; color:#333;">
-              <img style="float:left; margin-right: 10px;" src="{{ url_for('static', filename='surround-logo-catprez.png') }}" alt="CatPrez Logo" />
-              SURROUND<br />
-              Australia
-            </a>
-          </p>
-        </div>
+    <div id="footer-upper">
+      <div style="grid-column: 2;">
+        <p><strong>QUICKLINKS</strong></p>
+        <p><a href="https://www.ga.gov.au/">Home</a></p>
+        <p><a href="https://www.ga.gov.au/about">About</a></p>
+        <p><a href="https://www.ga.gov.au/scientific-topics">Scientific Topics</a></p>
+        <p><a href="https://www.ga.gov.au/data-pubs">Data & Publications</a></p>
+        <p><a href="https://www.ga.gov.au/education">Education</a></p>
+        <p><a href="https://www.ga.gov.au/news-events">News & Events</a></p>
       </div>
+      <div style="grid-column: 3;">
+        <p><strong>CONNECT WITH US</strong></p>
+        <p><img src="/style/twitter-footer.png" alt="Link to our Twitter page." width="35"></p>
+        <p><img src="/style/facebook-footer.png" alt="Link to our Facebook page" width="35"></p>
+        <p><img src="/style/youtube-footer.png" alt="Link to our YouTube page." width="35"></p>
+        <p><img src="/style/linkedin-footer.png" alt="Link to our LinkedIn page" width="35"></p>
+      </div>
+      <div style="grid-column: 4;">
+        <p><strong>OUR ADDRESS</strong></p>
+        <p>
+          <strong>Geoscience Australia</strong><br />
+          Cnr Jerrabomberra Ave and<br />
+          Hindmarsh Drive<br />
+          Symonston ACT 2609
+        </p>
+        <p><a href="https://maps.google.com/maps?q=geoscience+australia&hl=en&sll=37.0625,-95.677068&sspn=56.899383,79.013672&hq=geoscience+australia&radius=15000&t=m&z=13&iwloc=A">View Google Map</a></p>
+      </div>
+      <div style="grid-column: 5;">
+        <p><strong>IMPORTANT NUMBERS</strong></p>
+        <p>
+          General Enquiries: 1800 800 173<br />
+          Switchboard: +61 2 6249 9111<br />
+          Earthquake information: 1800 655 739<br />
+          Media Hotline: 1800 882 035
+        </p>
+        <p>
+          <a id="footer-contactus" href="">Contact us</a>
+        </p>
+      </div>
+    </div>
+    <div id="footer-lower">
+      <div id="footer-lower-links">
+        <a href="https://www.ga.gov.au/copyright">Copyright</a>
+        <a href="https://www.ga.gov.au/privacy">Privacy</a>
+        <a href="https://www.ga.gov.au/accessibility">Accessibility</a>
+        <a href="https://www.ga.gov.au/sitemap">Sitemap</a>
+        <a href="https://www.ga.gov.au/ips">Information Publication Scheme</a>
+        <a href="https://www.ga.gov.au/ips/foi">Freedom of Information</a>
+      </div>
+      <p style="grid-column: 2; padding-bottom:10px;">Geoscience Australia acknowledges the traditional owners of the country throughout Australia and their continuing connection to land, sea and community. We pay our respect to them and their cultures and to the elders past and present.</p>
     </div>
   </footer>
 </body>
