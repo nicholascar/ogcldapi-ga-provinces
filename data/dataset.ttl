@@ -8,7 +8,13 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 <http://example.com/dataset/agp>
     a dcat:Dataset ;
     dcterms:title "Australian Geological Provinces Database"@en ;
-    dcterms:description """This dataset contains descriptions and spatial extents of the fundamental geological elements of the Australian continent and offshore surrounds."""@en ;
+    dcterms:description """The data delivered by this API contains descriptions and spatial extents of the fundamental geological elements of the Australian continent and offshore surrounds.
+
+Province types include sedimentary basins, tectonic provinces such as cratons and orogens, igneous provinces, and metallogenic provinces. Spatial data has been captured largely at approximately 1:1M scale for intended use between 1:2M and 1:5M scale.
+
+This edition (2013.01) of the dataset is not a complete representation of all of Australia's geological provinces. Further work is required to complete the national geological province collection. Additionally, not all the provinces supplied herein have undergone a rigorous quality assurance (QA) check to ensure the accuracy and completeness of their descriptions.
+
+The geological definition of some provinces is contentious. While every effort has been made to achieve a consensus interpretation of each province, including significant collaboration with state and territory geological surveys, scientific debate may still occur about the nature and extent of some provinces. The full 2D spatial extent (ie, including the extent of a province under any overlying cover material) of provinces has been captured. Where possible, the full extent outlines (contacts) of provinces have been attributed with information about the source, accuracy and observation method of those lines."""@en ;
     prov:wasDerivedFrom <http://pid.geoscience.gov.au/dataset/ga/116823> ;
     dcterms:contributor <https://surroundaustralia.com> ;
     dcterms:created "2020-10-16"^^xsd:date ;
