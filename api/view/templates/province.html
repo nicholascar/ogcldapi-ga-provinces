@@ -29,7 +29,7 @@
       <table class="lined">
         {% if feature.type is not none %}
         <tr>
-          <td>Type</td><td><code>{{ feature.type }}</code></td>
+          <td>Type</td><td><a href="{{ feature.type[0] }}">{{ feature.type[1] }}</a></td>
         </tr>
         {% endif %}
         {% if feature.rank is not none %}

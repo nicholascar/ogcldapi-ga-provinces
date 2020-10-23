@@ -293,12 +293,14 @@ class Province(Feature):
         self.title = props["title"]
         self.description = props["description"] or "" + "\n\n" + props["overview"] or ""
         self.source = props["source"]
-        self.type = props["type"]
+        self.type = None
+        for s in get_graph().subjects(predicate=SKOS.notation, object=Literal(props["type"])):
+            for o in get_graph().objects(subject=s, predicate=SKOS.prefLabel):
+                self.type = (str(s), str(o))
         self.rank = None
-        for s in get_graph().subjects(predicate=SKOS.prefLabel, object=Literal(props["rank"])):
-            self.rank = (str(s), props["rank"])
-        if self.rank is None:
-            self.rank = (props["rank"], props["rank"])
+        for s in get_graph().subjects(predicate=SKOS.notation, object=Literal(props["rank"])):
+            for o in get_graph().objects(subject=s, predicate=SKOS.prefLabel):
+                self.rank = (str(s), str(o))
         for o in get_graph().objects(subject=URIRef(props["older"]), predicate=SKOS.prefLabel):
             self.older = (props["older"], str(o))
         for o in get_graph().objects(subject=URIRef(props["younger"]), predicate=SKOS.prefLabel):
@@ -534,3 +536,34 @@ class ProvincesRenderer(FeatureRenderer):
                 status=400,
                 mimetype="text/plain"
             )
+
+    def _render_oai_html(self):
+        self.feature.geometries = [(x.coordinates, x.to_wkt(), x.type, x.role, x.label, x.crs) for x in self.feature.geometries]
+
+        map_centroid = None
+        map_bbox = []
+        map_polygon = []
+        for i, v in enumerate(self.feature.geometries):
+            if v[3] == GeometryRole.Boundary:
+                coords = [float(x) for x in v[0].split(" ")]
+                for i2 in range(0, len(coords), 2):
+                    map_polygon.append([coords[i2+1], coords[i2]])
+            elif v[3] == GeometryRole.Centroid:
+                map_centroid = [float(x) for x in reversed(v[0].split(" "))]
+            elif v[3] == GeometryRole.BoundingBox:
+                coords = [float(x) for x in v[0].split(" ")]
+                for i2 in range(0, len(coords), 2):
+                    map_bbox.append([coords[i2+1], coords[i2]])
+
+        _template_context = {
+            "links": self.links,
+            "feature": self.feature,
+            "map_centroid": map_centroid,
+            "map_polygon": map_polygon,
+            "map_bbox": map_bbox
+        }
+
+        return Response(
+            render_template("province.html", **_template_context),
+            headers=self.headers,
+        )

@@ -1,0 +1,113 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sdo: <https://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+PREFIX cs: <https://linked.data.gov.au/dev/fake-province-rank>
+PREFIX : <https://linked.data.gov.au/dev/fake-province-rank/>
+
+
+cs:
+    a skos:ConceptScheme ;
+    dcterms:created "2020-10-23"^^xsd:date ;
+    dcterms:creator <https://linked.data.gov.au/org/ga> ;
+    dcterms:contributor <https://orcid.org/0000-0002-8742-7730> ;
+    dcterms:issued "2020-10-23"^^xsd:string ;
+    dcterms:modified "2020-10-23"^^xsd:date ;
+    dcterms:publisher <https://linked.data.gov.au/org/ga> ;
+    skos:definition "Types of geological province."@en ;
+    skos:hasTopConcept
+        cs:metallogenic ,
+        cs:georegion ,
+        cs:undefined ,
+        cs:areaofinterest ,
+        cs:structural ,
+        cs:sedimentary ,
+        cs:informal ,
+        cs:igneous ,
+        cs:tectonic ,
+        cs:metamorphic ;
+    skos:prefLabel "Geological Province Types"@en ;
+    dcterms:provenance "This vocabulary is generated from the lookup table of 'Province Rank' in Geoscience Australia's Australian Geological Provinces Database" ;
+.
+
+cs:metallogenic a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "metallogenic"@en ;
+    skos:topConceptOf cs: ;
+    skos:notation "metallogenic" ;
+    skos:prefLabel "Metallogenic"@en ;
+.
+
+cs:georegion a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "georegion"@en ;
+    skos:topConceptOf cs: ;
+    skos:notation "georegion" ;
+    skos:prefLabel "Georegion"@en ;
+.
+
+cs:undefined a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "undefined"@en ;
+    skos:topConceptOf cs: ;
+    skos:notation "undefined" ;
+    skos:prefLabel "Undefined"@en ;
+.
+
+cs:areaofinterest a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "area of interest"@en ;
+    skos:topConceptOf cs: ;
+    skos:notation "area of interest" ;
+    skos:prefLabel "Area of Interest"@en ;
+.
+
+cs:structural a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "structural"@en ;
+    skos:topConceptOf cs: ;
+    skos:notation "structural" ;
+    skos:prefLabel "Structural"@en ;
+.
+
+cs:sedimentary a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "sedimentary"@en ;
+    skos:topConceptOf cs: ;
+    skos:notation "sedimentary" ;
+    skos:prefLabel "Sedimentary"@en ;
+.
+
+cs:informal a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "informal"@en ;
+    skos:topConceptOf cs: ;
+    skos:notation "Informal" ;
+    skos:prefLabel "Informal"@en ;
+.
+
+cs:igneous a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "igneous"@en ;
+    skos:topConceptOf cs: ;
+    skos:notation "igneous" ;
+    skos:prefLabel "Igneous"@en ;
+.
+
+cs:tectonic a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "tectonic"@en ;
+    skos:topConceptOf cs: ;
+    skos:notation "tectonic" ;
+    skos:prefLabel "Tectonic"@en ;
+.
+
+cs:metamorphic a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "metamorphic"@en ;
+    skos:topConceptOf cs: ;
+    skos:notation "metamorphic" ;
+    skos:prefLabel "Metamorphic"@en ;
+.

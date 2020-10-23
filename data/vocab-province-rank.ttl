@@ -1,0 +1,95 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sdo: <https://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+PREFIX cs: <https://linked.data.gov.au/dev/fake-province-rank>
+PREFIX : <https://linked.data.gov.au/dev/fake-province-rank/>
+
+
+cs:
+    a skos:ConceptScheme ;
+    dcterms:created "2020-10-23"^^xsd:date ;
+    dcterms:creator <https://linked.data.gov.au/org/ga> ;
+    dcterms:contributor <https://orcid.org/0000-0002-8742-7730> ;
+    dcterms:issued "2020-10-23"^^xsd:string ;
+    dcterms:modified "2020-10-23"^^xsd:date ;
+    dcterms:publisher <https://linked.data.gov.au/org/ga> ;
+    skos:definition "The stratigraphic rank of geological provinces"@en ;
+    skos:hasTopConcept
+        cs:province ,
+        cs:superprovince ,
+        cs:domain ,
+        cs:undefined ,
+        cs:crustal-element ,
+        cs:microdomain ,
+        cs:subprovince ,
+        cs:subdomain ;
+    skos:prefLabel "Geological Province Rank"@en ;
+    dcterms:provenance "This vocabulary is generated from the lookup table of 'Province Rank' in Geoscience Australia's Australian Geological Provinces Database" ;
+.
+
+cs:province a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "province"@en ;
+    skos:topConceptOf cs: ;
+    skos:notation "province" ;
+    skos:prefLabel "Province"@en ;
+.
+
+cs:superprovince a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "superprovince"@en ;
+    skos:topConceptOf cs: ;
+    skos:notation "superprovince" ;
+    skos:prefLabel "Super-province"@en ;
+.
+
+cs:domain a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "domain"@en ;
+    skos:topConceptOf cs: ;
+    skos:notation "domain" ;
+    skos:prefLabel "Domain"@en ;
+.
+
+cs:undefined a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "undefined"@en ;
+    skos:topConceptOf cs: ;
+    skos:notation "undefined" ;
+    skos:prefLabel "Undefined"@en ;
+.
+
+cs:crustal-element a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "crustal-element"@en ;
+    skos:topConceptOf cs: ;
+    skos:notation "crustal element" ;
+    skos:prefLabel "Crustal Element"@en ;
+.
+
+cs:microdomain a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "microdomain"@en ;
+    skos:topConceptOf cs: ;
+    skos:notation "microdomain" ;
+    skos:prefLabel "Microdomain"@en ;
+.
+
+cs:subprovince a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "subprovince"@en ;
+    skos:topConceptOf cs: ;
+    skos:notation "subprovince" ;
+    skos:prefLabel "Sub-province"@en ;
+.
+
+cs:subdomain a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "subdomain"@en ;
+    skos:topConceptOf cs: ;
+    skos:notation "subdomain" ;
+    skos:prefLabel "Subdomain"@en ;
+.
