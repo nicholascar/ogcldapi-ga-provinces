@@ -50,7 +50,7 @@ profile_su = Profile(
     "http://pid.geoscience.gov.au/def/stratunits#",
     label="Stratigraphic Units Ontology",
     comment="A basic OWL ontology for conveying Stratigraphic Unit information",
-    mediatypes=Renderer.RDF_MEDIA_TYPES,
+    mediatypes=["text/html"] + Renderer.RDF_MEDIA_TYPES,
     default_mediatype="text/html",
     languages=["en"],  # default 'en' only for now
     default_language="en",
@@ -62,6 +62,18 @@ profile_loop3d = Profile(
     comment="A fancy ontology for conveying Stratigraphic Unit information",
     mediatypes=Renderer.RDF_MEDIA_TYPES,
     default_mediatype="text/html",
+    languages=["en"],  # default 'en' only for now
+    default_language="en",
+)
+
+profile_gsmlb = Profile(
+    "http://www.opengis.net/gsml/4.1/GeoSciML-Basic",
+    label="GeoSciML Basic",
+    comment="GeoSciML describes geological features from the mapping perspective, articulated around the concept of "
+            "a MappedFeature – the cartographic element shown on a map, and the GeologicFeature it represents. All "
+            "geologic concepts that can be represented on a map are subtypes of GeologicFeature.",
+    mediatypes=["application/xml"],
+    default_mediatype="application/xml",
     languages=["en"],  # default 'en' only for now
     default_language="en",
 )

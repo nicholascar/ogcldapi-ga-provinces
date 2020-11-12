@@ -170,21 +170,25 @@ def get_province(province_id):
         data=post_xml,
         headers=headers
     )
+
+    with open(str(province_id)+".xml", "w") as f:
+        f.write(r.text)
+
     namespaces = {
         "Australian_Geological_Provinces": "WFS",
         "gml": "http://www.opengis.net/gml"
     }
     tree = etree.fromstring(r.content)
     return {
-        "title": tree.xpath('//Australian_Geological_Provinces:provinceName/text()', namespaces=namespaces)[0],
-        "description": tree.xpath('//Australian_Geological_Provinces:description/text()', namespaces=namespaces)[0],
+        "title": safe_list_get(tree.xpath('//Australian_Geological_Provinces:provinceName/text()', namespaces=namespaces), 0, None),
+        "description": safe_list_get(tree.xpath('//Australian_Geological_Provinces:description/text()', namespaces=namespaces), 0, None),
         "overview": safe_list_get(tree.xpath('//Australian_Geological_Provinces:overview/text()', namespaces=namespaces), 0, None),
-        "source": tree.xpath('//Australian_Geological_Provinces:source/text()', namespaces=namespaces)[0],
-        "type": tree.xpath('//Australian_Geological_Provinces:type/text()', namespaces=namespaces)[0],
-        "older": tree.xpath('//Australian_Geological_Provinces:representitiveOlderAge_uri/text()', namespaces=namespaces)[0],
-        "younger": tree.xpath('//Australian_Geological_Provinces:representitiveYoungerAge_uri/text()', namespaces=namespaces)[0],
-        "metadata": tree.xpath('//Australian_Geological_Provinces:metadata_uri/text()', namespaces=namespaces)[0],
-        "rank": tree.xpath('//Australian_Geological_Provinces:rank/text()', namespaces=namespaces)[0],
+        "source": safe_list_get(tree.xpath('//Australian_Geological_Provinces:source/text()', namespaces=namespaces), 0, None),
+        "type": safe_list_get(tree.xpath('//Australian_Geological_Provinces:type/text()', namespaces=namespaces), 0, None),
+        "older": safe_list_get(tree.xpath('//Australian_Geological_Provinces:representitiveOlderAge_uri/text()', namespaces=namespaces), 0, None),
+        "younger": safe_list_get(tree.xpath('//Australian_Geological_Provinces:representitiveYoungerAge_uri/text()', namespaces=namespaces), 0, None),
+        "metadata": safe_list_get(tree.xpath('//Australian_Geological_Provinces:metadata_uri/text()', namespaces=namespaces), 0, None),
+        "rank": safe_list_get(tree.xpath('//Australian_Geological_Provinces:rank/text()', namespaces=namespaces), 0, None),
         "parent_id": safe_list_get(tree.xpath('//Australian_Geological_Provinces:parentID/text()', namespaces=namespaces), 0, None),
         "parent_name": safe_list_get(tree.xpath('//Australian_Geological_Provinces:parentName/text()', namespaces=namespaces), 0, None),
         "bbox":
@@ -291,7 +295,9 @@ if __name__ == "__main__":
     # # pprint.pprint(get_province("GA.GeologicProvince.1"))
 
     # print(cache_timescale_types())
-    print(cache_geometry_types())
+    get_province("20368")
+
+    #get_province("20527")
 
 
 # http://pid.geoscience.gov.au/feature/id/ga/gsmlp/geologicunitview/28

@@ -1,7 +1,5 @@
 import os
-from rdflib import Graph, Namespace, BNode
-from rdflib.namespace import RDF, RDFS
-from rdflib.plugins.stores.sparqlstore import SPARQLStore
+from rdflib import Graph, Namespace
 
 
 APP_DIR = os.environ.get("APP_DIR", os.path.dirname(os.path.realpath(__file__)))

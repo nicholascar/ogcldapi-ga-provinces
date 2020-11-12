@@ -5,7 +5,7 @@ from api.model.link import *
 import json
 from flask import Response, render_template
 from rdflib import URIRef, Literal
-from rdflib.namespace import DCTERMS, SKOS
+from rdflib.namespace import DCTERMS, SKOS, RDF, RDFS
 from enum import Enum
 from geomet import wkt
 from geojson_rewind import rewind
@@ -473,6 +473,8 @@ class ProvincesRenderer(FeatureRenderer):
             return response
         elif self.profile == "su":
             return self._render_su_rdf()
+        elif self.profile == "loop3d":
+            return self._render_loop3d_rdf()
 
     def _render_su_rdf(self):
         g = self.feature.to_geosp_graph()
@@ -567,3 +569,36 @@ class ProvincesRenderer(FeatureRenderer):
             render_template("province.html", **_template_context),
             headers=self.headers,
         )
+
+    def _render_loop3d_rdf(self):
+        GSOC = Namespace("http://loop3d.org/GSO/ontology/2020/1/common/")
+        g = Graph()
+        g.bind("gsoc", GSOC)
+        f = URIRef(self.feature.uri)
+        g.add((
+            f,
+            RDF.type,
+            GSOC.Material_Feature
+        ))
+        g.add((
+            f,
+            RDF.type,
+            GSOC.Spatial_Region
+        ))
+        g.add((
+            f,
+            RDFS.label,
+            Literal(self.feature.title)
+        ))
+
+        # serialise in the appropriate RDF format
+        if self.mediatype in ["application/rdf+json", "application/json"]:
+            return Response(g.serialize(format="json-ld"), mimetype=self.mediatype)
+        elif self.mediatype in Renderer.RDF_MEDIA_TYPES:
+            return Response(g.serialize(format=self.mediatype), mimetype=self.mediatype)
+        else:
+            return Response(
+                "The Media Type you requested cannot be serialized to",
+                status=400,
+                mimetype="text/plain"
+            )
