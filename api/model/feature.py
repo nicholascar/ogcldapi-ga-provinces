@@ -340,6 +340,29 @@ class Province(Feature):
 
         return centroid
 
+    def to_loop3d_graph(self):
+        GSOC = Namespace("http://loop3d.org/GSO/ontology/2020/1/common/")
+        g = Graph()
+        g.bind("gsoc", GSOC)
+        f = URIRef(self.uri)
+        g.add((
+            f,
+            RDF.type,
+            GSOC.Material_Feature
+        ))
+        g.add((
+            f,
+            RDF.type,
+            GSOC.Spatial_Region
+        ))
+        g.add((
+            f,
+            RDFS.label,
+            Literal(self.title)
+        ))
+
+        return g
+
 
 class FeatureRenderer(Renderer):
     def __init__(self, request, feature_uri: str, other_links: List[Link] = None):
@@ -571,25 +594,7 @@ class ProvincesRenderer(FeatureRenderer):
         )
 
     def _render_loop3d_rdf(self):
-        GSOC = Namespace("http://loop3d.org/GSO/ontology/2020/1/common/")
-        g = Graph()
-        g.bind("gsoc", GSOC)
-        f = URIRef(self.feature.uri)
-        g.add((
-            f,
-            RDF.type,
-            GSOC.Material_Feature
-        ))
-        g.add((
-            f,
-            RDF.type,
-            GSOC.Spatial_Region
-        ))
-        g.add((
-            f,
-            RDFS.label,
-            Literal(self.feature.title)
-        ))
+        g = self.feature.to_loop3d_graph()
 
         # serialise in the appropriate RDF format
         if self.mediatype in ["application/rdf+json", "application/json"]:
