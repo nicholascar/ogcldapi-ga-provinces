@@ -145,7 +145,7 @@ def safe_list_get(ls, idx, default):
         return default
 
 
-def get_province(province_id):
+def get_province(province_id, return_original_xml=False):
     post_xml = """<GetFeature service="WFS" version="1.1.0"
       outputFormat="GML3"
       xmlns="http://www.opengis.net/wfs"
@@ -170,9 +170,8 @@ def get_province(province_id):
         data=post_xml,
         headers=headers
     )
-
-    with open(str(province_id)+".xml", "w") as f:
-        f.write(r.text)
+    if return_original_xml:
+        return r.text
 
     namespaces = {
         "Australian_Geological_Provinces": "WFS",

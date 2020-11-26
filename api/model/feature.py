@@ -11,6 +11,7 @@ from geomet import wkt
 from geojson_rewind import rewind
 import markdown
 from shapely.wkt import loads as load_wkt
+from api.wfs_utils import get_province
 
 
 class GeometryRole(Enum):
@@ -287,7 +288,6 @@ class Province(Feature):
         self.identifier = uri.split("/PR")[1]
 
         # get Province info from WFS
-        from api.wfs_utils import get_province
         props = get_province("GA.GeologicProvince." + self.identifier)
         # Feature properties
         self.title = props["title"]
@@ -642,17 +642,28 @@ class ProvincesRenderer(FeatureRenderer):
                 "oai": profile_openapi,
                 "geosp": profile_geosparql,
                 "loop3d": profile_loop3d,
-                "su": profile_su
+                "su": profile_su,
+                "gsmlb": profile_gsmlb
             },
-            default_profile_token="oai"
+            default_profile_token="su"
         )
 
         self.ALLOWED_PARAMS = ["_profile", "_view", "_mediatype"]
+
+        # if self.profile != "gsmlb":
 
     def render(self):
         response = super().render()
         if response is not None:
             return response
+        elif self.profile == "gsmlb":
+            from api.wfs_utils import get_province
+
+            return Response(
+                get_province("GA.GeologicProvince." + self.feature.identifier, return_original_xml=True),
+                mimetype="application/xml",
+                headers=self.headers
+            )
         elif self.profile == "su":
             g = self.feature.to_su_graph()
             return self._render_rdf(g)
