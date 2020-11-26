@@ -4,7 +4,7 @@ from api.config import *
 from api.model.link import *
 import json
 from flask import Response, render_template
-from rdflib import URIRef, Literal
+from rdflib import URIRef, Literal, BNode
 from rdflib.namespace import DCTERMS, SKOS, RDF, RDFS
 from enum import Enum
 from geomet import wkt
@@ -341,24 +341,183 @@ class Province(Feature):
         return centroid
 
     def to_loop3d_graph(self):
+        GEO = Namespace("http://www.opengis.net/ont/geosparql#")
+        GEOX = Namespace("https://linked.data.gov.au/def/geox#")
         GSOC = Namespace("http://loop3d.org/GSO/ontology/2020/1/common/")
+        SU = Namespace("http://linked.data.gov.au/def/su#")
         g = Graph()
+        g.bind("geo", GEO)
+        g.bind("geox", GEOX)
         g.bind("gsoc", GSOC)
+        g.bind("su", SU)
+
         f = URIRef(self.uri)
+        # g.add((
+        #     f,
+        #     RDF.type,
+        #     GSOC.Material_Feature
+        # ))
         g.add((
             f,
             RDF.type,
-            GSOC.Material_Feature
-        ))
-        g.add((
-            f,
-            RDF.type,
-            GSOC.Spatial_Region
+            GSOC.Spatial_Region_2D
         ))
         g.add((
             f,
             RDFS.label,
             Literal(self.title)
+        ))
+
+        if self.type is not None:
+            q1 = BNode()
+            g.add((
+                f,
+                GSOC.hasQuality,
+                q1
+            ))
+            g.add((
+                q1,
+                RDF.type,
+                SU.GeologicalUnitType
+            ))
+            g.add((
+                q1,
+                GSOC.hasValue,
+                URIRef(self.type[0])
+            ))
+            g.add((
+                q1,
+                RDFS.label,
+                Literal("Geological Unit Type of the {}".format(self.title))
+            ))
+
+        if self.rank is not None:
+            q2 = BNode()
+            g.add((
+                f,
+                GSOC.hasQuality,
+                q2
+            ))
+            g.add((
+                q2,
+                RDF.type,
+                SU.StratigraphicRank
+            ))
+            g.add((
+                q2,
+                GSOC.hasValue,
+                URIRef(self.rank[0])
+            ))
+            g.add((
+                q1,
+                RDFS.label,
+                Literal("Stratigraphic Rank of the {}".format(self.title))
+            ))
+
+        # geometry
+        sl = BNode()
+        g.add((
+            f,
+            GSOC.hasQuality,
+            sl
+        ))
+        g.add((
+            sl,
+            RDF.type,
+            GSOC.Spatial_Location
+        ))
+        g.add((
+            sl,
+            RDFS.label,
+            Literal("Spatial Locations of the {}".format(self.title))
+        ))
+
+        for geom in self.geometries:
+            this_geom = BNode()
+            g.add((
+                sl,
+                GEO.hasGeometry,
+                this_geom
+            ))
+            g.add((
+                this_geom,
+                RDFS.label,
+                Literal(geom.label)
+            ))
+            g.add((
+                this_geom,
+                GEOX.hasRole,
+                URIRef(geom.role.value)
+            ))
+            g.add((
+                this_geom,
+                GEOX.inCRS,
+                URIRef(geom.crs.value)
+            ))
+            if geom.crs == CRS.TB16PIX:
+                g.add((
+                    this_geom,
+                    GEOX.asDGGS,
+                    Literal(geom.coordinates, datatype=GEOX.DggsLiteral)
+                ))
+            else:  # WGS84
+                g.add((
+                    this_geom,
+                    GEO.asWKT,
+                    Literal(geom.coordinates, datatype=GEO.WktLiteral)
+                ))
+
+        return g
+
+    def to_su_graph(self):
+        g = self.to_geosp_graph()
+        g.bind("dcterms", DCTERMS)
+        SU = Namespace("http://pid.geoscience.gov.au/def/stratunits#")
+        g.bind("su", SU)
+        ISC = Namespace("http://resource.geosciml.org/classifier/ics/ischart/")
+        g.bind("isc", ISC)
+        f = URIRef(self.uri)
+
+        g.add((
+            f,
+            SU.type,
+            URIRef(self.type[0])
+        ))
+
+        g.add((
+            f,
+            SU.rank,
+            URIRef(self.rank[0])
+        ))
+
+        g.add((
+            f,
+            SU.older,
+            URIRef(self.older[0])
+        ))
+
+        # g.add((
+        #     URIRef(self.older[0]),
+        #     SKOS.prefLabel,
+        #     Literal(self.older[1])
+        # ))
+
+        g.add((
+            f,
+            SU.younger,
+            URIRef(self.younger[0])
+        ))
+
+        # g.add((
+        #     URIRef(self.younger[0]),
+        #     SKOS.prefLabel,
+        #     Literal(self.younger[1])
+        # ))
+
+        g.add((
+            f,
+            DCTERMS.source,
+            Literal(self.source)
         ))
 
         return g
@@ -495,72 +654,11 @@ class ProvincesRenderer(FeatureRenderer):
         if response is not None:
             return response
         elif self.profile == "su":
-            return self._render_su_rdf()
+            g = self.feature.to_su_graph()
+            return self._render_rdf(g)
         elif self.profile == "loop3d":
-            return self._render_loop3d_rdf()
-
-    def _render_su_rdf(self):
-        g = self.feature.to_geosp_graph()
-        g.bind("dcterms", DCTERMS)
-        SU = Namespace("http://pid.geoscience.gov.au/def/stratunits#")
-        g.bind("su", SU)
-        ISC = Namespace("http://resource.geosciml.org/classifier/ics/ischart/")
-        g.bind("isc", ISC)
-        f = URIRef(self.feature.uri)
-
-        g.add((
-            f,
-            SU.type,
-            Literal(self.feature.type)
-        ))
-
-        g.add((
-            f,
-            SU.rank,
-            Literal(self.feature.rank[0])
-        ))
-
-        g.add((
-            f,
-            SU.older,
-            URIRef(self.feature.older[0])
-        ))
-
-        g.add((
-            URIRef(self.feature.older[0]),
-            SKOS.prefLabel,
-            Literal(self.feature.older[1])
-        ))
-
-        g.add((
-            f,
-            SU.younger,
-            URIRef(self.feature.younger[0])
-        ))
-
-        g.add((
-            URIRef(self.feature.younger[0]),
-            SKOS.prefLabel,
-            Literal(self.feature.younger[1])
-        ))
-
-        g.add((
-            f,
-            DCTERMS.source,
-            Literal(self.feature.source)
-        ))
-
-        # serialise in the appropriate RDF format
-        if self.mediatype in ["application/rdf+json", "application/json"]:
-            return Response(g.serialize(format="json-ld"), mimetype=self.mediatype)
-        elif self.mediatype in Renderer.RDF_MEDIA_TYPES:
-            return Response(g.serialize(format=self.mediatype), mimetype=self.mediatype)
-        else:
-            return Response(
-                "The Media Type you requested cannot be serialized to",
-                status=400,
-                mimetype="text/plain"
-            )
+            g = self.feature.to_loop3d_graph()
+            return self._render_rdf(g)
 
     def _render_oai_html(self):
         self.feature.geometries = [(x.coordinates, x.to_wkt(), x.type, x.role, x.label, x.crs) for x in self.feature.geometries]
@@ -593,9 +691,7 @@ class ProvincesRenderer(FeatureRenderer):
             headers=self.headers,
         )
 
-    def _render_loop3d_rdf(self):
-        g = self.feature.to_loop3d_graph()
-
+    def _render_rdf(self, g):
         # serialise in the appropriate RDF format
         if self.mediatype in ["application/rdf+json", "application/json"]:
             return Response(g.serialize(format="json-ld"), mimetype=self.mediatype)

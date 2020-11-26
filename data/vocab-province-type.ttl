@@ -1,11 +1,12 @@
-@prefix dcterms: <http://purl.org/dc/terms/> .
-@prefix owl: <http://www.w3.org/2002/07/owl#> .
-@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-@prefix sdo: <https://schema.org/> .
-@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
-@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
-PREFIX cs: <https://linked.data.gov.au/dev/fake-province-rank>
-PREFIX : <https://linked.data.gov.au/dev/fake-province-rank/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX sdo: <https://schema.org/>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX su: <http://linked.data.gov.au/def/su/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX cs: <https://linked.data.gov.au/dev/fake-geolu-type>
+PREFIX : <https://linked.data.gov.au/dev/fake-geolu-type/>
 
 
 cs:
@@ -16,7 +17,7 @@ cs:
     dcterms:issued "2020-10-23"^^xsd:string ;
     dcterms:modified "2020-10-23"^^xsd:date ;
     dcterms:publisher <https://linked.data.gov.au/org/ga> ;
-    skos:definition "Types of geological province."@en ;
+    skos:definition "Types of geological unit."@en ;
     skos:hasTopConcept
         cs:metallogenic ,
         cs:georegion ,
@@ -28,11 +29,11 @@ cs:
         cs:igneous ,
         cs:tectonic ,
         cs:metamorphic ;
-    skos:prefLabel "Geological Province Types"@en ;
+    skos:prefLabel "Geological Unit Types"@en ;
     dcterms:provenance "This vocabulary is generated from the lookup table of 'Province Rank' in Geoscience Australia's Australian Geological Provinces Database" ;
 .
 
-cs:metallogenic a skos:Concept ;
+:metallogenic a skos:Concept , su:GeologicalUnitType ;
     rdfs:isDefinedBy cs: ;
     skos:definition "metallogenic"@en ;
     skos:topConceptOf cs: ;
@@ -40,7 +41,7 @@ cs:metallogenic a skos:Concept ;
     skos:prefLabel "Metallogenic"@en ;
 .
 
-cs:georegion a skos:Concept ;
+:georegion a skos:Concept , su:GeologicalUnitType ;
     rdfs:isDefinedBy cs: ;
     skos:definition "georegion"@en ;
     skos:topConceptOf cs: ;
@@ -48,7 +49,7 @@ cs:georegion a skos:Concept ;
     skos:prefLabel "Georegion"@en ;
 .
 
-cs:undefined a skos:Concept ;
+:undefined a skos:Concept , su:GeologicalUnitType ;
     rdfs:isDefinedBy cs: ;
     skos:definition "undefined"@en ;
     skos:topConceptOf cs: ;
@@ -56,7 +57,7 @@ cs:undefined a skos:Concept ;
     skos:prefLabel "Undefined"@en ;
 .
 
-cs:areaofinterest a skos:Concept ;
+:areaofinterest a skos:Concept , su:GeologicalUnitType ;
     rdfs:isDefinedBy cs: ;
     skos:definition "area of interest"@en ;
     skos:topConceptOf cs: ;
@@ -64,7 +65,7 @@ cs:areaofinterest a skos:Concept ;
     skos:prefLabel "Area of Interest"@en ;
 .
 
-cs:structural a skos:Concept ;
+:structural a skos:Concept , su:GeologicalUnitType ;
     rdfs:isDefinedBy cs: ;
     skos:definition "structural"@en ;
     skos:topConceptOf cs: ;
@@ -72,7 +73,7 @@ cs:structural a skos:Concept ;
     skos:prefLabel "Structural"@en ;
 .
 
-cs:sedimentary a skos:Concept ;
+:sedimentary a skos:Concept , su:GeologicalUnitType ;
     rdfs:isDefinedBy cs: ;
     skos:definition "sedimentary"@en ;
     skos:topConceptOf cs: ;
@@ -80,7 +81,7 @@ cs:sedimentary a skos:Concept ;
     skos:prefLabel "Sedimentary"@en ;
 .
 
-cs:informal a skos:Concept ;
+:informal a skos:Concept , su:GeologicalUnitType ;
     rdfs:isDefinedBy cs: ;
     skos:definition "informal"@en ;
     skos:topConceptOf cs: ;
@@ -88,7 +89,7 @@ cs:informal a skos:Concept ;
     skos:prefLabel "Informal"@en ;
 .
 
-cs:igneous a skos:Concept ;
+:igneous a skos:Concept , su:GeologicalUnitType ;
     rdfs:isDefinedBy cs: ;
     skos:definition "igneous"@en ;
     skos:topConceptOf cs: ;
@@ -96,7 +97,7 @@ cs:igneous a skos:Concept ;
     skos:prefLabel "Igneous"@en ;
 .
 
-cs:tectonic a skos:Concept ;
+:tectonic a skos:Concept , su:GeologicalUnitType ;
     rdfs:isDefinedBy cs: ;
     skos:definition "tectonic"@en ;
     skos:topConceptOf cs: ;
@@ -104,7 +105,7 @@ cs:tectonic a skos:Concept ;
     skos:prefLabel "Tectonic"@en ;
 .
 
-cs:metamorphic a skos:Concept ;
+:metamorphic a skos:Concept , su:GeologicalUnitType ;
     rdfs:isDefinedBy cs: ;
     skos:definition "metamorphic"@en ;
     skos:topConceptOf cs: ;

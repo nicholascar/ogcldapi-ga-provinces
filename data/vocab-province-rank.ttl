@@ -1,9 +1,10 @@
-@prefix dcterms: <http://purl.org/dc/terms/> .
-@prefix owl: <http://www.w3.org/2002/07/owl#> .
-@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-@prefix sdo: <https://schema.org/> .
-@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
-@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX sdo: <https://schema.org/>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX su: <http://linked.data.gov.au/def/su#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 PREFIX cs: <https://linked.data.gov.au/dev/fake-province-rank>
 PREFIX : <https://linked.data.gov.au/dev/fake-province-rank/>
 
@@ -30,7 +31,7 @@ cs:
     dcterms:provenance "This vocabulary is generated from the lookup table of 'Province Rank' in Geoscience Australia's Australian Geological Provinces Database" ;
 .
 
-cs:province a skos:Concept ;
+:province a skos:Concept , su:StratigraphicRank ;
     rdfs:isDefinedBy cs: ;
     skos:definition "province"@en ;
     skos:topConceptOf cs: ;
@@ -38,7 +39,7 @@ cs:province a skos:Concept ;
     skos:prefLabel "Province"@en ;
 .
 
-cs:superprovince a skos:Concept ;
+:superprovince a skos:Concept , su:StratigraphicRank ;
     rdfs:isDefinedBy cs: ;
     skos:definition "superprovince"@en ;
     skos:topConceptOf cs: ;
@@ -46,7 +47,7 @@ cs:superprovince a skos:Concept ;
     skos:prefLabel "Super-province"@en ;
 .
 
-cs:domain a skos:Concept ;
+:domain a skos:Concept , su:StratigraphicRank ;
     rdfs:isDefinedBy cs: ;
     skos:definition "domain"@en ;
     skos:topConceptOf cs: ;
@@ -54,7 +55,7 @@ cs:domain a skos:Concept ;
     skos:prefLabel "Domain"@en ;
 .
 
-cs:undefined a skos:Concept ;
+:undefined a skos:Concept , su:StratigraphicRank ;
     rdfs:isDefinedBy cs: ;
     skos:definition "undefined"@en ;
     skos:topConceptOf cs: ;
@@ -62,7 +63,7 @@ cs:undefined a skos:Concept ;
     skos:prefLabel "Undefined"@en ;
 .
 
-cs:crustal-element a skos:Concept ;
+:crustal-element a skos:Concept , su:StratigraphicRank ;
     rdfs:isDefinedBy cs: ;
     skos:definition "crustal-element"@en ;
     skos:topConceptOf cs: ;
@@ -70,7 +71,7 @@ cs:crustal-element a skos:Concept ;
     skos:prefLabel "Crustal Element"@en ;
 .
 
-cs:microdomain a skos:Concept ;
+:microdomain a skos:Concept , su:StratigraphicRank ;
     rdfs:isDefinedBy cs: ;
     skos:definition "microdomain"@en ;
     skos:topConceptOf cs: ;
@@ -78,7 +79,7 @@ cs:microdomain a skos:Concept ;
     skos:prefLabel "Microdomain"@en ;
 .
 
-cs:subprovince a skos:Concept ;
+:subprovince a skos:Concept , su:StratigraphicRank ;
     rdfs:isDefinedBy cs: ;
     skos:definition "subprovince"@en ;
     skos:topConceptOf cs: ;
@@ -86,7 +87,7 @@ cs:subprovince a skos:Concept ;
     skos:prefLabel "Sub-province"@en ;
 .
 
-cs:subdomain a skos:Concept ;
+:subdomain a skos:Concept , su:StratigraphicRank ;
     rdfs:isDefinedBy cs: ;
     skos:definition "subdomain"@en ;
     skos:topConceptOf cs: ;
