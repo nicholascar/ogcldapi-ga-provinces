@@ -480,13 +480,13 @@ class Province(Feature):
 
         g.add((
             f,
-            SU.type,
+            SU.provinceType,
             URIRef(self.type[0])
         ))
 
         g.add((
             f,
-            SU.rank,
+            SU.provinceRank,
             URIRef(self.rank[0])
         ))
 
@@ -645,7 +645,7 @@ class ProvincesRenderer(FeatureRenderer):
                 "su": profile_su,
                 "gsmlb": profile_gsmlb
             },
-            default_profile_token="su"
+            default_profile_token="oai"
         )
 
         self.ALLOWED_PARAMS = ["_profile", "_view", "_mediatype"]

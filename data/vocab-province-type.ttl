@@ -30,7 +30,7 @@ cs:
         cs:tectonic ,
         cs:metamorphic ;
     skos:prefLabel "Geological Unit Types"@en ;
-    dcterms:provenance "This vocabulary is generated from the lookup table of 'Province Rank' in Geoscience Australia's Australian Geological Provinces Database" ;
+    dcterms:provenance "This vocabulary is generated from the lookup table of 'Province Type' in Geoscience Australia's Australian Geological Provinces Database" ;
 .
 
 :metallogenic a skos:Concept , su:GeologicalUnitType ;
