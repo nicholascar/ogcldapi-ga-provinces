@@ -1,6 +1,7 @@
 from pyldapi import ContainerRenderer
 from typing import List
 from api.model.profiles import *
+from api.model.collection import Collection
 from api.config import *
 from api.model.link import *
 import json
@@ -27,7 +28,8 @@ class Collections:
                     elif p == DCTERMS.description:
                         description = str(o)
 
-                self.collections.append((str(s), identifier, title, description))
+                # self.collections.append((str(s), identifier, title, description))
+                self.collections.append(Collection(str(s)))
 
 
 class CollectionsRenderer(ContainerRenderer):
@@ -69,9 +71,9 @@ class CollectionsRenderer(ContainerRenderer):
             self.start = (self.page - 1) * self.per_page
             self.end = self.start + self.per_page
 
-        collections = Collections().collections
-        self.collections_count = len(collections)
-        requested_collections = collections[self.start:self.end]
+        self.collections = Collections().collections
+        self.collections_count = len(self.collections)
+        requested_collections = self.collections[self.start:self.end]
 
         super().__init__(
             request,
@@ -80,7 +82,7 @@ class CollectionsRenderer(ContainerRenderer):
             "The Collections of Features delivered by this OGC API instance",
             None,
             None,
-            [(LANDING_PAGE_URL + "/collections/" + x[1], x[2]) for x in requested_collections],
+            [(LANDING_PAGE_URL + "/collections/" + x.identifier, x.title) for x in requested_collections],
             self.collections_count,
             profiles={"oai": profile_openapi},
             default_profile_token="oai"
