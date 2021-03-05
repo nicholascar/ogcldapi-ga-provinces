@@ -160,27 +160,28 @@ class Feature(object):
             elif p == DCTERMS.isPartOf:
                 self.isPartOf = str(o)
 
-        # Feature geometries
-        # out of band call for Geometries as BNodes not supported by SPARQLStore
-        q = """
-            PREFIX geo: <http://www.opengis.net/ont/geosparql#>
-            PREFIX geox: <https://linked.data.gov.au/def/geox#>
-            SELECT * 
-            WHERE {{
-                <{}>
-                    geo:hasGeometry/geo:asWKT ?g1 ;
-                    geo:hasGeometry/geox:asDGGS ?g2 .
-            }}
-            """.format(self.uri)
-        from SPARQLWrapper import SPARQLWrapper, JSON
-        sparql = SPARQLWrapper(None)
-        sparql.setQuery(q)
-        sparql.setReturnFormat(JSON)
-        ret = sparql.queryAndConvert()["results"]["bindings"]
-        self.geometries = [
-            Geometry(ret[0]["g1"]["value"], GeometryRole.Boundary, "WGS84 Geometry", CRS.WGS84),
-            Geometry(ret[0]["g2"]["value"], GeometryRole.Boundary, "TB16Pix Geometry", CRS.TB16PIX),
-        ]
+        # # Feature geometries
+        # # out of band call for Geometries as BNodes not supported by SPARQLStore
+        # q = """
+        #     PREFIX geo: <http://www.opengis.net/ont/geosparql#>
+        #     PREFIX geox: <https://linked.data.gov.au/def/geox#>
+        #     SELECT *
+        #     WHERE {{
+        #         <{}>
+        #             geo:hasGeometry/geo:asWKT ?g1 ;
+        #             geo:hasGeometry/geox:asDGGS ?g2 .
+        #     }}
+        #     """.format(self.uri)
+        # from SPARQLWrapper import SPARQLWrapper, JSON
+        # sparql = SPARQLWrapper(None)
+        # sparql.setQuery(q)
+        # sparql.setReturnFormat(JSON)
+        # ret = sparql.queryAndConvert()["results"]["bindings"]
+        # self.geometries = [
+        #     Geometry(ret[0]["g1"]["value"], GeometryType.Polygon, GeometryRole.Boundary, "WGS84 Geometry", CRS.WGS84),
+        #     Geometry(ret[0]["g2"]["value"], GeometryType.Polygon, GeometryRole.Boundary, "TB16Pix Geometry", CRS.TB16PIX),
+        # ]
+        self.geometries = []
 
         # Feature other properties
         self.extent_spatial = None

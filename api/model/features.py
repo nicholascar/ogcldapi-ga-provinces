@@ -62,16 +62,8 @@ class FeaturesList:
         # Features - only this page's
         self.features = []
         for s in page:
-            description = None
-            for p, o in g.predicate_objects(subject=s):
-                if p == DCTERMS.identifier:
-                    identifier = str(o)
-                elif p == DCTERMS.title:
-                    title = str(o)
-                elif p == DCTERMS.description:
-                    description = str(o)
             self.features.append(
-                (str(s), identifier, title, description)
+                Feature(s)
             )
 
         self.bbox_type = None
@@ -241,7 +233,7 @@ class FeaturesRenderer(ContainerRenderer):
                 "The Features of Collection {}".format(self.feature_list.collection.identifier),
                 None,
                 None,
-                [(LANDING_PAGE_URL + "/collections/" + self.feature_list.collection.identifier + "/items/" + x[1], x[2]) for x in self.feature_list.features],
+                [(LANDING_PAGE_URL + "/collections/" + self.feature_list.collection.identifier + "/items/" + x.identifier, x.title) for x in self.feature_list.features],
                 self.feature_list.collection.feature_count,
                 profiles={"oai": profile_openapi, "geosp": profile_geosparql},
                 default_profile_token="oai"
@@ -308,6 +300,7 @@ class FeaturesRenderer(ContainerRenderer):
         page_json = {
             "links": [x.__dict__ for x in self.links],
             "collection": self.feature_list.collection.to_dict(),
+            "features": [x.to_dict() for x in self.feature_list.features]
         }
 
         return Response(
