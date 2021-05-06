@@ -1,0 +1,1 @@
+docker build -t provinces-api -f Dockerfile .
